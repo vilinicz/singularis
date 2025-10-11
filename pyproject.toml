@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "singularis"
+version = "0.1.0"
+description = ""
+authors = ["vilinicz <v.ilinicz@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "singularis", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pymupdf = "==1.26.5"
+pydantic = "==2.12.0"
+camelot-py = {extras = ["cv"], version = "^1.0.9"}
+opencv-python = "^4.12.0.88"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

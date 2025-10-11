@@ -1,0 +1,5920 @@
+[
+  {
+    "page": 1,
+    "bbox": [
+      120.14500427246094,
+      153.00575256347656,
+      488.88800048828125,
+      198.5742645263672
+    ],
+    "text": "Entropy and diffusion characterize mutation\naccumulation and biological information loss",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      193.97500610351562,
+      213.11599731445312,
+      414.40875244140625,
+      232.66818237304688
+    ],
+    "text": "Stephan Baehr,1∗† Hans Baehr,2,3,4∗†",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      10.940000534057617,
+      216.57000732421875,
+      37.619998931884766,
+      575.4299926757812
+    ],
+    "text": "arXiv:2510.07265v1  [q-bio.PE]  8 Oct 2025",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      120.10098266601562,
+      254.8321533203125,
+      488.78521728515625,
+      268.0108947753906
+    ],
+    "text": "1Biodesign Center for Mechanisms of Evolution, School of Life Sciences,",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      225.88897705078125,
+      273.98870849609375,
+      383.0162048339844,
+      285.94390869140625
+    ],
+    "text": "Arizona State University, USA",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      201.1799774169922,
+      290.6971740722656,
+      407.7278137207031,
+      303.87689208984375
+    ],
+    "text": "2Department of Physics and Astronomy,",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      183.50697326660156,
+      309.8547058105469,
+      425.4085388183594,
+      321.8099060058594
+    ],
+    "text": "University of Georgia, Athens, GA 30602, USA",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      96.61497497558594,
+      326.56317138671875,
+      512.319091796875,
+      339.7419128417969
+    ],
+    "text": "3Center for Simulational Physics, University of Georgia, Athens, GA 30602, USA",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      88.63997650146484,
+      344.4961853027344,
+      520.317138671875,
+      357.6749267578125
+    ],
+    "text": "4Max Planck Institute for Astronomy, K¨onigstuhl 17, D-69117 Heidelberg, Germany",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      177.635986328125,
+      380.2579040527344,
+      431.277587890625,
+      411.4729309082031
+    ],
+    "text": "∗E-mail: sbaehr@asu.edu, baehr@mpia.de\n† These authors contributed equally to this work.",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      106.9339828491211,
+      444.70672607421875,
+      502.0773620605469,
+      456.66192626953125
+    ],
+    "text": "Aging is a universal consequence of life, yet researchers have identi-",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      106.9339828491211,
+      468.6167297363281,
+      502.0771789550781,
+      480.5719299316406
+    ],
+    "text": "fied no universal theme. This manuscript considers aging from the",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      106.9339828491211,
+      492.5277404785156,
+      502.0892639160156,
+      504.4829406738281
+    ],
+    "text": "perspective of entropy, wherein things fall apart. We first examine",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      106.9339828491211,
+      516.437744140625,
+      502.1490478515625,
+      528.3929443359375
+    ],
+    "text": "biological information change as a mutational distance, analogous to",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      106.9339828491211,
+      540.3477172851562,
+      502.11297607421875,
+      552.3029174804688
+    ],
+    "text": "physical distance. In this model, informational change over time is",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      106.9339828491211,
+      564.2587280273438,
+      502.12506103515625,
+      576.2139282226562
+    ],
+    "text": "fitted to an advection-diffusion equation, a normal distribution with",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      106.9339828491211,
+      588.168701171875,
+      502.06524658203125,
+      600.1239013671875
+    ],
+    "text": "a time component.\nThe solution of the advection-diffusion equa-",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      106.9339828491211,
+      612.0787353515625,
+      502.11309814453125,
+      624.033935546875
+    ],
+    "text": "tion provides a means of measuring the entropy of diverse biological",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      106.9339828491211,
+      635.98974609375,
+      502.1250915527344,
+      647.9449462890625
+    ],
+    "text": "systems. The binomial distribution is also sufficient to demonstrate",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      106.9339828491211,
+      659.8997192382812,
+      502.11322021484375,
+      671.8549194335938
+    ],
+    "text": "that entropy increases as mutations or epimutations accumulate. As",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      106.9339828491211,
+      683.8096923828125,
+      502.0890197753906,
+      695.764892578125
+    ],
+    "text": "modeled, entropy scales with lifespans across the tree of life. This",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      301.51397705078125,
+      723.1407470703125,
+      307.3720397949219,
+      735.095947265625
+    ],
+    "text": "1",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      106.93399810791016,
+      111.47364807128906,
+      502.08917236328125,
+      123.42884826660156
+    ],
+    "text": "perspective provides potential mechanistic insights and testable hy-",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      106.93399810791016,
+      135.3836212158203,
+      502.06524658203125,
+      147.3388214111328
+    ],
+    "text": "potheses as to how evolution has attained enhanced longevity: en-",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      106.93399810791016,
+      159.2946319580078,
+      502.065185546875,
+      171.2498321533203
+    ],
+    "text": "tropy management.\nWe find entropy is an inclusive rather than",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      106.93399810791016,
+      183.20460510253906,
+      240.24639892578125,
+      195.15980529785156
+    ],
+    "text": "exclusive aging theory.",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      219.02761840820312,
+      184.30120849609375,
+      236.24301147460938
+    ],
+    "text": "Introduction",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      258.8876647949219,
+      531.2732543945312,
+      270.8428649902344
+    ],
+    "text": "The biology of aging can be described by the phrase, “things fall apart”. Researchers",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      282.79766845703125,
+      531.2970581054688,
+      294.75286865234375
+    ],
+    "text": "have noted that though there is rhyme and similarity to aging among individuals, each",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      306.70867919921875,
+      531.2853393554688,
+      318.66387939453125
+    ],
+    "text": "case is unique and unprogrammed [1, 2, 3]. Leonard Hayflick [4] has argued for decades",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      330.6186828613281,
+      531.2611694335938,
+      342.5738830566406
+    ],
+    "text": "that aging is entropy, an increase in molecular disorder over time. The concept thus far",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      354.5286865234375,
+      531.2492065429688,
+      366.48388671875
+    ],
+    "text": "has only enjoyed modest popularity, perhaps because it does immediately offer a direct",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      378.439697265625,
+      436.6119384765625,
+      390.3948974609375
+    ],
+    "text": "means of measurement, treatment, or a specific molecular mechanism.",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      95.22799682617188,
+      402.3497009277344,
+      531.2701416015625,
+      414.3049011230469
+    ],
+    "text": "References to entropy in aging research are often vague and allusory, lacking spe-",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      426.25970458984375,
+      531.2254638671875,
+      438.21490478515625
+    ],
+    "text": "cific measurement and offering few testable hypotheses. In principle, the things that re-",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      450.17071533203125,
+      531.2612915039062,
+      462.12591552734375
+    ],
+    "text": "searchers have been measuring all along, and which are known to modify lifespan, should",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      474.0807189941406,
+      531.2733154296875,
+      486.0359191894531
+    ],
+    "text": "also fit naturally within the variables that describe entropy; this has yet to be emphati-",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      497.99072265625,
+      531.2492065429688,
+      509.9459228515625
+    ],
+    "text": "cally shown. The purpose of this manuscript is to make a bridge between the world that",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      521.9017333984375,
+      513.4601440429688,
+      533.85693359375
+    ],
+    "text": "the biology of aging knows and measures, and the physical understanding of entropy.",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      95.22799682617188,
+      545.8117065429688,
+      531.281982421875,
+      557.7669067382812
+    ],
+    "text": "Superficially, the signature of entropy whittling at organism genomes across time may",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      569.7216796875,
+      531.2493286132812,
+      581.6768798828125
+    ],
+    "text": "be recognized as the accumulation of deleterious mutations. As deleterious mutations ac-",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      593.6326904296875,
+      531.2852172851562,
+      605.587890625
+    ],
+    "text": "cumulate, information disperses. Mutation accumulation is notably a familiar concept to",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      617.542724609375,
+      531.2970581054688,
+      629.4979248046875
+    ],
+    "text": "aging biology, being among the oldest concepts in the field in one form or another.[5, 6, 7].",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      641.4526977539062,
+      531.273193359375,
+      653.4078979492188
+    ],
+    "text": "The idea of accumulating errors leading to critical breakdowns of biological systems is",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      665.3637084960938,
+      531.30908203125,
+      677.3189086914062
+    ],
+    "text": "referred to as a “error catastrophe” or “mutation catastrophe”. A modern version of mu-",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      77.66899871826172,
+      689.273681640625,
+      531.2730712890625,
+      701.2288818359375
+    ],
+    "text": "tation catastrophe is supported by some evidence; DNA mutations do accumulate over",
+    "kind": "body"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      301.5140075683594,
+      723.1406860351562,
+      307.3720703125,
+      735.0958862304688
+    ],
+    "text": "2",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      111.47364807128906,
+      531.273193359375,
+      123.42884826660156
+    ],
+    "text": "time in cells over a lifespan.[8, 9, 10]. However, we note that mutation accumulation need",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      135.3836212158203,
+      531.26123046875,
+      147.3388214111328
+    ],
+    "text": "not only refer to DNA, if the definition is broadened: what is epigenetic information loss,",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      159.2946319580078,
+      531.2612915039062,
+      171.2498321533203
+    ],
+    "text": "if it is not the accumulation of (epi)mutations? While acknowledging the importance of",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      183.20460510253906,
+      531.2611083984375,
+      195.15980529785156
+    ],
+    "text": "DNA mutations in the aging process [11], for example in the emergence of cancer [12], the",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      207.1145782470703,
+      531.28515625,
+      219.0697784423828
+    ],
+    "text": "field has been emphasizing for years that epimutations likely also have a proximal role to",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      231.0255889892578,
+      531.273193359375,
+      242.9807891845703
+    ],
+    "text": "play in both aging and cancer. Compounding evidence [13] and recent experimentation",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      254.93556213378906,
+      531.249267578125,
+      266.8907775878906
+    ],
+    "text": "[14] have highlighted the need for a model that includes, or even emphasizes the impor-",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      278.8455810546875,
+      531.2731323242188,
+      290.80078125
+    ],
+    "text": "tance of epigenetic information in aging. Ideally, a theory should be flexible to account",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      302.756591796875,
+      531.2852172851562,
+      314.7117919921875
+    ],
+    "text": "for aging of all sorts, even for organisms that age over the course of days, such as in E.",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      326.6665954589844,
+      98.25585174560547,
+      338.6217956542969
+    ],
+    "text": "coli.",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      95.22799682617188,
+      350.57659912109375,
+      531.2579956054688,
+      362.53179931640625
+    ],
+    "text": "We propose a model where the accumulation of mutations over time between at least",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      374.48760986328125,
+      531.273193359375,
+      386.44281005859375
+    ],
+    "text": "two points can be considered a “mutational distance”. We fit the concept of mutational",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      398.3976135253906,
+      531.2493896484375,
+      410.3528137207031
+    ],
+    "text": "distance to physics definitions of distance via an advection-diffusion equation for the Brow-",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      422.3076171875,
+      531.273193359375,
+      434.2628173828125
+    ],
+    "text": "nian motion of tracers in a fluid flow, and use the result to model the change in entropy",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      446.2186279296875,
+      531.2730102539062,
+      458.173828125
+    ],
+    "text": "over time. From a starting point of highly similar cells within a population, the cells ac-",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      470.1286315917969,
+      531.2731323242188,
+      482.0838317871094
+    ],
+    "text": "cumulate mutational distance over time. The model fits to DNA mutation accumulation",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      494.03863525390625,
+      531.2612915039062,
+      505.99383544921875
+    ],
+    "text": "experiments. We then model epimutation as a primary factor in the determination of",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      517.9495849609375,
+      531.3091430664062,
+      529.90478515625
+    ],
+    "text": "longevity, though the role of DNA mutation and any other system of entropic gain may",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      541.859619140625,
+      531.2850952148438,
+      553.8148193359375
+    ],
+    "text": "be added to the model as appropriate. We fit the model to organisms of varying lifespan",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      565.7696533203125,
+      531.2491455078125,
+      577.724853515625
+    ],
+    "text": "and demonstrate the model’s flexibility, which predicts that an entropic failure threshold",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      589.6806030273438,
+      531.273193359375,
+      601.6358032226562
+    ],
+    "text": "causes biological mortality, via age-related phenotypes. We also examine a simple bino-",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      613.5906372070312,
+      531.2850952148438,
+      625.5458374023438
+    ],
+    "text": "mial entropy conversion for diverse biological systems, and its application to age-related",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      637.5006103515625,
+      531.2733154296875,
+      649.455810546875
+    ],
+    "text": "molecular change. These simplified models suggest that aging may be entropy; and that",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      77.66899871826172,
+      661.41162109375,
+      531.2252197265625,
+      673.3668212890625
+    ],
+    "text": "entropy also increases within germline lineages as well, in the relative absence of selection.",
+    "kind": "body"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      301.5140075683594,
+      723.140625,
+      307.3720703125,
+      735.0958251953125
+    ],
+    "text": "3",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      107.36264038085938,
+      168.9794921875,
+      124.57804107666016
+    ],
+    "text": "1\nResults",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      147.22267150878906,
+      531.2613525390625,
+      159.17787170410156
+    ],
+    "text": "The inspiration for this work begins by recognizing that the phenotypic outcomes of",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      171.13368225097656,
+      531.3211059570312,
+      183.08888244628906
+    ],
+    "text": "biological aging are shared with those of evolutionary biology’s mutation accumulation",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      195.0436553955078,
+      531.2373657226562,
+      206.9988555908203
+    ],
+    "text": "(MA) experiments. In MA experiments, an increasing burden of random mutations results",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      218.95362854003906,
+      531.273193359375,
+      230.90882873535156
+    ],
+    "text": "in phenotypic degradation, because the average DNA mutation is deleterious [15]. The",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      242.86463928222656,
+      531.2612915039062,
+      254.81983947753906
+    ],
+    "text": "sum of mutations per line is counted to provide an estimate for mutation rate.\nThis",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      266.7746276855469,
+      531.28515625,
+      278.7298278808594
+    ],
+    "text": "mutation accumulation, or mutational distance, over evolutionary time and in the presence",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      290.68463134765625,
+      531.2254638671875,
+      302.63983154296875
+    ],
+    "text": "of selection leads to the differences that define individuals, populations, and species.",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      314.59564208984375,
+      531.2612915039062,
+      326.55084228515625
+    ],
+    "text": "At baseline, however, unchecked mutation accumulation leads to mutational meltdown,",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      338.5056457519531,
+      321.2562255859375,
+      350.4608459472656
+    ],
+    "text": "phenotypic degradation, and lineage extinction.",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      95.22799682617188,
+      362.4156494140625,
+      531.2821044921875,
+      374.370849609375
+    ],
+    "text": "Within a population of cells, in an MA or within an aging soma, Figure 1 examines",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      386.32666015625,
+      531.2731323242188,
+      398.2818603515625
+    ],
+    "text": "the behavior of mutations within a population of cells over time.\nWhen interpreting",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      410.2366638183594,
+      531.2492065429688,
+      422.1918640136719
+    ],
+    "text": "mutational distance as physical distance, this perspective allows the import of physics",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      434.14666748046875,
+      531.2852172851562,
+      446.10186767578125
+    ],
+    "text": "equations that model evolution over time, with particular consideration of Brownian mo-",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      458.05767822265625,
+      531.2611694335938,
+      470.01287841796875
+    ],
+    "text": "tion, and random walks of molecules. The model considers mutation accumulation as",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      481.9676818847656,
+      531.249267578125,
+      493.9228820800781
+    ],
+    "text": "a one-dimensional distance and how a population of molecules will be distributed as a",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      505.8777160644531,
+      531.2852172851562,
+      517.8328857421875
+    ],
+    "text": "function of time, following a normal distribution. The equation for a normally distributed",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66899871826172,
+      529.7886352539062,
+      143.24327087402344,
+      541.7438354492188
+    ],
+    "text": "variable x is:",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      237.07000732421875,
+      545.6106567382812,
+      319.3440856933594,
+      575.184814453125
+    ],
+    "text": "f(x, µ, σ) =\n1\nσ\n√",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      318.4739990234375,
+      546.4363403320312,
+      369.61932373046875,
+      575.184814453125
+    ],
+    "text": "2πe−(x−µ)2",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      351.8080139160156,
+      553.6986083984375,
+      531.222900390625,
+      565.65380859375
+    ],
+    "text": "2σ2\n(1)",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66900634765625,
+      579.7466430664062,
+      364.9899597167969,
+      596.039794921875
+    ],
+    "text": "where µ is the distribution mean and σ2 is the variance.",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      95.22801208496094,
+      607.99462890625,
+      531.24609375,
+      619.9498291015625
+    ],
+    "text": "An advection-diffusion equation is often used to model the diffusive spread of a quan-",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66901397705078,
+      631.9056396484375,
+      531.2972412109375,
+      643.86083984375
+    ],
+    "text": "tity, for example a drop of food coloring in a stream, or a rubber duck race down a river,",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66901397705078,
+      655.8156127929688,
+      531.2493286132812,
+      667.7708129882812
+    ],
+    "text": "Entenrennen in German, considering the one-dimensional distance from a starting point.",
+    "kind": "body"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      77.66901397705078,
+      679.7256469726562,
+      531.26123046875,
+      691.6808471679688
+    ],
+    "text": "Figure 1A demonstrates the one-dimensional distribution of rubber duckies floating down",
+    "kind": "caption"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      301.5140075683594,
+      723.140625,
+      307.3720703125,
+      735.0958251953125
+    ],
+    "text": "4",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66899871826172,
+      111.47364807128906,
+      531.2373657226562,
+      123.42884826660156
+    ],
+    "text": "a river with some current: the mean distance increases as a function of time, with some",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66899871826172,
+      135.3836212158203,
+      531.2613525390625,
+      147.3388214111328
+    ],
+    "text": "spread in the distribution, which follows a normal distribution.\nThis solution to the",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66899871826172,
+      159.2946319580078,
+      531.273193359375,
+      171.2498321533203
+    ],
+    "text": "advection-diffusion equation is simply a normal distribution with a time component t,",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66899871826172,
+      183.20460510253906,
+      529.7310791015625,
+      195.15980529785156
+    ],
+    "text": "diffusion coefficient D, current or flow rate Dλ, and drag coefficient λ (see Appendix 2).",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      223.70700073242188,
+      210.9826202392578,
+      296.5900573730469,
+      231.02479553222656
+    ],
+    "text": "F(x, t) =\n1\n√",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      285.0429992675781,
+      215.9923858642578,
+      531.219482421875,
+      240.78883361816406
+    ],
+    "text": "4πDt\ne−(x−Dλt)2/4Dt.\n(2)",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      254.93568420410156,
+      531.2373046875,
+      266.8908996582031
+    ],
+    "text": "We note that as an MA experiment proceeds, the spread of the distribution widens as a",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      278.845703125,
+      531.2493286132812,
+      290.8009033203125
+    ],
+    "text": "function of the mean, which is conventionally characterized by a Poisson distribution. The",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      302.7567138671875,
+      531.2611694335938,
+      314.7119140625
+    ],
+    "text": "widening of the distribution is well appreciated [16] and because the normal distribution",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      326.6667175292969,
+      531.2971801757812,
+      338.6219177246094
+    ],
+    "text": "is a good approximation of the Poisson distribution for a large enough Poisson mean,",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      350.57672119140625,
+      531.2373046875,
+      362.53192138671875
+    ],
+    "text": "the normal distribution suffices. We test the advection-diffusion model upon real MA",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      374.48773193359375,
+      531.297119140625,
+      386.44293212890625
+    ],
+    "text": "data arising from both WT and hypermutator E. coli [16, 17] in Figure 1B. Figure 1B",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      398.3977355957031,
+      531.297119140625,
+      410.3529357910156
+    ],
+    "text": "demonstrates that a reasonable goodness of fit is approximated by the solution to the",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      422.3077392578125,
+      531.2252197265625,
+      434.262939453125
+    ],
+    "text": "advection-diffusion equation. The Dλ variable contains the fold-difference between the",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      446.21875,
+      531.2852172851562,
+      458.1739501953125
+    ],
+    "text": "wild-type and hypermutator strains; about 110-fold, and may be considered analogous",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      470.1287536621094,
+      531.3091430664062,
+      482.0839538574219
+    ],
+    "text": "to the current or flow rate. The variable λ is a fitting parameter analogous to a drag",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      494.03875732421875,
+      531.249267578125,
+      505.99395751953125
+    ],
+    "text": "coefficient, which helps fit the observed variance to the mean distance from a starting",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      517.94970703125,
+      200.67605590820312,
+      529.9049072265625
+    ],
+    "text": "point of zero mutations.",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      95.22797393798828,
+      541.8597412109375,
+      531.2698974609375,
+      553.81494140625
+    ],
+    "text": "In addition to DNA mutations, the term ”epimutation” is now used to describe changes",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      565.769775390625,
+      531.2732543945312,
+      577.7249755859375
+    ],
+    "text": "in informational content of the epigenome. In the same way that DNA mutation accu-",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      589.6807250976562,
+      531.2610473632812,
+      601.6359252929688
+    ],
+    "text": "mulation results in mutational distance, epimutation accumulation does the same. We",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      613.5907592773438,
+      531.2611694335938,
+      625.5459594726562
+    ],
+    "text": "consider the general proposal of the aging field, which is that epimutations within chro-",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      637.500732421875,
+      531.2252807617188,
+      649.4559326171875
+    ],
+    "text": "matin structure drive age-related phenotypes. Under this perspective, we consider the",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      661.4117431640625,
+      531.2970581054688,
+      673.366943359375
+    ],
+    "text": "hypothesis that shorter lived organisms will have higher epimutation rates in aggregate,",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      77.66897583007812,
+      685.32177734375,
+      531.2731323242188,
+      697.2769775390625
+    ],
+    "text": "be they DNA methylation or histone marks, and longer-lived organisms will have lower",
+    "kind": "body"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      301.51397705078125,
+      723.1407470703125,
+      307.3720397949219,
+      735.095947265625
+    ],
+    "text": "5",
+    "kind": "body"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      77.66899871826172,
+      413.6746520996094,
+      531.3687744140625,
+      512.304931640625
+    ],
+    "text": "Figure 1: The advection-diffusion solution as a function of time and mutation\naccumulation. Panel A: A simple example of how a 1D diffusion model can model a\npassive tracer in a fluid, in this case, rubber duckies floating down a river. Panel B: The\nadvection-diffusion equation applied to E. coli samples. Panels C and D: The advection-\ndiffusion equation models how diverse organism lifespans may end up with the same final\nresult. If chromatin “drift” or “epimutation” are primary drivers of aging, this equation\nis sufficiently flexible to model it.",
+    "kind": "caption"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      77.66899871826172,
+      536.563720703125,
+      531.2852783203125,
+      548.5189208984375
+    ],
+    "text": "epimutation rates in aggregate. Using epimutation burden estimates obtained from DNA",
+    "kind": "body"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      77.66899871826172,
+      560.4736938476562,
+      531.2611083984375,
+      572.4288940429688
+    ],
+    "text": "methylation burden[18] as a coarse example, advection-diffusion model can be used to",
+    "kind": "body"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      77.66899871826172,
+      584.3847045898438,
+      531.26123046875,
+      596.3399047851562
+    ],
+    "text": "model epimutations under the same paradigm used to model DNA mutation rates. In",
+    "kind": "body"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      77.66899871826172,
+      608.294677734375,
+      531.2612915039062,
+      620.2498779296875
+    ],
+    "text": "Figure 1C and 1D, the model demonstrates that the same increase-in-variance outcome",
+    "kind": "caption"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      77.66899871826172,
+      632.2047119140625,
+      531.2611694335938,
+      644.159912109375
+    ],
+    "text": "can be obtained over orders of magnitude of time-frame. The advection-diffusion equation",
+    "kind": "body"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      77.66899871826172,
+      656.11572265625,
+      531.249267578125,
+      668.0709228515625
+    ],
+    "text": "is incredibly flexible, and therefore can be used to model informational distance change",
+    "kind": "body"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      77.66899871826172,
+      680.0256958007812,
+      531.2730712890625,
+      691.9808959960938
+    ],
+    "text": "across the tree of life, and across biological informational storage media. We simply use a",
+    "kind": "body"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      301.5140075683594,
+      723.1406860351562,
+      307.3720703125,
+      735.0958862304688
+    ],
+    "text": "6",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66899871826172,
+      111.47364807128906,
+      531.2972412109375,
+      123.42884826660156
+    ],
+    "text": "rough DNA methylation average epimutation distance as a proof-of-principle for a broader",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66899871826172,
+      135.3836212158203,
+      218.8240966796875,
+      147.3388214111328
+    ],
+    "text": "epimutation rate argument.",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      95.22799682617188,
+      159.2946319580078,
+      531.2820434570312,
+      171.2498321533203
+    ],
+    "text": "Mapping and modeling biological information change over time is perhaps interesting,",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66899871826172,
+      183.20460510253906,
+      531.2373657226562,
+      195.15980529785156
+    ],
+    "text": "but a greater point can now be discussed with respect to entropy. A useful insight of",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66899871826172,
+      207.1145782470703,
+      531.2612915039062,
+      219.0697784423828
+    ],
+    "text": "the advection-diffusion equation is that it is Gaussian in nature, and from a Gaussian",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66899871826172,
+      231.0255889892578,
+      531.2252807617188,
+      242.9807891845703
+    ],
+    "text": "time series an estimate of the variance in terms of D and t can be achieved; which is",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66899871826172,
+      250.59754943847656,
+      531.23291015625,
+      266.8907775878906
+    ],
+    "text": "independent of λ. This result, σ2 = 2Dt, further expounded upon in the supplemental",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66899108886719,
+      278.8455810546875,
+      531.2733764648438,
+      290.80078125
+    ],
+    "text": "methods section, can be applied to an equation for the entropy of a Gaussian distribution,",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66899108886719,
+      302.756591796875,
+      531.2972412109375,
+      314.7117919921875
+    ],
+    "text": "Equation (3). Therefore, technically any biological process with a normal distribution that",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66899108886719,
+      326.6665954589844,
+      432.6549072265625,
+      338.6217956542969
+    ],
+    "text": "is subject to change over time can be converted into units of entropy.",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      247.7939910888672,
+      354.444580078125,
+      281.216064453125,
+      374.48779296875
+    ],
+    "text": "H = 1",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      275.3580017089844,
+      362.5316467285156,
+      531.2425537109375,
+      382.6878356933594
+    ],
+    "text": "2(ln(4πDt) + 1).\n(3)",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66900634765625,
+      398.39764404296875,
+      531.2493896484375,
+      410.35284423828125
+    ],
+    "text": "Under a threshold model of system failure, such as has been frequently proposed in biology",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66900634765625,
+      422.3076477050781,
+      531.2971801757812,
+      434.2628479003906
+    ],
+    "text": "of aging research [7, 8], we hypothesize that organisms that reach their mortality sooner",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66900634765625,
+      446.2186584472656,
+      531.28515625,
+      458.1738586425781
+    ],
+    "text": "have higher rates of entropy gain, as measured by the variable D, over time; and long-",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66900634765625,
+      470.128662109375,
+      531.2493286132812,
+      482.0838623046875
+    ],
+    "text": "lived organisms have lower rates of entropy gain within their systems. To this end, we",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66900634765625,
+      494.0386657714844,
+      531.273193359375,
+      505.9938659667969
+    ],
+    "text": "extrapolate from our existing estimates of D and append short-lived E. coli[19] and long-",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66900634765625,
+      517.9496459960938,
+      531.2255249023438,
+      529.9048461914062
+    ],
+    "text": "lived Bristlecone pine trees Pinus longaeva to demonstrate the effect of rate of variance",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66900634765625,
+      541.859619140625,
+      531.2732543945312,
+      553.8148193359375
+    ],
+    "text": "spread upon estimates of entropy. The entropy equation models a log-linear relationship of",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66900634765625,
+      565.7696533203125,
+      531.2732543945312,
+      577.724853515625
+    ],
+    "text": "increasing entropy with time. We note that the D extrapolated for E. coli in Figure 2 and",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66900634765625,
+      589.6806640625,
+      531.28515625,
+      601.6358642578125
+    ],
+    "text": "the one directly calculated from DNA mutation accumulation data are highly divergent",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66900634765625,
+      613.5906372070312,
+      531.2611694335938,
+      625.5458374023438
+    ],
+    "text": "from one another; this may reflect the idea that E coli’s DNA mutation rate is sufficiently",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66900634765625,
+      637.5006713867188,
+      531.2730712890625,
+      649.4558715820312
+    ],
+    "text": "low, relative to its lifespan, that DNA mutation is incredibly unlikely to contribute to the",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      77.66900634765625,
+      661.41162109375,
+      346.3741149902344,
+      673.3668212890625
+    ],
+    "text": "replicative senescence experienced by the bacterium.",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      95.2280044555664,
+      685.3216552734375,
+      531.27001953125,
+      697.27685546875
+    ],
+    "text": "Entropy has been quantified in many biological systems and distributions[20]. Even",
+    "kind": "body"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      301.5140075683594,
+      723.140625,
+      307.3720703125,
+      735.0958251953125
+    ],
+    "text": "7",
+    "kind": "body"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      77.66899871826172,
+      353.64764404296875,
+      531.3807373046875,
+      437.8329162597656
+    ],
+    "text": "Figure 2: Comparison of different levels of diffusion on entropy as a function of\ntime. With varying levels amounts of epigenetic diffusion (solid lines), the total entropy\nof a system will depend strongly on the value of the diffusion D. Orange points mark the\nrough maximum lifespans of a few organisms (from left to right): E. coli, D. melanogaster,\nhomo sapiens and pinus longaeva, assuming our unit of time is in days, as listed in Table\n1.",
+    "kind": "caption"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      77.66899871826172,
+      459.6387023925781,
+      531.2374267578125,
+      471.5939025878906
+    ],
+    "text": "the same system may be modeled by entropy in different different ways. For example,",
+    "kind": "body"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      77.66899871826172,
+      483.5487060546875,
+      531.2613525390625,
+      495.50390625
+    ],
+    "text": "taking only a single cell of an aging tissue or from the E. coli MA, entropy can be",
+    "kind": "body"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      77.66899871826172,
+      507.4597473144531,
+      531.30908203125,
+      519.4149169921875
+    ],
+    "text": "quantified by the amount of information lost from acquiring 1, 2, or 80 mutations. Under",
+    "kind": "body"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      77.66899871826172,
+      531.3696899414062,
+      531.2732543945312,
+      543.3248901367188
+    ],
+    "text": "the assumption that each mutation has an average effect and a simplified model assuming",
+    "kind": "body"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      77.66899871826172,
+      555.2796630859375,
+      485.6282958984375,
+      567.23486328125
+    ],
+    "text": "only two states, mutated or not, the entropy can be quantified by the binomial:",
+    "kind": "body"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      216.37399291992188,
+      578.5928955078125,
+      260.591796875,
+      607.0089111328125
+    ],
+    "text": "W =\n\u0012n\nk",
+    "kind": "body"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      260.5849914550781,
+      578.5928955078125,
+      531.2456665039062,
+      607.0087890625
+    ],
+    "text": "\u0013\n=\nn!\nk! (n −k)! = C(n, k)\n(4)",
+    "kind": "body"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      77.66900634765625,
+      618.4266357421875,
+      531.273193359375,
+      630.3818359375
+    ],
+    "text": "The solution of this equation further resolves into entropy via the unitless entropy equation",
+    "kind": "body"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      77.66900634765625,
+      642.3366088867188,
+      236.33843994140625,
+      654.2918090820312
+    ],
+    "text": "(absent a Boltzmann constant)",
+    "kind": "body"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      276.85198974609375,
+      666.2476196289062,
+      531.2227783203125,
+      678.2028198242188
+    ],
+    "text": "S = ln(W)\n(5)",
+    "kind": "body"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      77.66899108886719,
+      694.7936401367188,
+      531.2374267578125,
+      706.7488403320312
+    ],
+    "text": "Where S is the entropy of a system in nats, and W is the number of microstates possible",
+    "kind": "body"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      301.51397705078125,
+      723.140625,
+      307.3720397949219,
+      735.0958251953125
+    ],
+    "text": "8",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66899871826172,
+      111.47364807128906,
+      531.249267578125,
+      123.42884826660156
+    ],
+    "text": "from the accumulation of mutations in the E. coli genome.\nIn the MA, the entropy",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66899871826172,
+      135.3836212158203,
+      531.2611083984375,
+      147.3388214111328
+    ],
+    "text": "becomes 15, 28, and 954 nats, respectively.\nIt is unclear which measure of entropy,",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66899871826172,
+      159.2946319580078,
+      531.28515625,
+      171.2498321533203
+    ],
+    "text": "population level or within an individual cell, is most appropriate, or to what degree the",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66899871826172,
+      183.20460510253906,
+      531.249267578125,
+      195.15980529785156
+    ],
+    "text": "entropy of a system needs to be scaled to make the measures equivalent. Regardless, in",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66899871826172,
+      207.1145782470703,
+      531.273193359375,
+      219.0697784423828
+    ],
+    "text": "both cases calculated entropy increases, and both are directly linked to mutation rate.",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66899871826172,
+      231.0255889892578,
+      259.6869201660156,
+      242.9807891845703
+    ],
+    "text": "The general form of Figure 2 holds.",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      95.22799682617188,
+      254.93556213378906,
+      531.2460327148438,
+      266.8907775878906
+    ],
+    "text": "Instead of modeling only a single process, such as DNA mutation, there is a clear space",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66899871826172,
+      278.8455810546875,
+      531.2852783203125,
+      290.80078125
+    ],
+    "text": "in aging analysis for a parallelization of multiple parameters. The entropic gain of DNA",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66899871826172,
+      302.756591796875,
+      531.28515625,
+      314.7117919921875
+    ],
+    "text": "mutation, transcript error, gene expression noise, translation error, chromatin structure,",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66899871826172,
+      326.6665954589844,
+      531.2852172851562,
+      338.6217956542969
+    ],
+    "text": "and even things like protein misfolding, or oxidative damage to proteins or lipids could",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66899871826172,
+      350.57659912109375,
+      531.2254028320312,
+      362.53179931640625
+    ],
+    "text": "in principle be modeled by some form of entropy. We summarize this perspective by",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66899871826172,
+      374.48760986328125,
+      531.3091430664062,
+      386.44281005859375
+    ],
+    "text": "slight modification of the advection diffusion equation from Equation (2) to incorporate",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66899871826172,
+      398.3976135253906,
+      531.28515625,
+      410.3528137207031
+    ],
+    "text": "all possible sources of entropy (i.e. DNA mutation, transcript error, translation error,",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66899871826172,
+      422.3076171875,
+      209.4392547607422,
+      434.2628173828125
+    ],
+    "text": "chromatin structure, etc.)",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      264.968994140625,
+      443.456787109375,
+      325.58331298828125,
+      459.9668273925781
+    ],
+    "text": "Htotal =\nX",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      315.5119934082031,
+      446.2186279296875,
+      531.2268676757812,
+      471.14019775390625
+    ],
+    "text": "i\nHi.\n(6)",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66900634765625,
+      476.6046142578125,
+      531.2488403320312,
+      490.3528137207031
+    ],
+    "text": "where Hi is each potential source of entropy. The value of D and λ for each source of",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66900634765625,
+      500.5146179199219,
+      531.2374267578125,
+      512.4697875976562
+    ],
+    "text": "entropy can be independently calculated with distributions within a cell or set of cells,",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66900634765625,
+      524.424560546875,
+      531.2491455078125,
+      536.3797607421875
+    ],
+    "text": "and we hypothesize that this quantity can be summed. At this time it is unclear as to",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66900634765625,
+      548.3355712890625,
+      531.26123046875,
+      560.290771484375
+    ],
+    "text": "how the varying system’s entropic gains should be normalized; perhaps by some factor of",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66900634765625,
+      572.24560546875,
+      531.2374267578125,
+      584.2008056640625
+    ],
+    "text": "the relative fitness cost per unit of entropy gained for each system measured. We simply",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66900634765625,
+      596.1555786132812,
+      531.2732543945312,
+      608.1107788085938
+    ],
+    "text": "note that the sum of all entropy within a cell or group of cells is relevant to encountering",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      77.66900634765625,
+      620.0665893554688,
+      431.02899169921875,
+      632.0217895507812
+    ],
+    "text": "the entropic threshold, which we consider the “entropy catastrophe”.",
+    "kind": "body"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      301.5140075683594,
+      723.1405639648438,
+      307.3720703125,
+      735.0957641601562
+    ],
+    "text": "9",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      107.36264038085938,
+      195.09527587890625,
+      124.57804107666016
+    ],
+    "text": "2\nDiscussion",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      147.22267150878906,
+      531.249267578125,
+      159.17787170410156
+    ],
+    "text": "The perspective of this manuscript examines a bridge between the biology of aging,",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      171.13368225097656,
+      531.2613525390625,
+      183.08888244628906
+    ],
+    "text": "physics, and evolutionary biology. This perspective began as a study of the phenotypic",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      195.0436553955078,
+      531.2852783203125,
+      206.9988555908203
+    ],
+    "text": "similarities emergent in mutation accumulation experiments and of the biology of aging,",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      218.95362854003906,
+      512.14501953125,
+      230.90882873535156
+    ],
+    "text": "or specifically, an inescapable degradation of biological phenotypes in these contexts.",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      95.22799682617188,
+      242.86463928222656,
+      531.2700805664062,
+      254.81983947753906
+    ],
+    "text": "By recognizing that mutational distance is equivalent to physical distance, equations",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      266.7746276855469,
+      531.26123046875,
+      278.7298278808594
+    ],
+    "text": "of physics may be applied to biological data. The advection-diffusion equation models",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      290.68463134765625,
+      531.2852783203125,
+      302.63983154296875
+    ],
+    "text": "the dispersion of molecules from a starting state of identical position, to a probability",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      314.59564208984375,
+      531.2372436523438,
+      326.55084228515625
+    ],
+    "text": "distribution of distance over time.\nThis dispersion can be readily appreciated in the",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      338.5056457519531,
+      531.273193359375,
+      350.4608459472656
+    ],
+    "text": "acquisition of DNA mutations over the course of human development and aging: all cells",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      362.4156494140625,
+      531.2731323242188,
+      374.370849609375
+    ],
+    "text": "start out with an identical genotype, but over time a clock-like distance from the starting",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      386.32666015625,
+      531.2492065429688,
+      398.2818603515625
+    ],
+    "text": "state to an aged state emerges over time. The model predicts an increased dispersion of",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      410.2366638183594,
+      531.2852783203125,
+      422.1918640136719
+    ],
+    "text": "mutational distance in chromatin or in DNA, though we also focus upon chromatin and",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      434.14666748046875,
+      531.2852172851562,
+      446.10186767578125
+    ],
+    "text": "its information storage role. Importantly, we find that the advection-diffusion equation",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      458.05767822265625,
+      531.273193359375,
+      470.01287841796875
+    ],
+    "text": "can be modeled to fit mutation accumulation data from E. coli reasonably well, and",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      481.9676818847656,
+      531.26123046875,
+      493.9228820800781
+    ],
+    "text": "can resolve the expected deviation in mutation rate between wild-type and hypermutator",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      505.8777160644531,
+      531.2612915039062,
+      517.8328857421875
+    ],
+    "text": "strains. The key insight of the advection-diffusion equation is its provision of a description",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      529.7886352539062,
+      435.3446960449219,
+      541.7438354492188
+    ],
+    "text": "of the variance of the Gaussian distribution in an age-related context.",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      95.22799682617188,
+      553.6986694335938,
+      531.258056640625,
+      565.6538696289062
+    ],
+    "text": "Mathematicians and physicists have long recognized the importance of the Gaussian",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      577.608642578125,
+      531.2613525390625,
+      589.5638427734375
+    ],
+    "text": "distribution to the study of entropy. The equation for entropy in a Gaussian system is",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      601.5196533203125,
+      531.3091430664062,
+      613.474853515625
+    ],
+    "text": "straightforward (Equation (3)); the parameter of importance is the variable D in Equation",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      625.4296875,
+      531.249267578125,
+      637.3848876953125
+    ],
+    "text": "(2). The model compares which values of D might give rise to known lifespan estimates",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      649.3396606445312,
+      531.2614135742188,
+      661.2948608398438
+    ],
+    "text": "across the tree of life.\nThe model indicates that the organisms are hitting a similar",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      77.66899871826172,
+      673.2506713867188,
+      531.2611083984375,
+      685.2058715820312
+    ],
+    "text": "entropy threshold for varying levels of D. By combining the perspectives of Figure 1",
+    "kind": "body"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      298.5880126953125,
+      723.140625,
+      310.30413818359375,
+      735.0958251953125
+    ],
+    "text": "10",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      111.47364807128906,
+      531.28515625,
+      123.42884826660156
+    ],
+    "text": "and Figure 2, a threshold model with a mean entropy acquisition rate over time, the",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      135.3836212158203,
+      531.2612915039062,
+      147.3388214111328
+    ],
+    "text": "model satisfyingly predicts even organisms with identical starting genotypes would reflect",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      159.2946319580078,
+      531.2492065429688,
+      171.2498321533203
+    ],
+    "text": "a Gaussian distribution of survivorship over time, focused about a mean. This is the",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      183.20460510253906,
+      429.7496337890625,
+      195.15980529785156
+    ],
+    "text": "result of aging experimentation on genetically identical organisms.[1]",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      95.22799682617188,
+      207.1145782470703,
+      531.2342529296875,
+      219.0697784423828
+    ],
+    "text": "The above perspective provides some avenues of application. The model proposed here,",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      231.0255889892578,
+      531.2852783203125,
+      242.9807891845703
+    ],
+    "text": "which we call the “entropy catastrophe hypothesis” for the biology of aging, provides",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      254.93556213378906,
+      531.2372436523438,
+      266.8907775878906
+    ],
+    "text": "testable hypotheses. Specifically, the hypothesis predicts that variance should increase",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      278.8455810546875,
+      531.2970581054688,
+      290.80078125
+    ],
+    "text": "over time, at least in the biological systems that are causal to aging. The accumulation of",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      302.756591796875,
+      531.2733154296875,
+      314.7117919921875
+    ],
+    "text": "DNA mutations and epimutations are part of the hypothesis, but remain only two facets",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      326.6665954589844,
+      531.30908203125,
+      338.6217956542969
+    ],
+    "text": "among the broad story of aging. The hypothesis predicts that evolutionary innovations",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      350.57659912109375,
+      531.249267578125,
+      362.53179931640625
+    ],
+    "text": "that reduce entropy, such as increased replication fidelity, the induction of recycling pro-",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      374.48760986328125,
+      531.2850341796875,
+      386.44281005859375
+    ],
+    "text": "grams, rewriting/restarting programs, and inducing purifying selection upon deleterious",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      398.3976135253906,
+      531.2493896484375,
+      410.3528137207031
+    ],
+    "text": "subsets of molecules, are responsible for enhanced longevity among organisms. The model",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      422.3076171875,
+      531.2612915039062,
+      434.2628173828125
+    ],
+    "text": "proposes that interventions that increase the rate of aging, such as stress, temperature,",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      446.2186279296875,
+      531.2731323242188,
+      458.173828125
+    ],
+    "text": "or conditions like Hutchinson-Gilford progeria syndrome, ultimately act by increasing",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      470.1286315917969,
+      343.5646057128906,
+      482.0838317871094
+    ],
+    "text": "entropy in the system at biologically relevant levels.",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      95.22799682617188,
+      494.03863525390625,
+      531.2820434570312,
+      505.99383544921875
+    ],
+    "text": "There is undoubtedly a differential contribution to aging phenotypes and mortality,",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      517.9495849609375,
+      531.2613525390625,
+      529.90478515625
+    ],
+    "text": "from differing molecular biological systems. Even within biological information systems,",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      541.859619140625,
+      531.2373046875,
+      553.8148193359375
+    ],
+    "text": "it likely true that the ‘fitness impact’ of epimutations in somatic cells is far less per",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      565.7696533203125,
+      531.2852172851562,
+      577.724853515625
+    ],
+    "text": "mutation than that of DNA. Judging by relative mutation rates of the molecules as",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      589.6806030273438,
+      531.3211669921875,
+      601.6358032226562
+    ],
+    "text": "a proxy for relative importance, it may be that epimutations, 100 to 1000-fold more",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      613.5906372070312,
+      531.2611694335938,
+      625.5458374023438
+    ],
+    "text": "prevalent than DNA mutations, need to be weighted correspondingly such that each",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      637.5006103515625,
+      531.273193359375,
+      649.455810546875
+    ],
+    "text": "epimutation is ’worth’ an inverse proportion to their prevalence; if not so extreme, it",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      661.41162109375,
+      531.297119140625,
+      673.3668212890625
+    ],
+    "text": "is certainly in that direction. To clarify, the reason translation or transcription errors",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      77.66899871826172,
+      685.3216552734375,
+      531.2732543945312,
+      697.27685546875
+    ],
+    "text": "are orders of magnitude more prevalent[21] than DNA is almost assuredly because their",
+    "kind": "body"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      298.5880126953125,
+      723.140625,
+      310.30413818359375,
+      735.0958251953125
+    ],
+    "text": "11",
+    "kind": "body"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      77.66899871826172,
+      111.47364807128906,
+      531.2732543945312,
+      123.42884826660156
+    ],
+    "text": "individual impact is all that much less important than a single DNA mutation. The idea",
+    "kind": "body"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      77.66899871826172,
+      135.3836212158203,
+      531.28515625,
+      147.3388214111328
+    ],
+    "text": "that chromatin information in mammals is the weak link is attractive to the field, but",
+    "kind": "body"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      77.66899871826172,
+      159.2946319580078,
+      531.2612915039062,
+      171.2498321533203
+    ],
+    "text": "remains to be proven. For the present moment, we note that diffusion and entropy likely",
+    "kind": "body"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      77.66899871826172,
+      183.20460510253906,
+      531.2492065429688,
+      195.15980529785156
+    ],
+    "text": "characterize the distributions of diverse age-related molecular phenomena. Their ultimate",
+    "kind": "body"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      77.66899871826172,
+      207.1145782470703,
+      429.24749755859375,
+      219.0697784423828
+    ],
+    "text": "impacts, perhaps species and context specific, remain to be resolved.",
+    "kind": "body"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      77.66899871826172,
+      242.93759155273438,
+      229.56051635742188,
+      260.1529846191406
+    ],
+    "text": "Acknowledgments",
+    "kind": "body"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      77.66899871826172,
+      282.797607421875,
+      531.2612915039062,
+      294.7528076171875
+    ],
+    "text": "The authors dedicate this work to their parents, Wolfgang Baehr and Jeanne Frederick.",
+    "kind": "body"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      77.66899871826172,
+      306.7086181640625,
+      531.2612915039062,
+      318.663818359375
+    ],
+    "text": "The authors thank their mentors, Michael Lynch and Hubert Klahr; and also their com-",
+    "kind": "body"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      77.66899871826172,
+      330.6186218261719,
+      531.2493286132812,
+      342.5738220214844
+    ],
+    "text": "munities, scientific and otherwise, for their congenial atmosphere and tolerance. This work",
+    "kind": "body"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      77.66899871826172,
+      354.52862548828125,
+      531.2853393554688,
+      366.48382568359375
+    ],
+    "text": "has been funded in part by NIH GMS grant 5R35GM122566-08 and the National Science",
+    "kind": "body"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      77.66899871826172,
+      378.43963623046875,
+      531.28515625,
+      390.39483642578125
+    ],
+    "text": "Foundation, DBI-2119963, 2021-2026, BII: Mechanisms of Cellular Evolution. Figures",
+    "kind": "body"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      77.66899871826172,
+      402.3496398925781,
+      531.2373657226562,
+      414.3048400878906
+    ],
+    "text": "1 and 2 were created with the assistance of Biorender. Figure 2 was created with the",
+    "kind": "body"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      77.66899871826172,
+      426.2596435546875,
+      192.4867706298828,
+      438.21484375
+    ],
+    "text": "assistance of Man Lin.",
+    "kind": "body"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      298.5880126953125,
+      723.140625,
+      310.30413818359375,
+      735.0958251953125
+    ],
+    "text": "12",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899871826172,
+      107.36264038085938,
+      428.29510498046875,
+      124.57804107666016
+    ],
+    "text": "Methods and Supplementary information",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899871826172,
+      147.22267150878906,
+      531.249267578125,
+      159.17787170410156
+    ],
+    "text": "Figure 1 has been generated in panel A by simple application of the advection-diffusion",
+    "kind": "caption"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899871826172,
+      171.13368225097656,
+      531.2493896484375,
+      183.08888244628906
+    ],
+    "text": "equation. Panel B experimental datasets are derived from the MA experiments reported in",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899871826172,
+      195.0436553955078,
+      531.3329467773438,
+      206.9988555908203
+    ],
+    "text": "2012[16] and 2025[17], whose data have been transformed/rearranged into Supplementary",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899871826172,
+      218.95362854003906,
+      531.2612915039062,
+      230.90882873535156
+    ],
+    "text": "Table 2. Supplementary Table 1 provides the order-of-magnitude estimates of parameters",
+    "kind": "caption"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899871826172,
+      242.86463928222656,
+      531.2610473632812,
+      254.81983947753906
+    ],
+    "text": "that gave rise to figure 2; few Drosophila have ever measured to have a maximum lifespan",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899871826172,
+      266.7746276855469,
+      384.88189697265625,
+      278.7298278808594
+    ],
+    "text": "of 100 days, but it is within a factor of 2 of reported values.",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      95.22799682617188,
+      290.68463134765625,
+      531.2579956054688,
+      302.63983154296875
+    ],
+    "text": "Panel C and D of 1 are estimates of epimutation rates derived from experimental",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899871826172,
+      314.59564208984375,
+      531.2972412109375,
+      326.55084228515625
+    ],
+    "text": "results from 2023[18]; approximately 1% of DNA methylation sites are becoming discor-",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899871826172,
+      338.5056457519531,
+      531.28515625,
+      350.4608459472656
+    ],
+    "text": "dant, or mutated, over several mammalian lifespans. For a similar amount in humans,",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899871826172,
+      358.07763671875,
+      531.2369995117188,
+      374.370849609375
+    ],
+    "text": "2.8 × 107 CpG sites results in\n2.8 × 105 epimutations in a lifespan. If around 1-10%",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899108886719,
+      386.32666015625,
+      531.2733154296875,
+      398.2818603515625
+    ],
+    "text": "of those epimutations might be functional, the functional epimutational burden of DNA",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899108886719,
+      410.2366638183594,
+      531.3211669921875,
+      422.1918640136719
+    ],
+    "text": "methylation alone may be on the order of 2,800 to 28,000. In contrast, the somatic DNA",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899108886719,
+      434.14666748046875,
+      531.3092651367188,
+      446.10186767578125
+    ],
+    "text": "mutational burden of humans is on the order of 3,000-5,000, of which 1%, or 30-50 muta-",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899108886719,
+      458.05767822265625,
+      531.21337890625,
+      470.01287841796875
+    ],
+    "text": "tions are functional. As an aside, the fitness effect-size and distribution of fitness effects",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899108886719,
+      481.9676818847656,
+      531.2852783203125,
+      493.9228820800781
+    ],
+    "text": "for the epigenome are as yet unknown to our knowledge; but evolutionary theory predicts",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899108886719,
+      505.8777160644531,
+      531.249267578125,
+      517.8328857421875
+    ],
+    "text": "that they will be far less impactful, given their evolutionary impermanence. However, we",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899108886719,
+      529.7886352539062,
+      531.2611083984375,
+      541.7438354492188
+    ],
+    "text": "may make an estimate of these based on their relative prevalence, and guess their average",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899108886719,
+      553.6986694335938,
+      531.2974243164062,
+      565.6538696289062
+    ],
+    "text": "cellular fitness effect may be between 1/100th and 1/1000th that of the average DNA",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899108886719,
+      577.608642578125,
+      531.249267578125,
+      589.5638427734375
+    ],
+    "text": "mutation. We acknowledge that the numbers offered are estimates, but offer the model",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899108886719,
+      601.5196533203125,
+      531.2372436523438,
+      613.474853515625
+    ],
+    "text": "as a general hypothesis to be tested. For simplicity of the model, this result has been",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899108886719,
+      625.4296875,
+      531.273193359375,
+      637.3848876953125
+    ],
+    "text": "translated into a relative number of human epimutations per aged cell; we suggest that the",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899108886719,
+      649.3396606445312,
+      531.2732543945312,
+      661.2948608398438
+    ],
+    "text": "same principle and perhaps order of magnitude should extend also to chromatin marks,",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      77.66899108886719,
+      673.2506713867188,
+      531.2493286132812,
+      685.2058715820312
+    ],
+    "text": "generally. Extending the epimutation hypothesis to D. melanogaster necessarily requires",
+    "kind": "body"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      298.5880126953125,
+      723.140625,
+      310.30413818359375,
+      735.0958251953125
+    ],
+    "text": "13",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66899871826172,
+      111.47364807128906,
+      525.4032592773438,
+      123.42884826660156
+    ],
+    "text": "considering chromatin marks beyond DNA methylation, as flies lack DNA methylation.",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      95.22799682617188,
+      134.16009521484375,
+      383.11480712890625,
+      147.3388214111328
+    ],
+    "text": "The code used for the analysis of the data is available 1.",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      171.20663452148438,
+      138.88699340820312,
+      188.42202758789062
+    ],
+    "text": "Models",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      211.06666564941406,
+      531.2732543945312,
+      223.02186584472656
+    ],
+    "text": "The following sections detail our mathematical methods and reasoning for assumptions",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      234.97767639160156,
+      531.273193359375,
+      246.93287658691406
+    ],
+    "text": "of a random walk ansatz and by extension the advection-diffusion equation. From there",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      258.8876647949219,
+      531.2611083984375,
+      270.8428649902344
+    ],
+    "text": "we consider that a large number of persistent, dividing cells with accumulating chromatin",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      282.79766845703125,
+      531.26123046875,
+      294.75286865234375
+    ],
+    "text": "epimutations obeys the central limit theorem, resulting in a Gaussian distribution of",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      306.70867919921875,
+      493.91326904296875,
+      318.66387939453125
+    ],
+    "text": "methylation states which can be modeled similar to a cloud of diffusing particles.",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      95.2280044555664,
+      330.6186828613281,
+      531.2821044921875,
+      342.5738830566406
+    ],
+    "text": "From this model, we formulate an expression for the total mutation load of a popula-",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      354.5286865234375,
+      531.249267578125,
+      366.48388671875
+    ],
+    "text": "tion in terms of the mutation rate, which depends on the measured dispersion of mutations",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      378.439697265625,
+      531.2733764648438,
+      390.3948974609375
+    ],
+    "text": "across the population. We also evaluate an expression for the Shannon entropy of the in-",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      402.3497009277344,
+      531.225341796875,
+      414.3049011230469
+    ],
+    "text": "formation encoded within the nucleus of a single cell, which yields insights into the ways",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      426.25970458984375,
+      324.7711181640625,
+      438.21490478515625
+    ],
+    "text": "mutations accumulate within various organisms.",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      462.0826721191406,
+      409.42706298828125,
+      479.2980651855469
+    ],
+    "text": "The Random Walk of a Single Genome",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      501.94268798828125,
+      531.2732543945312,
+      513.8978881835938
+    ],
+    "text": "A random walk is a process by which something (i.e., a particle) can move from it’s original",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      525.8526611328125,
+      531.2611694335938,
+      537.807861328125
+    ],
+    "text": "location to a new position based on random, discrete movements. In one dimension, one",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      549.763671875,
+      531.273193359375,
+      561.7188720703125
+    ],
+    "text": "can model the likelihood of displacement from a position using a binomial distribution",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      573.6736450195312,
+      531.2373046875,
+      585.6288452148438
+    ],
+    "text": "B, where p is the probability of moving in the positive x direction, the additive inverse",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      597.4287719726562,
+      531.2134399414062,
+      609.5388793945312
+    ],
+    "text": "1 −p is movement in the negative x direction, k is the number of steps in the positive x",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      77.66900634765625,
+      621.49462890625,
+      435.3208923339844,
+      633.4498291015625
+    ],
+    "text": "direction and t is the number of trials or number of steps in the walk.",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      230.08399963378906,
+      649.098876953125,
+      306.3971862792969,
+      676.4388427734375
+    ],
+    "text": "B(k, p, t) =\n\u0012k\nt",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      306.8009948730469,
+      649.098876953125,
+      531.222900390625,
+      669.3148803710938
+    ],
+    "text": "\u0013\npk(1 −p)t−k\n(7)",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      91.13300323486328,
+      688.2227172851562,
+      251.83544921875,
+      699.4655151367188
+    ],
+    "text": "1https://github.com/hbaehr/entropy",
+    "kind": "body"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      298.5880126953125,
+      723.140625,
+      310.30413818359375,
+      735.0958251953125
+    ],
+    "text": "14",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66899871826172,
+      111.47364807128906,
+      531.2614135742188,
+      123.42884826660156
+    ],
+    "text": "While this can be modeled in arbitrary dimensions we consider for now that a mutation",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66899871826172,
+      135.3836212158203,
+      531.26123046875,
+      147.3388214111328
+    ],
+    "text": "in a sequence of base pairs or chromatin sites causes a cell within a population to ’walk’",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66899871826172,
+      159.2946319580078,
+      531.273193359375,
+      171.2498321533203
+    ],
+    "text": "away from it’s initial configuration in a single dimension x.\nAt first, this allows for",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66899871826172,
+      183.20460510253906,
+      531.249267578125,
+      195.15980529785156
+    ],
+    "text": "movement in the negative x direction, which is acceptable for modeling methylations, as",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66899871826172,
+      207.1145782470703,
+      531.2850952148438,
+      219.0697784423828
+    ],
+    "text": "the original configuration can be modified in one direction of more methylations but also",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66899871826172,
+      231.0255889892578,
+      531.2732543945312,
+      242.9807891845703
+    ],
+    "text": "in the opposite direction of fewer methylations. On the other hand, DNA mutations do",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66899871826172,
+      254.93556213378906,
+      531.2730712890625,
+      266.8907775878906
+    ],
+    "text": "not fit this framework as neatly, since the initial state of all base pairs can only ‘move’",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66899871826172,
+      278.8455810546875,
+      531.2612915039062,
+      290.80078125
+    ],
+    "text": "in one direction: increasing mutation. However, we use this bidirectional random walk",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66899871826172,
+      302.756591796875,
+      531.2732543945312,
+      314.7117919921875
+    ],
+    "text": "as an example that can be compared to a diffusive process and suggest limiting to only",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66899871826172,
+      326.6665954589844,
+      311.30950927734375,
+      338.6217956542969
+    ],
+    "text": "positive steps for the case of DNA mutations.",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      95.22799682617188,
+      350.57659912109375,
+      531.281982421875,
+      362.53179931640625
+    ],
+    "text": "For enough trials (large t) or equivalently in this case, enough time, the binomial",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66899871826172,
+      374.48760986328125,
+      531.2732543945312,
+      386.44281005859375
+    ],
+    "text": "begins is well approximated by a Gaussian or normal distribution with mean µ = np and",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66899871826172,
+      394.0596008300781,
+      531.2478637695312,
+      410.3528137207031
+    ],
+    "text": "variance σ2 = np(1 −p). Thus, while a binomial model works as a discrete distribution,",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66901397705078,
+      422.3076171875,
+      531.2732543945312,
+      434.2628173828125
+    ],
+    "text": "also considering a continuous distribution allows us to draw a parallel to physical processes",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66901397705078,
+      446.2186279296875,
+      169.11434936523438,
+      458.173828125
+    ],
+    "text": "in fluid dynamics.",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66901397705078,
+      482.0406188964844,
+      444.49493408203125,
+      499.2560119628906
+    ],
+    "text": "Epigenetic Evolution as a Diffusive Process",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66901397705078,
+      521.901611328125,
+      531.2612915039062,
+      533.8568115234375
+    ],
+    "text": "If we now look at a large collection of independently mutating epigenomes, such as a",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66901397705078,
+      545.8116455078125,
+      531.2612915039062,
+      557.766845703125
+    ],
+    "text": "swath of skin cells, we can start to look at the large-scale pattern and evolution. We see",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66901397705078,
+      569.7216186523438,
+      531.2852172851562,
+      581.6768188476562
+    ],
+    "text": "a useful comparison with the evolution of a quantity that transports in one dimension",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66901397705078,
+      593.6326293945312,
+      271.5704040527344,
+      605.5878295898438
+    ],
+    "text": "through both advection and diffusion:",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      193.08799743652344,
+      612.640625,
+      291.9400939941406,
+      649.65380859375
+    ],
+    "text": "∂\n∂tF(x, t) = D\n\u0012 ∂2",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      353.8349914550781,
+      621.23681640625,
+      531.220703125,
+      649.65380859375
+    ],
+    "text": "∂xF(x, t)\n\u0013\n.\n(8)",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      277.552001953125,
+      621.40966796875,
+      363.34185791015625,
+      649.65380859375
+    ],
+    "text": "∂x2F(x, t) + λ ∂",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66900634765625,
+      665.3636474609375,
+      531.2252807617188,
+      677.31884765625
+    ],
+    "text": "The first term on the right-hand side is the diffusive term where D is the diffusion constant",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      77.66900634765625,
+      689.2736206054688,
+      531.2373046875,
+      701.2288208007812
+    ],
+    "text": "and is assumed to be constant in time. Diffusion is a process that occurs when the net",
+    "kind": "body"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      298.5880126953125,
+      723.140625,
+      310.30413818359375,
+      735.0958251953125
+    ],
+    "text": "15",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66899871826172,
+      111.47364807128906,
+      531.26123046875,
+      123.42884826660156
+    ],
+    "text": "motion of a group has some random component of the constituents. The second term is",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66899871826172,
+      135.3836212158203,
+      531.2731323242188,
+      147.3388214111328
+    ],
+    "text": "the advective term and Dλ is the advective (or drift) velocity, also constant in time and",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66899871826172,
+      159.2946319580078,
+      531.2852172851562,
+      171.2498321533203
+    ],
+    "text": "x. Advection has no random component and can be compared to a background flow field.",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66899871826172,
+      183.20460510253906,
+      531.2612915039062,
+      195.15980529785156
+    ],
+    "text": "We borrow the formulation of this equation which considers that drift in the positive x",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66899871826172,
+      204.0926055908203,
+      531.2113037109375,
+      219.0697784423828
+    ],
+    "text": "direction is due to a linear potential or a constant forcing (⃗F = −∇U) which makes λ",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66903686523438,
+      231.0255889892578,
+      531.2972412109375,
+      242.9807891845703
+    ],
+    "text": "comparable to a drag or attenuation constant. In our case, it has the effect of adjusting",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66903686523438,
+      254.93556213378906,
+      531.2493896484375,
+      266.8907775878906
+    ],
+    "text": "the relative impact of diffusion or drift. For example, smaller values of λ will mean drift",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66903686523438,
+      278.8455810546875,
+      531.2373657226562,
+      290.80078125
+    ],
+    "text": "is less relevant to the displacement while higher values mean drift is more important. The",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66903686523438,
+      302.756591796875,
+      163.0172119140625,
+      314.7117919921875
+    ],
+    "text": "solution to (8) is",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      223.70703125,
+      318.5785827636719,
+      296.590087890625,
+      338.6217956542969
+    ],
+    "text": "F(x, t) =\n1\n√",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      285.0429992675781,
+      323.5893249511719,
+      531.219482421875,
+      348.3848571777344
+    ],
+    "text": "4πDt\ne−(x−Dλt)2/4Dt,\n(9)",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66897583007812,
+      357.0526428222656,
+      531.2493896484375,
+      369.0078430175781
+    ],
+    "text": "where we use λ = 0.1 unless otherwise noted and caution against placing much physical",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66897583007812,
+      380.962646484375,
+      531.2371826171875,
+      392.9178466796875
+    ],
+    "text": "significance into this value. The function F(x, t) represents the number of cells at time t",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66897583007812,
+      404.8736572265625,
+      531.2611694335938,
+      416.828857421875
+    ],
+    "text": "within the population that have x number of changed methylation sites, centered around",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66897583007812,
+      428.7836608886719,
+      531.2564086914062,
+      442.5318603515625
+    ],
+    "text": "x0 = 0 and t0 = 0. Thus, we define this initial value problem by defining F(0, 0) = Nδ(x)",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66898345947266,
+      452.69366455078125,
+      531.2373657226562,
+      464.64886474609375
+    ],
+    "text": "where δ is the Dirac delta function and N is the number of cells in the population. This",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66898345947266,
+      476.60467529296875,
+      531.2850952148438,
+      488.55987548828125
+    ],
+    "text": "means that our final solution to the advective-diffusion equation is Equation (2) and",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66898345947266,
+      500.5146789550781,
+      531.2852172851562,
+      512.4698486328125
+    ],
+    "text": "means that the integral over the function is always N or in other words, all population",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66898345947266,
+      524.4246826171875,
+      382.622314453125,
+      536.3798828125
+    ],
+    "text": "members are represented somewhere along the distribution.",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      95.22798156738281,
+      548.3356323242188,
+      531.24609375,
+      560.2908325195312
+    ],
+    "text": "Mutations can arise from a number of sources, which we naively assume to be linear,",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66898345947266,
+      572.2456665039062,
+      385.6708984375,
+      584.2008666992188
+    ],
+    "text": "such that the total population with mutations x at time t is",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      278.19195556640625,
+      599.850830078125,
+      531.229248046875,
+      629.855224609375
+    ],
+    "text": "\u0012\n1\n√4πDite−(x−Diλit)2/4Dit\n\u0013\n,\n(10)",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      187.73599243164062,
+      605.349853515625,
+      204.99929809570312,
+      617.3050537109375
+    ],
+    "text": "X",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      194.92898559570312,
+      605.349853515625,
+      276.19427490234375,
+      633.0322265625
+    ],
+    "text": "i\nFi(x, t) =\nX",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      266.1229553222656,
+      625.0621337890625,
+      269.00811767578125,
+      633.0322265625
+    ],
+    "text": "i",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      77.66897583007812,
+      645.0616455078125,
+      531.2492065429688,
+      657.016845703125
+    ],
+    "text": "where the index i refers to different modes of mutation (i.e. chromatin, DNA, RNA, etc.).",
+    "kind": "body"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      298.5879821777344,
+      723.140625,
+      310.3041076660156,
+      735.0958251953125
+    ],
+    "text": "16",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      234.98699951171875,
+      109.63063049316406,
+      373.9064025878906,
+      121.58583068847656
+    ],
+    "text": "Table 1: Model parameters",
+    "kind": "caption"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      82.75106811523438,
+      133.79196166992188,
+      522.9492797851562,
+      193.54934692382812
+    ],
+    "text": "Model\ngenome size N\ndiffusion D\nλ\ndrift (Dλ)\nmax. lifetime (days)\n1 (pinus longaeva)\n22 ×109\n1/10\n1/10\n1/100\n4000 years × 365 = 1460000\n2 (homo sapiens)\n3.2 ×109\n10\n1/10\n1\n100 years × 365 = 36500\n3 (D. melanogaster)\n180 ×106\n1000\n1/10\n100\n100\n4 (e. coli)\n4.6 ×106\n100000\n1/10\n10000\n3",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      77.66899871826172,
+      214.43563842773438,
+      249.685302734375,
+      231.65103149414062
+    ],
+    "text": "Diffusion Coefficient",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      77.66899871826172,
+      254.29566955566406,
+      531.2612915039062,
+      266.2508850097656
+    ],
+    "text": "However, it would be useful to come up with a useful definition of D from laboratory",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      77.66899871826172,
+      278.2056884765625,
+      531.2614135742188,
+      290.160888671875
+    ],
+    "text": "data. We next seek to derive a value for the diffusion constant that makes sense for some",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      77.66899871826172,
+      302.11669921875,
+      531.2374267578125,
+      314.0718994140625
+    ],
+    "text": "model organism. We define D from Fick’s law and the mean square displacement (MSD),",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      77.66899871826172,
+      326.0267028808594,
+      531.2223510742188,
+      339.77490234375
+    ],
+    "text": "which states that the displacement x from the initial position x0 in one dimension at time",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      77.66900634765625,
+      349.93670654296875,
+      200.95103454589844,
+      361.89190673828125
+    ],
+    "text": "t can be related to D as",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      251.55300903320312,
+      372.0251770019531,
+      531.2373046875,
+      386.72528076171875
+    ],
+    "text": "⟨|x(t) −x0|2⟩= 2Dt,\n(11)",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      77.66900634765625,
+      404.0787658691406,
+      531.2732543945312,
+      416.18890380859375
+    ],
+    "text": "where the angled brackets ⟨·⟩indicate an average over the entire population. However,",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      77.66900634765625,
+      426.920166015625,
+      531.2128295898438,
+      440.0989074707031
+    ],
+    "text": "since we have a uniform displacement this needs to be accounted for by subtracting ⟨x(t)⟩2.",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      77.66900634765625,
+      452.0537109375,
+      531.2134399414062,
+      464.0089111328125
+    ],
+    "text": "This defines the mean distance between all the members of the group from their collective",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      77.66900634765625,
+      475.9647216796875,
+      334.8014831542969,
+      487.919921875
+    ],
+    "text": "mean position, rather than their starting position:",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      223.91900634765625,
+      506.8937072753906,
+      531.2386474609375,
+      524.708251953125
+    ],
+    "text": "⟨|x(t) −x0|2⟩−⟨|x(t)|⟩2 = 2Dt,\n(12)",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      77.66900634765625,
+      547.6956787109375,
+      430.3235168457031,
+      559.65087890625
+    ],
+    "text": "for the case of a diffusive model or equivalently for a binomial model",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      209.8280029296875,
+      578.6246948242188,
+      531.2418212890625,
+      596.4392700195312
+    ],
+    "text": "⟨|x(t) −x0|2⟩−⟨|x(t)|⟩2 = np(1 −p).\n(13)",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      77.66900634765625,
+      616.4046630859375,
+      531.225830078125,
+      631.3818969726562
+    ],
+    "text": "From this definition we derive an approximation for the constant ¯D with the data in",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      77.66897583007812,
+      643.336669921875,
+      531.2732543945312,
+      655.2918701171875
+    ],
+    "text": "Tables 2a through 2d of data for E. coli for two different strains at two different times.",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      77.66897583007812,
+      667.2467041015625,
+      452.2254638671875,
+      679.201904296875
+    ],
+    "text": "The first three come from [16] while the final dataset is measured in [17].",
+    "kind": "body"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      298.5879821777344,
+      723.1406860351562,
+      310.3041076660156,
+      735.0958862304688
+    ],
+    "text": "17",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      151.32200622558594,
+      109.63063049316406,
+      457.5903625488281,
+      121.58583068847656
+    ],
+    "text": "Table 2: Mutation accumulation counts across experiments.",
+    "kind": "caption"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      319.0041809082031,
+      140.89866638183594,
+      525.7738647460938,
+      179.59429931640625
+    ],
+    "text": "Accumulation\n4\n5\n6\n7\n8\n9\n10\n11\nCount\n2\n1\n6\n2\n5\n2\n2\n1\n(b) Wild type MA t = 6000",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      82.89640808105469,
+      141.53932189941406,
+      290.19091796875,
+      178.99530029296875
+    ],
+    "text": "Accumulation\n0\n1\n2\n3\n4\n5\n6\n7\n8\nCount\n1\n9\n8\n8\n10\n0\n1\n0\n1\n(a) Wild type MA t = 3000",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      95.6053237915039,
+      199.802001953125,
+      513.4387817382812,
+      228.93832397460938
+    ],
+    "text": "Accumulation\n32\n36\n40\n41\n42\n46\n48\n49\n50\n52\n54\n55\n56\nCount\n1\n1\n2\n1\n1\n1\n2\n1\n1\n1\n1\n3\n1",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      95.6053237915039,
+      238.29779052734375,
+      513.4387817382812,
+      282.19830322265625
+    ],
+    "text": "Accumulation\n58\n62\n63\n64\n65\n66\n67\n69\n71\n74\n75\n78\n84\nCount\n1\n1\n1\n3\n1\n2\n1\n1\n1\n1\n1\n1\n1\n(c) MMR MA t = 380",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      163.3802032470703,
+      302.1875305175781,
+      439.4045104980469,
+      330.18865966796875
+    ],
+    "text": "Accumulation\n44\n50\n53\n60\n63\n68\n75\n77\nCount\n1\n1\n1\n1\n1\n1\n1\n2",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      163.3802032470703,
+      339.1833801269531,
+      445.6175842285156,
+      381.8742980957031
+    ],
+    "text": "Accumulation\n78\n79\n80\n81\n85\n86\n96\n155\nCount\n0\n1\n1\n1\n1\n1\n1\n1\n(d) MMR MA t = 600",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      77.66899108886719,
+      407.9596252441406,
+      221.6758575439453,
+      425.1750183105469
+    ],
+    "text": "Shannon entropy",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      77.66899108886719,
+      447.81964111328125,
+      531.273193359375,
+      459.77484130859375
+    ],
+    "text": "We now need a way of quantifying the information content or entropy, with the system.",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      77.66899108886719,
+      471.7296447753906,
+      331.4540710449219,
+      483.6848449707031
+    ],
+    "text": "From information theory, the Shannon entropy H",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      235.70599365234375,
+      504.83380126953125,
+      310.7522888183594,
+      519.55078125
+    ],
+    "text": "H(X) ≡−\nX",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      293.3199768066406,
+      507.5956115722656,
+      531.2218627929688,
+      532.6942138671875
+    ],
+    "text": "x∈X\np(x) ln p(x),\n(14)",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      77.66897583007812,
+      544.5616455078125,
+      531.26123046875,
+      556.516845703125
+    ],
+    "text": "describes the amount of uncertainty of the quality of information within the epigenome",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      77.66897583007812,
+      568.4725952148438,
+      390.70404052734375,
+      580.4277954101562
+    ],
+    "text": "where p(x) is the probability or distribution of a state x [22].",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      95.22797393798828,
+      592.3826293945312,
+      531.2820434570312,
+      604.3378295898438
+    ],
+    "text": "We use both the binomial equation (7) and our solution to the advection-diffusion",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      77.66897583007812,
+      616.2926025390625,
+      531.2852783203125,
+      628.247802734375
+    ],
+    "text": "equation as a distribution of changes to epigenetic markers across a population of cells.",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      77.66897583007812,
+      640.20361328125,
+      531.2374267578125,
+      652.1588134765625
+    ],
+    "text": "For each cell, gene expression can be expressed as a distribution f that depends on a time",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      77.66897583007812,
+      664.1136474609375,
+      531.2732543945312,
+      676.06884765625
+    ],
+    "text": "interval t, the number of cell divisions N, and the natural variation of gene expression",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      77.66897583007812,
+      688.0236206054688,
+      260.5118103027344,
+      699.9788208007812
+    ],
+    "text": "from one chromatin site to another.",
+    "kind": "body"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      298.5879821777344,
+      723.140625,
+      310.3041076660156,
+      735.0958251953125
+    ],
+    "text": "18",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      95.22799682617188,
+      111.47364807128906,
+      445.3002014160156,
+      123.42884826660156
+    ],
+    "text": "The Shannon entropy of a binomially distributed random variable is",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      219.697998046875,
+      135.64161682128906,
+      275.7470703125,
+      157.4778594970703
+    ],
+    "text": "Hbinom = 1",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      269.8890075683594,
+      143.57469177246094,
+      531.2490234375,
+      163.8858184814453
+    ],
+    "text": "2(ln |np(1 −p)2π| + 1).\n(15)",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      175.98561096191406,
+      352.4832763671875,
+      187.94081115722656
+    ],
+    "text": "while for a Gaussian distributed random variable it is",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      238.33901977539062,
+      200.15357971191406,
+      293.5990905761719,
+      221.9898223876953
+    ],
+    "text": "HGauss = 1",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      287.7409973144531,
+      206.420166015625,
+      531.2447509765625,
+      228.39784240722656
+    ],
+    "text": "2(ln |σ22π| + 1).\n(16)",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66900634765625,
+      240.4976348876953,
+      531.2494506835938,
+      252.4528350830078
+    ],
+    "text": "One can see the similarity in the Shannon entropy for each model. For the Gaussian shapes",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66900634765625,
+      264.4076232910156,
+      531.2611694335938,
+      276.3628234863281
+    ],
+    "text": "introduced by the ‘diffusion’ of epigenetic mutations via the solution to the advection-",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66900634765625,
+      283.9796447753906,
+      531.2491455078125,
+      300.2738342285156
+    ],
+    "text": "diffusion equation (Eq. (2)) where σ2 = 2Dt, we arrive at an expression for the epigenetic",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      312.2286376953125,
+      531.249267578125,
+      324.183837890625
+    ],
+    "text": "entropy as defined in Equation(3). This assumes that D is constant in time and x, al-",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      336.1386413574219,
+      531.2612915039062,
+      348.0938415527344
+    ],
+    "text": "though there are many factors which could affect the value of D. An interesting feature of",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      360.0496520996094,
+      531.30908203125,
+      372.0048522949219
+    ],
+    "text": "this formulation is that drift or advection Dλ only factors into the entropy gain through",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      383.95965576171875,
+      531.2373657226562,
+      395.91485595703125
+    ],
+    "text": "the diffusion constant with the factor λ omitted. To understand this we revisit the in-",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      407.8696594238281,
+      531.2733154296875,
+      419.8248596191406
+    ],
+    "text": "terpretation of λ. Our interpretation is that this represents a ratio of relative efficiency",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      431.7806701660156,
+      531.2372436523438,
+      443.7358703613281
+    ],
+    "text": "of drift versus diffusion and as such does not reflect on the nature of the system with",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      455.690673828125,
+      531.26123046875,
+      467.6458740234375
+    ],
+    "text": "information about either drift or diffusion. Furthermore, since entropy is the measure of",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      479.6006774902344,
+      531.273193359375,
+      491.5558776855469
+    ],
+    "text": "the disorder of a system, λ contains no information about the distribution of states within",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      503.5116882324219,
+      531.21337890625,
+      515.4668579101562
+    ],
+    "text": "the system. We can reconcile this by considering the simple case where D = 0, which cor-",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      527.421630859375,
+      531.2852172851562,
+      539.3768310546875
+    ],
+    "text": "responds to the situation where all change occurs exactly on one methyl group (although",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      551.3316650390625,
+      531.2372436523438,
+      563.286865234375
+    ],
+    "text": "not necessarily the same one) every unit of time in the same direction. As far as this",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      575.24267578125,
+      531.2373046875,
+      587.1978759765625
+    ],
+    "text": "model is concerned, the system of independently mutating cells retains its configuration",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      599.1526489257812,
+      351.7539367675781,
+      611.1078491210938
+    ],
+    "text": "for all times and thus has a constant entropy in time.",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      95.22801971435547,
+      623.0626831054688,
+      531.27001953125,
+      635.0178833007812
+    ],
+    "text": "We plot the Shannon entropy for a few values of D in Figure 2 and compare with the",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      646.9736328125,
+      531.2732543945312,
+      658.9288330078125
+    ],
+    "text": "approximate maximum lifespan of a few example organisms. We find that an entropy",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      670.8836669921875,
+      531.2613525390625,
+      682.8388671875
+    ],
+    "text": "threshold of approximately 8 coincides with a number of these organisms. One possible",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      77.66902160644531,
+      694.793701171875,
+      531.2612915039062,
+      706.7489013671875
+    ],
+    "text": "interpretation is that, regardless of species, fitness breaks down at some entropy threshold",
+    "kind": "body"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      298.5880126953125,
+      723.1406860351562,
+      310.30413818359375,
+      735.0958862304688
+    ],
+    "text": "19",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66899871826172,
+      111.47364807128906,
+      531.2853393554688,
+      123.42884826660156
+    ],
+    "text": "illustrated in Figure 2. What does change from one organism to another is the diffusion",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66899871826172,
+      135.3836212158203,
+      531.2493286132812,
+      147.3388214111328
+    ],
+    "text": "of epigenetic information, which can depend on a number of factors including but not",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66899871826172,
+      159.2946319580078,
+      531.249267578125,
+      171.2498321533203
+    ],
+    "text": "limited to: epigenome size, body size, programming, repair mechanisms, and external",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66899871826172,
+      183.20460510253906,
+      531.2493286132812,
+      195.15980529785156
+    ],
+    "text": "(environmental) triggers. In Section ??, we speculate and explore possible ways to account",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66899871826172,
+      207.1145782470703,
+      486.3574523925781,
+      219.0697784423828
+    ],
+    "text": "for some of these factors in an advective-diffusive model of epigenetic evolution.",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66899871826172,
+      242.93759155273438,
+      458.6458740234375,
+      260.1529846191406
+    ],
+    "text": "Accounting for Additional Mutagenic Effects",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66899871826172,
+      282.797607421875,
+      531.2732543945312,
+      294.7528076171875
+    ],
+    "text": "Our solution to the advection-diffusion equation permits various levels of flexibility to",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66899871826172,
+      306.7086181640625,
+      531.2852783203125,
+      318.663818359375
+    ],
+    "text": "account for additional factors, such as a diffusion parameter that is not constant in time",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66899871826172,
+      330.6186218261719,
+      531.2611083984375,
+      342.5738220214844
+    ],
+    "text": "or space, source terms to account for external factors, etc. We therefore take a step back",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66899871826172,
+      354.52862548828125,
+      460.8572082519531,
+      366.48382568359375
+    ],
+    "text": "and look at the more general formation of the advection-diffusion equation",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      163.5279998779297,
+      373.5376281738281,
+      275.7110900878906,
+      410.5498352050781
+    ],
+    "text": "∂\n∂tF(x, t) = D(t)\n\u0012 ∂2",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      337.6059875488281,
+      382.1337890625,
+      531.2452392578125,
+      410.5498352050781
+    ],
+    "text": "∂xF(x, t)\n\u0013\n+ S(x, t),\n(17)",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      261.322998046875,
+      382.3066101074219,
+      347.11285400390625,
+      410.5498352050781
+    ],
+    "text": "∂x2F(x, t) + λ ∂",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66900634765625,
+      426.10467529296875,
+      531.2492065429688,
+      438.2148132324219
+    ],
+    "text": "where S is a source function that can represent the accumulation of epigenetic mutations",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66900634765625,
+      450.1706237792969,
+      531.28515625,
+      462.1258239746094
+    ],
+    "text": "from an external mechanism (for example, environmental factors such as radiation or",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66900634765625,
+      474.08062744140625,
+      531.2614135742188,
+      486.03582763671875
+    ],
+    "text": "carcinogen exposure) and D is now a function of t. Solutions with a non-zero source term",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66900634765625,
+      497.835693359375,
+      531.2972412109375,
+      509.9458312988281
+    ],
+    "text": "can be found analytically, provided S has an exponential form similar to the solution (2).",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66900634765625,
+      521.901611328125,
+      531.2612915039062,
+      533.8568115234375
+    ],
+    "text": "When D is a function of x, non-trivial solutions can only be found through numerical",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66900634765625,
+      545.8116455078125,
+      355.7111511230469,
+      557.766845703125
+    ],
+    "text": "methods or also by parameterizing D(x) in terms of t.",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      95.2280044555664,
+      569.5667114257812,
+      531.24609375,
+      581.6768188476562
+    ],
+    "text": "One such example is When D is a function of time and S(x, t) = 0, the advection-",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66900634765625,
+      593.6326293945312,
+      531.28515625,
+      605.5878295898438
+    ],
+    "text": "diffusion equation of (17) still has a fairly simple analytic solution.\nA time-variable",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66900634765625,
+      617.5426025390625,
+      531.26123046875,
+      629.497802734375
+    ],
+    "text": "diffusion could be used to explain declining repair mechanisms as an organism ages or",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66900634765625,
+      641.45263671875,
+      531.2373657226562,
+      653.4078369140625
+    ],
+    "text": "the increase in mutagenicity of an organism with time.\nIf one simply assumes a lin-",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66900634765625,
+      665.3636474609375,
+      531.2611083984375,
+      677.31884765625
+    ],
+    "text": "early increasing diffusion of (epi)genetic information, the Shannon entropy then increases",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      77.66900634765625,
+      689.2736206054688,
+      531.2852172851562,
+      701.2288208007812
+    ],
+    "text": "quadratically in time, potentially drastically altering the increase in entropy as age in-",
+    "kind": "body"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      298.5880126953125,
+      723.140625,
+      310.30413818359375,
+      735.0958251953125
+    ],
+    "text": "20",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      119.98002624511719,
+      107.40172576904297,
+      132.7068634033203,
+      124.370849609375
+    ],
+    "text": "16",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      153.40708923339844,
+      112.4881820678711,
+      246.4312744140625,
+      129.50579833984375
+    ],
+    "text": "D = 1 × 10\n1 + t × 10\n6",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      153.40708923339844,
+      122.94834899902344,
+      241.6298828125,
+      139.96597290039062
+    ],
+    "text": "D = 1 × 101 + t × 10\n6",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      119.98002624511719,
+      129.71194458007812,
+      132.7068634033203,
+      146.6810760498047
+    ],
+    "text": "14",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      153.40708923339844,
+      133.4085235595703,
+      241.6298828125,
+      150.4261474609375
+    ],
+    "text": "D = 1 × 103 + t × 10\n6",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      153.40708923339844,
+      143.8686981201172,
+      241.6298828125,
+      160.88632202148438
+    ],
+    "text": "D = 1 × 105 + t × 10\n6",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      119.98002624511719,
+      152.02215576171875,
+      132.7068634033203,
+      168.9912872314453
+    ],
+    "text": "12",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      119.98002624511719,
+      174.33236694335938,
+      132.7068634033203,
+      191.30149841308594
+    ],
+    "text": "10",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      103.10971069335938,
+      189.59158325195312,
+      120.0788345336914,
+      239.38934326171875
+    ],
+    "text": "Entropy H",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      126.34708404541016,
+      196.642578125,
+      132.71051025390625,
+      213.61170959472656
+    ],
+    "text": "8",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      126.34708404541016,
+      218.95278930664062,
+      132.71051025390625,
+      235.9219207763672
+    ],
+    "text": "6",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      126.34708404541016,
+      241.26300048828125,
+      132.71051025390625,
+      258.23211669921875
+    ],
+    "text": "4",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      126.34708404541016,
+      263.5732116699219,
+      132.71051025390625,
+      280.5423278808594
+    ],
+    "text": "2",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      126.34708404541016,
+      285.8834228515625,
+      132.71051025390625,
+      302.8525390625
+    ],
+    "text": "0",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      142.36013793945312,
+      312.1068115234375,
+      500.2750244140625,
+      329.2996520996094
+    ],
+    "text": "100\n101\n102\n103\n104\n105\n106\n107",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      288.0704040527344,
+      323.77490234375,
+      340.3437194824219,
+      340.7440185546875
+    ],
+    "text": "unit time t",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      77.66899871826172,
+      352.32763671875,
+      531.36865234375,
+      407.619873046875
+    ],
+    "text": "Figure 3: Comparison of different levels of linearly increasing diffusion on en-\ntropy. Same as Fig. 2, but diffusion increases linearly with time. The coefficient of the\nlinear component is small such that only near the end of the least diffusive model is the\nincrease in entropy noticeable.",
+    "kind": "caption"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      77.66899871826172,
+      431.878662109375,
+      214.66366577148438,
+      443.8338623046875
+    ],
+    "text": "creases as shown in Fig. 3.",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      77.66899871826172,
+      467.7016296386719,
+      168.29086303710938,
+      484.9170227050781
+    ],
+    "text": "References",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      83.5219955444336,
+      507.5616760253906,
+      531.2323608398438,
+      519.516845703125
+    ],
+    "text": "[1] C. Finch, T. B. L. Kirkwood, Chance, development, and aging (Oxford University",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      101.73099517822266,
+      531.4725952148438,
+      224.94129943847656,
+      543.4277954101562
+    ],
+    "text": "Press, New York, 2000).",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      83.5219955444336,
+      565.3446044921875,
+      398.8883056640625,
+      577.2998046875
+    ],
+    "text": "[2] T. Kirkwood, S. Melov, Current Biology 21, R701 (2011).",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      83.5219955444336,
+      599.2175903320312,
+      531.2202758789062,
+      611.1727905273438
+    ],
+    "text": "[3] U. Alon, Systems medicine: physiological circuits and the dynamics of disease, Com-",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      101.73099517822266,
+      623.1286010742188,
+      531.2932739257812,
+      635.0838012695312
+    ],
+    "text": "putational biology series (CRC Press, Taylor & Francis Group, Boca Rato London",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      101.73099517822266,
+      647.03857421875,
+      279.3613586425781,
+      658.9937744140625
+    ],
+    "text": "New York, 2024), first edition edn.",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      83.5219955444336,
+      680.91162109375,
+      321.3110046386719,
+      692.8668212890625
+    ],
+    "text": "[4] L. Hayflick, PLoS Genetics 3, e220 (2007).",
+    "kind": "body"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      298.5879821777344,
+      723.140625,
+      310.3041076660156,
+      735.0958251953125
+    ],
+    "text": "21",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      83.52200317382812,
+      111.47364807128906,
+      531.2322998046875,
+      123.42884826660156
+    ],
+    "text": "[5] P. B. Medawar, An Unsolved Problem of Biology (H. K. Lewis & Co. Ltd., London,",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      101.73100280761719,
+      135.3836212158203,
+      132.96994018554688,
+      147.3388214111328
+    ],
+    "text": "1952).",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      83.52200317382812,
+      169.25660705566406,
+      531.2681274414062,
+      181.21180725097656
+    ],
+    "text": "[6] L. Szilard, Proceedings of the National Academy of Sciences 45, 30 (1959). Publisher:",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      101.73100280761719,
+      193.16761779785156,
+      357.2853698730469,
+      205.12281799316406
+    ],
+    "text": "Proceedings of the National Academy of Sciences.",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      83.52200317382812,
+      227.0406036376953,
+      531.2682495117188,
+      238.9958038330078
+    ],
+    "text": "[7] L. E. Orgel, Proceedings of the National Academy of Sciences 49, 517 (1963). Pub-",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      101.73100280761719,
+      250.95057678222656,
+      393.1151123046875,
+      262.9057922363281
+    ],
+    "text": "lisher: Proceedings of the National Academy of Sciences.",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      83.52200317382812,
+      284.8235778808594,
+      531.2682495117188,
+      296.7787780761719
+    ],
+    "text": "[8] B. Milholland, Y. Suh, J. Vijg, Experimental Gerontology 94, 34 (2017). Publisher:",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      101.73100280761719,
+      308.73358154296875,
+      166.1575927734375,
+      320.68878173828125
+    ],
+    "text": "Elsevier BV.",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      83.52200317382812,
+      342.6065979003906,
+      371.3794250488281,
+      354.5617980957031
+    ],
+    "text": "[9] J. Vijg, Ageing Research Reviews 68, 101316 (2021).",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      77.66900634765625,
+      376.4795837402344,
+      314.46575927734375,
+      388.4347839355469
+    ],
+    "text": "[10] A. Cagan, et al., Nature 604, 517 (2022).",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      77.66900634765625,
+      410.3525695800781,
+      531.2850341796875,
+      422.3077697753906
+    ],
+    "text": "[11] C. L´opez-Ot´ın, M. A. Blasco, L. Partridge, M. Serrano, G. Kroemer, Cell 186, 243",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      101.73100280761719,
+      434.2635803222656,
+      262.6599426269531,
+      446.2187805175781
+    ],
+    "text": "(2023). Publisher: Elsevier BV.",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      77.66900634765625,
+      468.1355895996094,
+      531.2732543945312,
+      480.0907897949219
+    ],
+    "text": "[12] C. Tomasetti, B. Vogelstein, Science 347, 78 (2015). Publisher: American Associa-",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      101.73100280761719,
+      492.0466003417969,
+      336.4952392578125,
+      504.0018005371094
+    ],
+    "text": "tion for the Advancement of Science (AAAS).",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      77.66900634765625,
+      525.9195556640625,
+      318.3153076171875,
+      537.874755859375
+    ],
+    "text": "[13] T. Rando, H. Chang, Cell 148, 46 (2012).",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      77.66900634765625,
+      559.7925415039062,
+      307.2447814941406,
+      571.7477416992188
+    ],
+    "text": "[14] J.-H. Yang, et al., Cell 186, 305 (2023).",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      77.66900634765625,
+      593.66552734375,
+      480.3561706542969,
+      605.6207275390625
+    ],
+    "text": "[15] A. Eyre-Walker, P. D. Keightley, Nature Reviews. Genetics 8, 610 (2007).",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      77.66900634765625,
+      627.53857421875,
+      531.2373657226562,
+      639.4937744140625
+    ],
+    "text": "[16] H. Lee, E. Popodi, H. Tang, P. L. Foster, Proceedings of the National Academy of",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      101.73100280761719,
+      651.4485473632812,
+      413.4868469238281,
+      663.4037475585938
+    ],
+    "text": "Sciences of the United States of America 109, E2774 (2012).",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      77.66900634765625,
+      685.321533203125,
+      447.75433349609375,
+      697.2767333984375
+    ],
+    "text": "[17] S. Baehr, et al., Genome Biology and Evolution 17, evaf049 (2025).",
+    "kind": "body"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      298.5880126953125,
+      723.1405639648438,
+      310.30413818359375,
+      735.0957641601562
+    ],
+    "text": "22",
+    "kind": "body"
+  },
+  {
+    "page": 23,
+    "bbox": [
+      77.66899871826172,
+      111.47364807128906,
+      514.21337890625,
+      123.42884826660156
+    ],
+    "text": "[18] E. M. Bertucci-Richter, B. B. Parrott, Nature Communications 14, 7731 (2023).",
+    "kind": "body"
+  },
+  {
+    "page": 23,
+    "bbox": [
+      77.66899871826172,
+      145.3466339111328,
+      480.4516296386719,
+      157.3018341064453
+    ],
+    "text": "[19] P. Wang, et al., Current Biology 20, 1099 (2010). Publisher: Elsevier BV.",
+    "kind": "body"
+  },
+  {
+    "page": 23,
+    "bbox": [
+      77.66899871826172,
+      179.21961975097656,
+      531.2254028320312,
+      191.17481994628906
+    ],
+    "text": "[20] C. Adami, The Evolution of Biological Information: How Evolution Creates Com-",
+    "kind": "body"
+  },
+  {
+    "page": 23,
+    "bbox": [
+      101.73100280761719,
+      203.1295928955078,
+      444.7735595703125,
+      215.0847930908203
+    ],
+    "text": "plexity, from Viruses to Brains (Princeton University Press, 2024).",
+    "kind": "body"
+  },
+  {
+    "page": 23,
+    "bbox": [
+      77.66900634765625,
+      237.00257873535156,
+      429.2117614746094,
+      248.95777893066406
+    ],
+    "text": "[21] M. R. Lynch, Evolutionary cell biology (OUP, New York, 2023).",
+    "kind": "body"
+  },
+  {
+    "page": 23,
+    "bbox": [
+      77.66900634765625,
+      270.8755798339844,
+      421.8594055175781,
+      282.8307800292969
+    ],
+    "text": "[22] C. E. Shannon, Bell System Technical Journal 27, 379 (1948).",
+    "kind": "body"
+  },
+  {
+    "page": 23,
+    "bbox": [
+      298.5880126953125,
+      723.1405639648438,
+      310.30413818359375,
+      735.0957641601562
+    ],
+    "text": "23",
+    "kind": "body"
+  },
+  {
+    "page": 1,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "∗E-mail:\nsbaehr@asu.edu, baehr@mpia.de\t\n† These authors contributed equally to this work.\t\nAging is a universal consequence of life, yet researchers have identi-\t\nfied no universal theme. This manuscript considers aging from the\t\nperspective of entropy, wherein things fall apart. We first examine\t\nbiological information change as a mutational distance, analogous to\t\nphysical distance.\nIn this model,\tinformational change over time is\nfitted to an advection-diffusion equation, a normal distribution with\t\na time component.\nThe solution of\tthe advection-diffusion equa-\ntion provides a means of measuring the entropy of diverse biological\t\nsystems. The binomial distribution is also sufficient to demonstrate\t\nthat entropy increases as mutations or epimutations accumulate. As\t\nmodeled, entropy scales with lifespans across the tree of\tlife. This",
+    "kind": "table"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "tropy management. We find entropy is an inclusive\nrather\nthan\nexclusive aging theory.\nIntroduction\nThe biology of aging can be described by the phrase, “things\nfall apart”. Researchers\nhave noted that though there is rhyme and similarity to aging among individuals, each\ncase is unique and unprogrammed [1, 2, 3]. Leonard Hayflick [4] has argued for decades\nthat aging is entropy, an increase in molecular disorder over time. The concept thus far\nhas only enjoyed modest popularity, perhaps because it does immediately offer a direct\nmeans of measurement, treatment, or a specific molecular mechanism.\nReferences\nto entropy in aging research are often vague and allusory,\nlacking spe-\ncific measurement and offering few testable hypotheses.\nIn principle, the things that re-\nsearchers have been measuring all along, and which are known to modify lifespan, should\nalso fit naturally within the variables that describe entropy; this has yet to be emphati-\ncally shown. The purpose of this manuscript is to make a bridge between the world that\nthe biology of aging knows and measures, and the physical understanding of entropy.\nSuperficially, the signature of entropy whittling at organism genomes across time may\nbe recognized as the accumulation of deleterious mutations. As deleterious mutations ac-\ncumulate,\ninformation disperses. Mutation accumulation is notably a familiar concept to\naging biology, being among the oldest concepts in the field in one form or another.[5, 6, 7].\nThe idea of accumulating errors\nleading to critical breakdowns of biological\nsystems\nis\nreferred to as a “error catastrophe” or “mutation catastrophe”. A modern version of mu-\ntation catastrophe is\nsupported by some evidence; DNA mutations do accumulate over",
+    "kind": "table"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "time in cells over a lifespan.[8, 9, 10]. However, we note that mutation accumulation need\nnot only refer to DNA,\nif the definition is broadened: what is epigenetic information loss,\nif\nit is not the accumulation of (epi)mutations? While acknowledging the importance of\nDNA mutations in the aging process [11], for example in the emergence of cancer [12], the\nfield has been emphasizing for years that epimutations likely also have a proximal role to\nplay in both aging and cancer. Compounding evidence [13] and recent experimentation\n[14] have highlighted the need for a model that includes, or even emphasizes the impor-\ntance of epigenetic information in aging.\nIdeally, a theory should be flexible to account\nfor aging of all sorts, even for organisms that age over the course of days, such as in E.\ncoli.\nWe propose a model where the accumulation of mutations over time between at least\ntwo points can be considered a “mutational distance”. We fit the concept of mutational\ndistance to physics definitions of distance via an advection-diffusion equation for the Brow-\nnian motion of tracers in a fluid flow, and use the result to model the change in entropy\nover time. From a starting point of highly similar cells within a population, the cells ac-\ncumulate mutational distance over time. The model fits to DNA mutation accumulation\nexperiments. We then model epimutation as a primary factor\nin the determination of\nlongevity, though the role of DNA mutation and any other system of entropic gain may\nbe added to the model as appropriate. We fit the model to organisms of varying lifespan\nand demonstrate the model’s flexibility, which predicts that an entropic failure threshold\ncauses biological mortality, via age-related phenotypes. We also examine a simple bino-\nmial entropy conversion for diverse biological systems, and its application to age-related\nmolecular change. These simplified models suggest that aging may be entropy; and that\nentropy also increases within germline lineages as well,\nin the relative absence of selection.",
+    "kind": "table"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "1\nResults\nThe\ninspiration for\nthis work begins by recognizing that\nthe phenotypic outcomes of\nbiological aging are shared with those of evolutionary biology’s mutation accumulation\n(MA) experiments.\nIn MA experiments, an increasing burden of random mutations results\nin phenotypic degradation, because the average DNA mutation is deleterious [15]. The\nsum of mutations per\nline\nis\ncounted to provide an estimate\nfor mutation rate.\nThis\nmutation accumulation, or mutational distance, over evolutionary time and in the presence\nof\nselection leads\nto the differences\nthat define\nindividuals, populations,\nand species.\nAt baseline, however, unchecked mutation accumulation leads to mutational meltdown,\nphenotypic degradation, and lineage extinction.\nWithin a population of cells,\nin an MA or within an aging soma, Figure 1 examines\nthe behavior of mutations within a population of\ncells over\ntime. When interpreting\nmutational distance as physical distance,\nthis perspective allows\nthe import of physics\nequations that model evolution over time, with particular consideration of Brownian mo-\ntion, and random walks of molecules.\nThe model considers mutation accumulation as\na one-dimensional distance and how a population of molecules will be distributed as a\nfunction of time, following a normal distribution. The equation for a normally distributed\nvariable x is:\n1",
+    "kind": "table"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "a river with some current:\nthe mean distance increases as a function of time, with some\nspread in the distribution, which follows a normal distribution.\nThis\nsolution to the\nadvection-diffusion equation is\nsimply a normal distribution with a time component\nt,\ndiffusion coefficient D, current or flow rate Dλ, and drag coefficient λ (see Appendix 2).\n1\n√\nF (x, t) =\ne−(x−Dλt)2/4Dt.\n(2)\n4πDt\nWe note that as an MA experiment proceeds, the spread of the distribution widens as a\nfunction of the mean, which is conventionally characterized by a Poisson distribution. The\nwidening of the distribution is well appreciated [16] and because the normal distribution\nis a good approximation of\nthe Poisson distribution for a large enough Poisson mean,\nthe normal distribution suffices. We test\nthe advection-diffusion model upon real MA\ndata arising from both WT and hypermutator E. coli\n[16, 17]\nin Figure 1B. Figure 1B\ndemonstrates\nthat a reasonable goodness of fit\nis approximated by the solution to the\nadvection-diffusion equation. The Dλ variable contains\nthe fold-difference between the\nwild-type and hypermutator\nstrains; about 110-fold, and may be considered analogous\nto the current or flow rate. The variable λ is a fitting parameter analogous\nto a drag\ncoefficient, which helps fit\nthe observed variance to the mean distance from a starting\npoint of zero mutations.\nIn addition to DNA mutations, the term ”epimutation” is now used to describe changes\nin informational content of\nthe epigenome.\nIn the same way that DNA mutation accu-\nmulation results\nin mutational distance, epimutation accumulation does\nthe same. We\nconsider the general proposal of the aging field, which is that epimutations within chro-\nmatin structure drive age-related phenotypes. Under\nthis perspective, we consider\nthe\nhypothesis that shorter lived organisms will have higher epimutation rates in aggregate,\nbe they DNA methylation or histone marks, and longer-lived organisms will have lower\n5",
+    "kind": "table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "Figure 1: The advection-diffusion solution as a function of time and mutation\naccumulation. Panel A: A simple example of how a 1D diffusion model can model a\npassive tracer in a fluid,\nin this case, rubber duckies floating down a river. Panel B: The\nadvection-diffusion equation applied to E. coli\nsamples. Panels C and D: The advection-\ndiffusion equation models how diverse organism lifespans may end up with the same final\nresult.\nIf chromatin “drift” or “epimutation” are primary drivers of aging, this equation\nis sufficiently flexible to model\nit.\nepimutation rates in aggregate. Using epimutation burden estimates obtained from DNA\nmethylation burden[18] as a coarse example, advection-diffusion model can be used to\nmodel epimutations under\nthe same paradigm used to model DNA mutation rates.\nIn\nFigure 1C and 1D, the model demonstrates that the same increase-in-variance outcome\ncan be obtained over orders of magnitude of time-frame. The advection-diffusion equation\nis incredibly flexible, and therefore can be used to model\ninformational distance change\nacross the tree of life, and across biological\ninformational storage media. We simply use a",
+    "kind": "table"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "rough DNA methylation average epimutation distance as a proof-of-principle for a broader\nepimutation rate argument.\nMapping and modeling biological\ninformation change over time is perhaps interesting,\nbut a greater point can now be discussed with respect\nto entropy. A useful\ninsight of\nthe advection-diffusion equation is\nthat\nit\nis Gaussian in nature, and from a Gaussian\ntime series an estimate of\nthe variance in terms of D and t can be achieved; which is\nindependent of λ. This result, σ2 = 2Dt,\nfurther expounded upon in the supplemental\nmethods section, can be applied to an equation for the entropy of a Gaussian distribution,\nEquation (3). Therefore, technically any biological process with a normal distribution that\nis subject to change over time can be converted into units of entropy.",
+    "kind": "table"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "Figure 2: Comparison of different levels of diffusion on entropy as a function of\t\ntime. With varying levels amounts of epigenetic diffusion (solid lines), the total entropy\t\nof a system will depend strongly on the value of the diffusion D. Orange points mark the\t\nrough maximum lifespans of a few organisms (from left to right): E. coli, D. melanogaster,\t\nhomo sapiens and pinus longaeva, assuming our unit of time is in days, as listed in Table\t\n1.\t\nthe same system may be modeled by entropy in different different ways.\tFor example,\ntaking only a single\ncell of an aging tissue or\nfrom the E.\ncoli MA,\tentropy can be\nquantified by the amount of information lost from acquiring 1, 2, or 80 mutations. Under\t\nthe assumption that each mutation has an average effect and a simplified model assuming\t\nonly two states, mutated or not, the entropy can be quantified by the binomial:\t",
+    "kind": "table"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "from the accumulation of mutations\nin the E.\ncoli\ngenome.\nIn the MA,\nthe\nentropy\nbecomes 15,\n28,\nand 954 nats,\nrespectively.\nIt\nis unclear which measure of\nentropy,\npopulation level or within an individual cell,\nis most appropriate, or to what degree the\nentropy of a system needs to be scaled to make the measures equivalent. Regardless,\nin\nboth cases calculated entropy increases, and both are directly linked to mutation rate.\nThe general\nform of Figure 2 holds.\nInstead of modeling only a single process, such as DNA mutation, there is a clear space\nin aging analysis for a parallelization of multiple parameters. The entropic gain of DNA\nmutation, transcript error, gene expression noise, translation error, chromatin structure,\nand even things like protein misfolding, or oxidative damage to proteins or lipids could\nin principle be modeled by some\nform of\nentropy. We\nsummarize\nthis perspective by\nslight modification of the advection diffusion equation from Equation (2) to incorporate\nall possible sources of entropy (i.e. DNA mutation,\ntranscript error,\ntranslation error,\nchromatin structure, etc.)\n(cid:88) i\n(6)\nHtotal =\nHi.\nis each potential\nsource of entropy. The value of D and λ for each source of\nwhere Hi\nentropy can be independently calculated with distributions within a cell or\nset of cells,\nand we hypothesize that this quantity can be summed. At this time it is unclear as to\nhow the varying system’s entropic gains should be normalized; perhaps by some factor of\nthe relative fitness cost per unit of entropy gained for each system measured. We simply\nnote that the sum of all entropy within a cell or group of cells is relevant to encountering",
+    "kind": "table"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "2\nDiscussion\nThe perspective\nof\nthis manuscript\nexamines\na bridge between the biology of\naging,\nphysics, and evolutionary biology. This perspective began as a study of the phenotypic\nsimilarities emergent in mutation accumulation experiments and of the biology of aging,\nor specifically, an inescapable degradation of biological phenotypes in these contexts.\nBy recognizing that mutational distance is equivalent to physical distance, equations\nof physics may be applied to biological data. The advection-diffusion equation models\nthe dispersion of molecules\nfrom a starting state of\nidentical position,\nto a probability\ndistribution of distance over\ntime.\nThis dispersion can be\nreadily appreciated in the\nacquisition of DNA mutations over the course of human development and aging: all cells\nstart out with an identical genotype, but over time a clock-like distance from the starting\nstate to an aged state emerges over time. The model predicts an increased dispersion of\nmutational distance in chromatin or in DNA, though we also focus upon chromatin and\nits information storage role.\nImportantly, we find that\nthe advection-diffusion equation\ncan be modeled to fit mutation accumulation data from E.\ncoli\nreasonably well,\nand\ncan resolve the expected deviation in mutation rate between wild-type and hypermutator\nstrains. The key insight of the advection-diffusion equation is its provision of a description\nof the variance of the Gaussian distribution in an age-related context.\nMathematicians and physicists have long recognized the importance of the Gaussian\ndistribution to the study of entropy. The equation for entropy in a Gaussian system is\nstraightforward (Equation (3)); the parameter of importance is the variable D in Equation\n(2). The model compares which values of D might give rise to known lifespan estimates\nacross\nthe\ntree of\nlife.\nThe model\nindicates\nthat\nthe organisms are hitting a similar\nentropy threshold for varying levels of D.\nBy combining the perspectives of Figure 1",
+    "kind": "table"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "and Figure 2, a threshold model with a mean entropy acquisition rate over\ntime,\nthe\nmodel satisfyingly predicts even organisms with identical starting genotypes would reflect\na Gaussian distribution of\nsurvivorship over\ntime,\nfocused about a mean.\nThis\nis\nthe\nresult of aging experimentation on genetically identical organisms.[1]\nThe above perspective provides some avenues of application. The model proposed here,\nwhich we\ncall\nthe “entropy catastrophe hypothesis” for\nthe biology of aging, provides\ntestable hypotheses.\nSpecifically,\nthe hypothesis predicts\nthat variance should increase\nover time, at least in the biological systems that are causal to aging. The accumulation of\nDNA mutations and epimutations are part of the hypothesis, but remain only two facets\namong the broad story of aging. The hypothesis predicts that evolutionary innovations\nthat reduce entropy, such as increased replication fidelity, the induction of recycling pro-\ngrams, rewriting/restarting programs, and inducing purifying selection upon deleterious\nsubsets of molecules, are responsible for enhanced longevity among organisms. The model\nproposes that interventions that increase the rate of aging, such as stress,\ntemperature,\nor\nconditions\nlike Hutchinson-Gilford progeria syndrome, ultimately act by increasing\nentropy in the system at biologically relevant levels.\nThere is undoubtedly a differential contribution to aging phenotypes and mortality,\nfrom differing molecular biological systems. Even within biological\ninformation systems,\nit\nlikely true\nthat\nthe\n‘fitness\nimpact’ of\nepimutations\nin somatic\ncells\nis\nfar\nless per\nmutation than that\nof DNA. Judging by relative mutation rates\nof\nthe molecules\nas\na proxy for\nrelative\nimportance,\nit may be\nthat\nepimutations,\n100 to 1000-fold more\nprevalent\nthan DNA mutations, need to be weighted correspondingly such that\neach\nepimutation is\n’worth’ an inverse proportion to their prevalence;\nif not\nso extreme,\nit\nis certainly in that direction.\nTo clarify,\nthe reason translation or\ntranscription errors\nare orders of magnitude more prevalent[21] than DNA is almost assuredly because their",
+    "kind": "table"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "individual\nimpact is all that much less important than a single DNA mutation. The idea\nthat chromatin information in mammals\nis\nthe weak link is attractive to the field, but\nremains to be proven. For the present moment, we note that diffusion and entropy likely\ncharacterize the distributions of diverse age-related molecular phenomena. Their ultimate\nimpacts, perhaps species and context specific, remain to be resolved.\nAcknowledgments\nThe authors dedicate this work to their parents, Wolfgang Baehr and Jeanne Frederick.\nThe authors thank their mentors, Michael Lynch and Hubert Klahr; and also their com-\nmunities, scientific and otherwise, for their congenial atmosphere and tolerance. This work\nhas been funded in part by NIH GMS grant 5R35GM122566-08 and the National Science\nFoundation, DBI-2119963, 2021-2026, BII: Mechanisms of Cellular Evolution.\nFigures\n1 and 2 were created with the assistance of Biorender.\nFigure 2 was created with the\nassistance of Man Lin.",
+    "kind": "table"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "Methods and Supplementary information\nFigure 1 has been generated in panel A by simple application of the advection-diffusion\nequation. Panel B experimental datasets are derived from the MA experiments reported in\n2012[16] and 2025[17], whose data have been transformed/rearranged into Supplementary\nTable 2. Supplementary Table 1 provides the order-of-magnitude estimates of parameters\nthat gave rise to figure 2; few Drosophila have ever measured to have a maximum lifespan\nof 100 days, but it is within a factor of 2 of reported values.\nPanel C and D of 1 are\nestimates of\nepimutation rates derived from experimental\nresults from 2023[18]; approximately 1% of DNA methylation sites are becoming discor-\ndant, or mutated, over\nseveral mammalian lifespans.\nFor a similar amount\nin humans,\n2.8 × 107 CpG sites\nresults\nin\n2.8 × 105\nepimutations\nin a lifespan.\nIf around 1-10%\nof those epimutations might be functional, the functional epimutational burden of DNA\nmethylation alone may be on the order of 2,800 to 28,000.\nIn contrast, the somatic DNA\nmutational burden of humans is on the order of 3,000-5,000, of which 1%, or 30-50 muta-\ntions are functional. As an aside, the fitness effect-size and distribution of fitness effects\nfor the epigenome are as yet unknown to our knowledge; but evolutionary theory predicts\nthat they will be far less impactful, given their evolutionary impermanence. However, we\nmay make an estimate of these based on their relative prevalence, and guess their average\ncellular fitness effect may be between 1/100th and 1/1000th that of\nthe average DNA\nmutation. We acknowledge that the numbers offered are estimates, but offer the model\nas a general hypothesis\nto be tested.\nFor\nsimplicity of\nthe model,\nthis\nresult has been\ntranslated into a relative number of human epimutations per aged cell; we suggest that the\nsame principle and perhaps order of magnitude should extend also to chromatin marks,\ngenerally. Extending the epimutation hypothesis to D. melanogaster necessarily requires",
+    "kind": "table"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "Models\t\t\t\t\t\nThe following sections detail our mathematical methods and reasoning for assumptions\t\t\t\t\t\nof a random walk ansatz and by extension the advection-diffusion equation. From there\t\t\t\t\t\nwe consider that a large number of persistent, dividing cells with accumulating chromatin\t\t\t\t\t\nepimutations obeys\tthe\tcentral\tlimit\ttheorem,\tresulting in a Gaussian distribution of\nmethylation states which can be modeled similar to a cloud of diffusing particles.\t\t\t\t\t\n\tFrom this model, we formulate an expression for the total mutation load of a popula-\t\t\t\t\ntion in terms of the mutation rate, which depends on the measured dispersion of mutations\t\t\t\t\t\nacross the population. We also evaluate an expression for the Shannon entropy of the in-\t\t\t\t\t\nformation encoded within the nucleus of a single cell, which yields insights into the ways\t\t\t\t\t",
+    "kind": "table"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "While this can be modeled in arbitrary dimensions we consider for now that a mutation\nin a sequence of base pairs or chromatin sites causes a cell within a population to ’walk’\naway from it’s\ninitial\nconfiguration in a single dimension x.\nAt first,\nthis allows\nfor\nmovement in the negative x direction, which is acceptable for modeling methylations, as\nthe original configuration can be modified in one direction of more methylations but also\nin the opposite direction of\nfewer methylations. On the other hand, DNA mutations do\nnot fit this framework as neatly,\nsince the initial state of all base pairs can only ‘move’\nin one direction:\nincreasing mutation. However, we use this bidirectional\nrandom walk\nas an example that can be compared to a diffusive process and suggest limiting to only\npositive steps for the case of DNA mutations.\nFor\nenough trials\n(large\nt) or\nequivalently in this\ncase,\nenough time,\nthe binomial\nbegins is well approximated by a Gaussian or normal distribution with mean µ = np and\nvariance σ2 = np(1 − p). Thus, while a binomial model works as a discrete distribution,\nalso considering a continuous distribution allows us to draw a parallel to physical processes\nin fluid dynamics.\nEpigenetic Evolution as a Diffusive Process\nIf we now look at a large\ncollection of\nindependently mutating epigenomes,\nsuch as a\nswath of skin cells, we can start to look at the large-scale pattern and evolution. We see\na useful comparison with the evolution of a quantity that\ntransports\nin one dimension\nthrough both advection and diffusion:",
+    "kind": "table"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "motion of a group has some random component of the constituents. The second term is\nthe advective term and Dλ is the advective (or drift) velocity, also constant in time and\nx. Advection has no random component and can be compared to a background flow field.\nWe borrow the formulation of this equation which considers that drift in the positive x\ndirection is due to a linear potential or a constant\nforcing ( ⃗F = −∇U ) which makes λ\ncomparable to a drag or attenuation constant.\nIn our case,\nit has the effect of adjusting\nthe relative impact of diffusion or drift. For example, smaller values of λ will mean drift\nis less relevant to the displacement while higher values mean drift is more important. The\nsolution to (8) is\n1\n√\nF (x, t) =\ne−(x−Dλt)2/4Dt,\n(9)\n4πDt\nwhere we use λ = 0.1 unless otherwise noted and caution against placing much physical\nsignificance into this value. The function F (x, t) represents the number of cells at time t\nwithin the population that have x number of changed methylation sites, centered around\nx0 = 0 and t0 = 0. Thus, we define this initial value problem by defining F (0, 0) = N δ(x)\nwhere δ is the Dirac delta function and N is the number of cells in the population. This\nmeans\nthat our final\nsolution to the advective-diffusion equation is Equation (2) and\nmeans that the integral over the function is always N or in other words, all population\nmembers are represented somewhere along the distribution.\nMutations can arise from a number of sources, which we naively assume to be linear,",
+    "kind": "table"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "\t\tTable 1: Model parameters\t\t\t\nModel\tgenome size N\tdiffusion D\tλ\tdrift (Dλ)\tmax.\nlifetime (days)\n1 (pinus longaeva)\t22 ×109\t1/10\t1/10\t1/100\t4000 years × 365 = 1460000\n2 (homo sapiens)\t3.2 ×109\t10\t1/10\t1\t100 years × 365 = 36500\n3 (D. melanogaster )\t180 ×106\t1000\t1/10\t100\t100\n4 (e.\ncoli)\t4.6 ×106\t100000\t1/10\t10000\t3",
+    "kind": "table"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "2 (homo sapiens)\t3.2 ×109\t10\t1/10\t1\t100 years × 365 = 36500\n3 (D. melanogaster )\t180 ×106\t1000\t1/10\t100\t100\n4 (e.\ncoli)\t4.6 ×106\t100000\t1/10\t10000\t3\n\tDiffusion Coefficient\t\t\t\t\nHowever,\tit would be useful\tto come up with a useful definition of D from laboratory\t\t\t\n\tdata. We next seek to derive a value for the diffusion constant that makes sense for some\t\t\t\t\n\tmodel organism. We define D from Fick’s law and the mean square displacement (MSD),\t\t\t\t\n\twhich states that the displacement x from the initial position x0 in one dimension at time\t\t\t\t\nt can be related to D as\t\t\t\t\t",
+    "kind": "table"
+  },
+  {
+    "page": 18,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "\t\tTable 2: Mutation accumulation counts across experiments.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nAccumulation\t0\n1\n2\n3\n4\t5\t6\t7\t8\t\t\t\tAccumulation\t\t\t\t\t4\n5\t6\t7\n8\t9\t10\n11\nCount\t1\n9\n8\n8\n10\t0\t1\t0\t1\t\t\t\tCount\t\t\t\t\t2\n1\t6\t2\n5\t2\t2\n1\n\t(a) Wild type MA t = 3000\t\t\t\t\t\t\t\t\t\t\t(b) Wild type MA t = 6000\t\t\t\t\t\t\nAccumulation\t32\n36\t40\t\t41\t\t42\t\t46\t\t48\t\t49\t\t50\t52\t54\t55\t56\nCount\t1\n1\t2\t\t1\t\t1\t\t1\t\t2\t\t1\t\t1\t1\t1\t3\t1\nAccumulation\t58\n62\t63\t\t64\t\t65\t\t66\t\t67\t\t69\t\t71\t74\t75\t78\t84\nCount\t1\n1\t1\t\t3\t\t1\t\t2\t\t1\t\t1\t\t1\t1\t1\t1\t1\n\t\t\t\t(c) MMR MA t = 380\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\tAccumulation\t\t44\t\t50\t\t53\t\t60\t\t63\t\t68\t75\t77\t\t\t\n\tCount\t\t1\t\t1\t\t1\t\t1\t\t1\t\t1\t1\t2\t\t\t\n\tAccumulation\t\t78\t\t79\t\t80\t\t81\t\t85\t\t86\t96\t155\t\t\t\n\tCount\t\t0\t\t1\t\t1\t\t1\t\t1\t\t1\t1\t1\t\t\t\n\t\t\t\t(d) MMR MA t = 600\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nShannon entropy\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nWe now need a way of quantifying the information content or entropy, with the system.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nFrom information theory, the Shannon entropy H\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\tH(X) ≡ −\t\t\t\t\t(cid:88) x\tp(x) ln p(x),\t\t\t\t\t\t\t\t\t\t(14)\n\t\t\t\t\t\t\t∈X\t\t\t\t\t\t\t\t\t\t\t\n\tdescribes the amount of uncertainty of the quality of\t\t\t\t\t\t\t\t\t\t\tinformation within the epigenome\t\t\t\t\t\t\n\twhere p(x) is the probability or distribution of a state x [22].\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\tWe use both the binomial equation (7) and our\t\t\t\t\t\t\t\t\t\t\tsolution to the advection-diffusion\t\t\t\t\t\t\n\tequation as a distribution of changes to epigenetic markers across a population of cells.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\tFor each cell, gene expression can be expressed as a distribution f that depends on a time\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\ninterval\nt,\tthe number of cell divisions N , and the natural variation of gene expression\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\tfrom one chromatin site to another.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t18\t\t\t\t\t\t\t\t\t\t\t",
+    "kind": "table"
+  },
+  {
+    "page": 19,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "The Shannon entropy of a binomially distributed random variable is\n1 2\n(ln |np(1 − p)2π| + 1).\n(15)\nHbinom =\nwhile for a Gaussian distributed random variable it is\n1 2\n(ln |σ22π| + 1).\n(16)\nHGauss =\nOne can see the similarity in the Shannon entropy for each model. For the Gaussian shapes\nintroduced by the ‘diffusion’ of epigenetic mutations via the solution to the advection-\ndiffusion equation (Eq.\n(2)) where σ2 = 2Dt, we arrive at an expression for the epigenetic\nentropy as defined in Equation(3). This assumes\nthat D is constant\nin time and x, al-\nthough there are many factors which could affect the value of D. An interesting feature of\nthis formulation is that drift or advection Dλ only factors into the entropy gain through\nthe diffusion constant with the factor λ omitted. To understand this we revisit\nthe in-\nterpretation of λ. Our interpretation is that this represents a ratio of relative efficiency\nof drift versus diffusion and as\nsuch does not\nreflect on the nature of\nthe system with\ninformation about either drift or diffusion. Furthermore, since entropy is the measure of\nthe disorder of a system, λ contains no information about the distribution of states within\nthe system. We can reconcile this by considering the simple case where D = 0, which cor-\nresponds to the situation where all change occurs exactly on one methyl group (although\nnot necessarily the same one) every unit of\ntime in the same direction. As\nfar as\nthis\nmodel\nis concerned, the system of\nindependently mutating cells retains its configuration\nfor all times and thus has a constant entropy in time.\nWe plot the Shannon entropy for a few values of D in Figure 2 and compare with the\napproximate maximum lifespan of a few example organisms. We find that an entropy\nthreshold of approximately 8 coincides with a number of these organisms. One possible\ninterpretation is that, regardless of species, fitness breaks down at some entropy threshold\n19",
+    "kind": "table"
+  },
+  {
+    "page": 20,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "illustrated in Figure 2. What does change from one organism to another is the diffusion\nof epigenetic information, which can depend on a number of\nfactors\nincluding but not\nlimited to:\nepigenome\nsize, body size, programming,\nrepair mechanisms, and external\n(environmental) triggers.\nIn Section ??, we speculate and explore possible ways to account\nfor some of these factors in an advective-diffusive model of epigenetic evolution.\nAccounting for Additional Mutagenic Effects\nOur\nsolution to the advection-diffusion equation permits various\nlevels of flexibility to\naccount for additional\nfactors, such as a diffusion parameter that is not constant in time\nor space, source terms to account for external\nfactors, etc. We therefore take a step back\nand look at the more general\nformation of the advection-diffusion equation",
+    "kind": "table"
+  },
+  {
+    "page": 21,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "0\n101\n104\n105\n107\n100\n102\n103\n106\nunit time t\nFigure 3: Comparison of different levels of\nlinearly increasing diffusion on en-\ntropy. Same as Fig. 2, but diffusion increases linearly with time. The coefficient of the\nlinear component is small such that only near the end of the least diffusive model\nis the\nincrease in entropy noticeable.\ncreases as shown in Fig. 3.\nReferences",
+    "kind": "table"
+  },
+  {
+    "page": 22,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "[5] P. B. Medawar, An Unsolved Problem of Biology (H. K. Lewis & Co. Ltd., London,\n1952).\n[6] L. Szilard, Proceedings of the National Academy of Sciences 45, 30 (1959). Publisher:\nProceedings of the National Academy of Sciences.\n[7] L. E. Orgel, Proceedings of\nthe National Academy of Sciences 49, 517 (1963). Pub-\nlisher: Proceedings of the National Academy of Sciences.\n[8] B. Milholland, Y. Suh, J. Vijg, Experimental Gerontology 94, 34 (2017). Publisher:\nElsevier BV.\n[9] J. Vijg, Ageing Research Reviews 68, 101316 (2021).\n[10] A. Cagan, et al., Nature 604, 517 (2022).\n[11] C. L´opez-Ot´ın, M. A. Blasco, L. Partridge, M. Serrano, G. Kroemer, Cell 186, 243\n(2023). Publisher: Elsevier BV.\n[12] C. Tomasetti, B. Vogelstein, Science 347, 78 (2015). Publisher: American Associa-\ntion for the Advancement of Science (AAAS).\n[13] T. Rando, H. Chang, Cell 148, 46 (2012).\n[14] J.-H. Yang, et al., Cell 186, 305 (2023).\n[15] A. Eyre-Walker, P. D. Keightley, Nature Reviews. Genetics 8, 610 (2007).\n[16] H. Lee, E. Popodi, H. Tang, P. L. Foster, Proceedings of\nthe National Academy of\nSciences of\nthe United States of America 109, E2774 (2012).\n[17] S. Baehr, et al., Genome Biology and Evolution 17, evaf049 (2025).\n22",
+    "kind": "table"
+  },
+  {
+    "page": 23,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "[18] E. M. Bertucci-Richter, B. B. Parrott, Nature Communications 14, 7731 (2023).\t\n[19] P. Wang, et al., Current Biology 20, 1099 (2010). Publisher: Elsevier BV.\t\n[20] C. Adami, The Evolution of Biological\tInformation: How Evolution Creates Com-\nplexity,\nfrom Viruses to Brains\t(Princeton University Press, 2024).\n[21] M. R. Lynch, Evolutionary cell biology (OUP, New York, 2023).\t\n[22] C. E. Shannon, Bell System Technical Journal 27, 379 (1948).\t\n23\t",
+    "kind": "table"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "/Users/vilinicz/Work/singularis/figures/article_p6_img1.png",
+    "kind": "figure"
+  },
+  {
+    "page": 8,
+    "bbox": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "text": "/Users/vilinicz/Work/singularis/figures/article_p8_img1.png",
+    "kind": "figure"
+  }
+]

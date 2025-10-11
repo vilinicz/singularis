@@ -1,0 +1,54 @@
+# ───────────────
+# Poetry & Python
+# ───────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.sqlite3
+*.db
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+.cache/
+.coverage
+.mypy_cache/
+.pytest_cache/
+.dmypy.json
+.tox/
+venv/
+.venv/
+.env
+.env.*
+
+# ───────────────
+# Poetry lock and virtualenv
+# ───────────────
+poetry.lock
+# если используешь lock в CI — убери ↑ из игнора
+
+# ───────────────
+# IDE / Editor
+# ───────────────
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ───────────────
+# OS system files
+# ───────────────
+.DS_Store
+Thumbs.db
+
+# ───────────────
+# Project specific (singularis)
+# ───────────────
+outputs/
+figures/
+tests/__pycache
