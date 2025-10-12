@@ -9,25 +9,61 @@ from .models import TextBlock
 # === 1. Текст и подписи ===
 def extract_text_and_captions(pdf_path: Path) -> List[TextBlock]:
     blocks: List[TextBlock] = []
+    total_pages = 0
+
     with fitz.open(pdf_path) as doc:
+        total_pages = len(doc)
+        print(f"📘 Parsing PDF: {pdf_path.name}")
         for page_idx, page in enumerate(doc, start=1):
-            for b in page.get_text("blocks"):
-                x0, y0, x1, y1 = b[:4]
-                text = b[4].strip()
-                if not text:
-                    continue
-                kind = "body"
-                if re.match(r"^(Fig\.|Figure|Table)\s*\d+", text, re.IGNORECASE):
-                    kind = "caption"
-                blocks.append(
-                    TextBlock(
+            raw_blocks = page.get_text("blocks")
+            if not raw_blocks:
+                print(f"⚠️  Page {page_idx}: no text blocks found")
+                continue
+
+            xs = [b[0] for b in raw_blocks]
+            median_x = sorted(xs)[len(xs)//2]
+            x_min, x_max = min(xs), max(xs)
+            col_gap = x_max - x_min
+            two_columns = col_gap > 350
+
+            if two_columns:
+                left_blocks = [b for b in raw_blocks if b[0] < median_x]
+                right_blocks = [b for b in raw_blocks if b[0] >= median_x]
+                print(f"🧭 Page {page_idx:>2}: two-column layout detected "
+                      f"(median x={median_x:.1f}, left={len(left_blocks)}, right={len(right_blocks)})")
+                column_groups = (left_blocks, right_blocks)
+            else:
+                print(f"📄 Page {page_idx:>2}: single-column layout (total {len(raw_blocks)} blocks)")
+                column_groups = (raw_blocks,)
+
+            # Проходим по всем блокам
+            for col_blocks in column_groups:
+                for b in sorted(col_blocks, key=lambda x: x[1]):
+                    x0, y0, x1, y1 = b[:4]
+                    text = b[4].strip()
+                    if not text:
+                        continue
+
+                    # 🔧 Исправленная логика классификации подписи
+                    clean_text = text.lstrip().replace("\xa0", " ").strip()
+                    kind = "body"
+                    if re.match(r"^(fig|figure|table)\b", clean_text, re.IGNORECASE):
+                        kind = "caption"
+                    elif re.match(r"^(eq|equation)\b", clean_text, re.IGNORECASE):
+                        kind = "equation"
+
+                    # лог для отладки
+                    if kind != "body":
+                        print(f"🧩 Page {page_idx:>2} block classified as {kind}: {clean_text[:60]}...")
+
+                    blocks.append(TextBlock(
                         page=page_idx,
                         bbox=(x0, y0, x1, y1),
                         text=text,
-                        kind=kind,
-                    )
-                )
-    blocks.sort(key=lambda b: (b.page, b.bbox[1], b.bbox[0]))
+                        kind=kind
+                    ))
+
+    print(f"\n✅ Extracted {len(blocks)} total text blocks from {total_pages} pages.\n")
     return blocks
 
 
@@ -45,7 +81,7 @@ def extract_tables(pdf_path: Path) -> List[TextBlock]:
         blocks.append(
             TextBlock(
                 page=table.page,
-                bbox=(0, 0, 0, 0),  # Camelot не даёт bbox напрямую
+                bbox=(0, 0, 0, 0),
                 text=text,
                 kind="table",
             )

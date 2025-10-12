@@ -1,0 +1,82 @@
+{
+  "doc_id": "arxiv:2510.07265v1",
+  "file": "2510.07265v1.pdf",
+  "page_count": 23,
+  "metadata": {
+    "title": "Entropy and diffusion characterize mutation accumulation and biological information loss",
+    "authors_line": "Stephan Baehr,1∗† Hans Baehr,2,3,4∗†",
+    "affiliations": [
+      "1Biodesign Center for Mechanisms of Evolution, School of Life Sciences,",
+      "Arizona State University, USA",
+      "2Department of Physics and Astronomy,",
+      "University of Georgia, Athens, GA 30602, USA",
+      "3Center for Simulational Physics, University of Georgia, Athens, GA 30602, USA",
+      "4Max Planck Institute for Astronomy, K¨onigstuhl 17, D-69117 Heidelberg, Germany"
+    ],
+    "emails": ["sbaehr@asu.edu, baehr@mpia.de"],
+    "arxiv_line": "arXiv:2510.07265v1  [q-bio.PE]  8 Oct 2025"
+  },
+  "sections": [
+    {
+      "name": "FrontMatter",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 1575,
+      "preview": "Entropy and diffusion characterize mutation accumulation and biological information loss Stephan Baehr... This manuscript considers aging from the perspective of entropy..."
+    },
+    {
+      "name": "Introduction",
+      "page_start": 2,
+      "page_end": 4,
+      "char_count": 3706,
+      "preview": "Introduction ... (сырой текст раздела без разметки предложений, как в PDF; переносы и дефисы сохранены)..."
+    },
+    {
+      "name": "Results",
+      "page_start": 4,
+      "page_end": 10,
+      "char_count": 9769,
+      "preview": "Results ... (длинный сырой текст; внутри есть ссылки вида 'Fig. 1', 'Table 1'; S0 их не интерпретирует)..."
+    },
+    {
+      "name": "Discussion",
+      "page_start": 10,
+      "page_end": 13,
+      "char_count": 5110,
+      "preview": "Discussion ... (сырой текст раздела)..."
+    },
+    {
+      "name": "Methods and Supplementary information",
+      "page_start": 13,
+      "page_end": 23,
+      "char_count": 16327,
+      "preview": "Methods and Supplementary information ... (сырой текст раздела, включая описания данных/процедур)..."
+    }
+  ],
+  "figures": [
+    { "page": 4, "line": 33, "id": "Figure1", "text": "Figure 1A ... (начало капшена; многострочный капшен склеен в одну строку)" },
+    { "page": 6, "line": 1,  "id": "Figure1", "text": "Figure 1: The advection-diffusion solution as a funct... (далее идёт длинный капшен)" },
+    { "page": 6, "line": 11, "id": "Figure1", "text": "Figure 1C and 1D, the model demonstrates that ..." },
+    { "page": 8, "line": 2,  "id": "Figure2", "text": "Figure 2: ... (капшен второй фигуры; полный текст доступен в S0-данных)" },
+    { "page": 10, "line": 5, "id": "Figure3", "text": "Figure 3: ... (капшен третьей фигуры)" }
+  ],
+  "tables": [
+    { "page": 7, "line": 28, "id": "Table1", "text": "Table 1: ... (начало капшена таблицы)" },
+    { "page": 12, "line": 26, "id": "Table2", "text": "Table 2: ... (капшен таблицы)" },
+    { "page": 13, "line": 8,  "id": "Table3", "text": "Table 3: ... (капшен таблицы)" }
+  ],
+  "page_1_blocks_sample": [
+    {
+      "bbox": [120.1, 153.6, 488.9, 199.2],
+      "text_preview": "Entropy and diffusion characterize mutation accumulation and biological information loss"
+    },
+    {
+      "bbox": [120.1, 213.4, 487.4, 233.7],
+      "text_preview": "Stephan Baehr,1∗† Hans Baehr,2,3,4∗†"
+    },
+    {
+      "bbox": [120.1, 245.6, 487.4, 371.8],
+      "text_preview": "1Biodesign Center for Mechanisms of Evolution, School of Life Sciences, Arizona State University, USA ..."
+    }
+  ]
+}
