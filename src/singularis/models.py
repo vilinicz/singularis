@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import Literal, Tuple, Optional
+from typing import Literal, Tuple, Optional, List
 from pydantic import BaseModel
 
 BBox = Tuple[float, float, float, float]
@@ -11,9 +11,19 @@ class SourceRef(BaseModel):
     page: int
     bbox: BBox
 
+
 class TextBlock(BaseModel):
     """Минимальная единица извлечённого текста."""
     page: int
     bbox: BBox
     text: str
     kind: BlockKind = "body"
+
+
+class Segment(BaseModel):
+    """Логическая единица текста (после сегментации)."""
+    page: int
+    text: str
+    kind: BlockKind
+    sentences: List[str]
+
