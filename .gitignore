@@ -49,6 +49,6 @@ Thumbs.db
 # ───────────────
 # Project specific (singularis)
 # ───────────────
-outputs/
-figures/
+#outputs/
+#figures/
 tests/__pycache
