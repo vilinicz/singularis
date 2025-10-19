@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Oral lactic acid bacteria related to the occurrence and/or progression of dental caries in Japanese preschool children</title>
+				<funder>
+					<orgName type="full">Analysis Center of Life Science, Hiroshima University</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Faculty of Medicine</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2015-01-30">January 30, 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Ayumi</forename><surname>Shimada</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pediatric Dentistry</orgName>
+								<orgName type="department" key="dep2">Graduate School of Biomedical and Health Sciences</orgName>
+								<orgName type="institution">Hiroshima University</orgName>
+								<address>
+									<addrLine>1-2-3 Kasumi Minami-ku</addrLine>
+									<postCode>734-8551</postCode>
+									<settlement>Hiroshima</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Masafumi</forename><surname>Noda</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Molecular Microbiology and Biotechnology</orgName>
+								<orgName type="department" key="dep2">Graduate School of Biomedical and Health Sciences</orgName>
+								<orgName type="institution">Hiroshima University</orgName>
+								<address>
+									<addrLine>1-2-3 Kasumi Minami-ku</addrLine>
+									<postCode>734-8551</postCode>
+									<settlement>Hiroshima</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yasuyuki</forename><surname>Matoba</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Molecular Microbiology and Biotechnology</orgName>
+								<orgName type="department" key="dep2">Graduate School of Biomedical and Health Sciences</orgName>
+								<orgName type="institution">Hiroshima University</orgName>
+								<address>
+									<addrLine>1-2-3 Kasumi Minami-ku</addrLine>
+									<postCode>734-8551</postCode>
+									<settlement>Hiroshima</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Takanori</forename><surname>Kumagai</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Molecular Microbiology and Biotechnology</orgName>
+								<orgName type="department" key="dep2">Graduate School of Biomedical and Health Sciences</orgName>
+								<orgName type="institution">Hiroshima University</orgName>
+								<address>
+									<addrLine>1-2-3 Kasumi Minami-ku</addrLine>
+									<postCode>734-8551</postCode>
+									<settlement>Hiroshima</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Katsuyuki</forename><surname>Kozai</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pediatric Dentistry</orgName>
+								<orgName type="department" key="dep2">Graduate School of Biomedical and Health Sciences</orgName>
+								<orgName type="institution">Hiroshima University</orgName>
+								<address>
+									<addrLine>1-2-3 Kasumi Minami-ku</addrLine>
+									<postCode>734-8551</postCode>
+									<settlement>Hiroshima</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Masanori</forename><surname>Sugiyama</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Molecular Microbiology and Biotechnology</orgName>
+								<orgName type="department" key="dep2">Graduate School of Biomedical and Health Sciences</orgName>
+								<orgName type="institution">Hiroshima University</orgName>
+								<address>
+									<addrLine>1-2-3 Kasumi Minami-ku</addrLine>
+									<postCode>734-8551</postCode>
+									<settlement>Hiroshima</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Molecular Microbiology and Biotechnology</orgName>
+								<orgName type="department" key="dep2">Graduate School of Biomedical and Health Sciences</orgName>
+								<orgName type="institution">Hiroshima University</orgName>
+								<address>
+									<addrLine>1-2-3 Kasumi Minami-ku</addrLine>
+									<postCode>734-8551</postCode>
+									<settlement>Hiroshima</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Oral lactic acid bacteria related to the occurrence and/or progression of dental caries in Japanese preschool children</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2015-01-30">January 30, 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">10E8D54B528EF97709953C9175ED2D44</idno>
+					<note type="submission">Received September 2, 2014; Accepted November 29, 2014;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-10-19T13:49+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.8.2-30-gbe6cebd7c</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[s, p, head, figure, table, biblStruct], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>early childhood caries</term>
+					<term>lactic acid bacteria</term>
+					<term>saliva-induced agglutination</term>
+					<term>acidurance</term>
+					<term>probiotics</term>
+					<term>caries prevention</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p coords="1,60.94,248.09,473.40,9.21;1,60.94,259.59,473.40,9.21;1,60.94,271.09,473.35,9.21;1,60.94,282.60,473.40,9.21;1,60.94,294.10,473.37,9.21;1,60.94,305.61,473.58,9.21;1,60.94,317.11,473.38,9.21;1,60.94,328.62,473.38,9.21;1,60.94,340.12,473.40,9.21;1,60.94,351.63,473.41,9.21;1,60.94,363.13,473.38,9.21;1,60.94,374.63,473.39,9.21;1,60.94,386.14,473.37,9.21;1,60.94,397.64,473.36,9.21;1,60.94,409.15,64.12,9.21"><s coords="1,60.94,248.09,473.40,9.21;1,60.94,259.59,376.69,9.21">Previous studies have demonstrated that the presence of lactic acid bacteria (LAB), especially those classified into the genus Lactobacillus, is associated with the progression of dental caries in preschool children.</s><s coords="1,440.41,259.59,93.94,9.21;1,60.94,271.09,402.53,9.21">Nevertheless, the kinds of species of LAB and the characteristics that are important for dental caries have been unclear.</s><s coords="1,466.67,271.09,67.62,9.21;1,60.94,282.60,473.40,9.21;1,60.94,294.10,336.41,9.21">The aims of this study were: (1) to investigate the distribution of oral LAB among Japanese preschool children with various prevalence levels of caries; and (2) to reveal the characteristics of these isolated LAB species.</s><s coords="1,400.38,294.10,133.94,9.21;1,60.94,305.61,473.58,9.21;1,60.94,317.11,133.71,9.21">Seventy-four Japanese preschool children were examined for caries scores and caries progression, and their dental cavity samples were collected for LAB isolation and identification.</s><s coords="1,197.44,317.11,336.89,9.21;1,60.94,328.62,151.78,9.21">The saliva-induced agglutination rate and the resistance to acidic environments of the identified strains were measured.</s><s coords="1,215.86,328.62,318.47,9.21;1,60.94,340.12,473.40,9.21;1,60.94,351.63,473.41,9.21;1,60.94,363.13,244.94,9.21">Statistical analysis showed that preschool children carrying Lactobacillus (L.) salivarius or Streptococcus mutans have a significantly higher prevalence of dental caries, the growth ability in acidic environments correlates with the caries scores of individuals with L. salivarius, and the caries scores exhibit positive correlation with saliva-induced agglutination in L. salivarius.</s><s coords="1,307.94,363.13,226.38,9.21;1,60.94,374.63,290.68,9.21">These results show that specific Lactobacillus species are associated with dental caries based on the level of carious lesion severity.</s><s coords="1,353.63,374.63,180.71,9.21;1,60.94,386.14,473.37,9.21;1,60.94,397.64,473.36,9.21;1,60.94,409.15,64.12,9.21">The present study suggests that these specific Lactobacillus species, especially those with easily agglutinated properties and acid resistance, affect the dental caries scores of preschool children, and that these properties may provide useful information for research into the prevention of dental caries.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head coords="1,137.20,484.38,74.96,9.21">INTRODUCTION</head><p coords="1,70.87,508.98,217.56,9.69;1,60.95,521.48,86.65,9.69;1,163.41,521.48,125.02,9.69;1,60.95,533.98,227.48,9.69;1,60.95,546.48,227.48,9.69;1,60.95,558.98,227.49,9.69;1,60.95,571.48,227.48,9.69;1,60.95,583.98,87.69,9.69;1,174.58,583.98,113.83,9.69;1,60.95,596.48,227.48,9.69;1,306.86,483.98,227.48,9.69;1,306.86,496.48,160.59,9.69;1,489.56,496.48,44.77,9.69;1,306.85,508.98,227.49,9.69;1,306.85,521.48,227.48,9.69;1,306.85,533.98,185.95,9.69;1,505.44,533.98,28.89,9.69;1,306.85,546.48,227.48,9.69;1,306.85,558.98,66.26,9.69;1,401.52,558.98,132.81,9.69;1,306.85,571.48,227.48,9.69;1,306.85,583.98,227.48,9.69;1,306.85,596.48,56.90,9.69;1,382.65,596.48,151.67,9.69;1,306.85,608.98,227.48,9.69;1,306.85,621.48,190.74,9.69;1,530.37,621.48,3.96,9.69;1,306.85,633.98,227.47,9.69;1,306.85,646.48,227.49,9.69;1,306.85,658.98,227.48,9.69;1,306.85,671.48,227.49,9.69;1,306.85,683.98,150.26,9.69;1,474.93,683.98,3.83,9.69"><s coords="1,70.87,508.98,217.56,9.69;1,60.95,521.48,106.00,9.69">Microorganisms that bring health benefits to humans are called probiotics <ref type="bibr" target="#b0">[1]</ref>.</s><s coords="1,172.14,521.48,116.29,9.69;1,60.95,533.98,227.48,9.69;1,60.95,546.48,227.48,9.69;1,60.95,558.98,28.61,9.69">Some strains of lactic acid bacteria (LAB) that are recognized as probiotics are very useful for producing fermented foods such as yogurt.</s><s coords="1,91.78,558.98,196.66,9.69;1,60.95,571.48,227.48,9.69;1,60.95,583.98,227.46,9.69">LAB themselves and foods fermented using them are also known to display anti-allergy properties and intestinal homeostasis <ref type="bibr" target="#b0">[1]</ref><ref type="bibr">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> as health benefits to humans.</s><s coords="1,60.95,596.48,227.48,9.69;1,306.86,483.98,227.48,9.69;1,306.86,496.48,186.73,9.69">Furthermore, certain LAB strains inhibit the growth of specific pathogenic oral bacteria, such as Porphyromonas gingivalis and Streptococcus (S.) mutans <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>.</s><s coords="1,495.58,496.48,38.75,9.69;1,306.85,508.98,227.49,9.69;1,306.85,521.48,227.48,9.69;1,306.85,533.98,202.13,9.69">However, there has also been research that has shown that LAB, especially the genus Lactobacillus (L.), also might be associated with the progression of dental caries <ref type="bibr" target="#b7">[8]</ref>.</s><s coords="1,511.00,533.98,23.33,9.69;1,306.85,546.48,227.48,9.69;1,306.85,558.98,98.84,9.69">Many previous studies on the etiology of childhood caries have been carried out <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref>.</s><s coords="1,409.11,558.98,125.22,9.69;1,306.85,571.48,227.48,9.69;1,306.85,583.98,227.48,9.69;1,306.85,596.48,79.64,9.69">In fact, it has been shown that Lactobacillus species were more frequently detected in preschool children with severe dental caries than in older children <ref type="bibr" target="#b14">[15]</ref>.</s><s coords="1,390.08,596.48,144.25,9.69;1,306.85,608.98,227.48,9.69;1,306.85,621.48,227.48,9.69">It also has been shown that certain species of lactobacilli and bifidobacteria have been closely associated with dental caries in children <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b15">16]</ref>.</s><s coords="1,306.85,633.98,227.47,9.69;1,306.85,646.48,106.09,9.69">There is also a report that the genus Lactobacillus was dominant in severe caries.</s><s coords="1,416.00,646.48,118.34,9.69;1,306.85,658.98,227.48,9.69;1,306.85,671.48,227.49,9.69;1,306.85,683.98,171.92,9.69">It has been shown that as the caries of young permanent teeth progress to deep lesions, the detectable frequency of Lactobacillus strains in the carious lesions increases significantly <ref type="bibr" target="#b16">[17]</ref>.</s></p><p coords="1,316.77,696.48,217.57,9.69;1,306.85,708.98,152.11,9.69;1,472.03,708.98,62.31,9.69;2,60.94,83.98,226.78,9.69;2,60.94,96.48,226.76,9.69;2,60.94,108.98,175.50,9.69;2,268.83,108.98,4.27,9.69"><s coords="1,316.77,696.48,217.57,9.69;1,306.85,708.98,227.49,9.69;2,60.94,83.98,226.78,9.69;2,60.94,96.48,57.94,9.69">Although there is a possibility that oral lactobacilli might be a risk factor for dental caries <ref type="bibr" target="#b7">[8]</ref>, the cariogenic characteristics of the Lactobacillus species have not yet been clarified.</s><s coords="2,122.68,96.48,165.02,9.69;2,60.94,108.98,212.16,9.69">S. mutans and S. sobrinus might harbor species-or strain-specific cariogenic factors <ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref>.</s></p><p coords="2,70.86,121.48,216.86,9.69;2,60.94,133.98,226.78,9.69;2,60.94,146.48,226.76,9.69;2,60.94,158.98,226.76,9.69;2,60.94,171.48,226.75,9.69;2,60.94,183.98,226.78,9.69;2,60.94,196.48,226.77,9.69;2,60.94,208.98,115.55,9.69"><s coords="2,70.86,121.48,216.86,9.69;2,60.94,133.98,226.78,9.69;2,60.94,146.48,226.76,9.69;2,60.94,158.98,226.76,9.69">In the present study, to verify which species of LAB are related to the occurrence and/or progression of dental caries, we isolated lactobacilli in the oral cavities of 74 Japanese preschool children with various caries scores.</s><s coords="2,60.94,171.48,226.75,9.69;2,60.94,183.98,226.78,9.69;2,60.94,196.48,226.77,9.69;2,60.94,208.98,115.55,9.69">In addition, to assess the cariogenic potential of the LAB isolates, we taxonomically identified the isolates and measured the saliva-induced agglutination rate and ability to resist to lactic acid.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head coords="2,110.18,234.31,128.30,9.21">MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head coords="2,60.94,257.82,66.56,9.69">Study population</head><p coords="2,70.86,271.48,216.85,9.69;2,60.94,283.98,226.77,9.69;2,60.94,296.48,226.78,9.69;2,60.94,308.98,226.77,9.69;2,60.94,321.48,216.95,9.69;2,283.93,321.48,3.75,9.69;2,60.94,333.98,226.76,9.69;2,60.94,346.48,226.79,9.69;2,60.94,358.98,226.76,9.69;2,60.94,371.48,226.76,9.69;2,60.94,383.98,226.77,9.69;2,60.94,396.48,226.78,9.69;2,60.94,408.98,226.77,9.69;2,60.94,421.48,226.78,9.69;2,60.94,433.98,226.79,9.69;2,60.94,446.48,226.77,9.69;2,60.94,458.98,226.78,9.69;2,60.94,471.48,226.77,9.69;2,60.94,483.98,226.77,9.69;2,60.94,496.48,226.75,9.69;2,60.94,508.98,226.78,9.69;2,60.94,521.48,226.79,9.69;2,60.94,533.98,226.78,9.69;2,60.94,546.48,226.78,9.69;2,60.94,558.98,226.78,9.69;2,60.94,571.48,213.61,9.69"><s coords="2,70.86,271.48,216.85,9.69;2,60.94,283.98,226.77,9.69">The subjects were patients who consulted the Hiroshima University Hospital of Pediatric Dentistry.</s><s coords="2,60.94,296.48,226.78,9.69;2,60.94,308.98,226.77,9.69;2,60.94,321.48,23.52,9.69">Seventy-four Japanese preschool children from 9-72 months of age with primary dentition participated in the study.</s><s coords="2,86.57,321.48,201.11,9.69">The background for this study is shown in Table <ref type="table" target="#tab_0">1</ref>.</s><s coords="2,60.94,333.98,226.76,9.69;2,60.94,346.48,226.79,9.69">Prior to starting this study, we obtained written informed consent from the guardians of all study participants.</s><s coords="2,60.94,358.98,226.76,9.69;2,60.94,371.48,226.76,9.69;2,60.94,383.98,226.77,9.69">Additionally, this clinical study was approved by the ethics committee of Hiroshima University and performed according to the guidelines of the Declaration of Helsinki.</s><s coords="2,60.94,396.48,226.78,9.69;2,60.94,408.98,226.77,9.69;2,60.94,421.48,226.78,9.69;2,60.94,433.98,226.79,9.69;2,60.94,446.48,226.77,9.69;2,60.94,458.98,226.78,9.69;2,60.94,471.48,52.82,9.69">The caries scores of each participant were recorded as the dmft (the sum total of decayed caries and missing and filled tooth surfaces of primary dentition) scores and dt, mt and ft (decayed teeth, missing teeth and filled teeth, respectively, of primary dentition) scores according to criteria adapted from the World Health Organization's 1997 criteria.</s><s coords="2,115.75,471.48,171.96,9.69;2,60.94,483.98,226.77,9.69;2,60.94,496.48,63.28,9.69">Using a light source and a dental mirror, the children were checked for caries by trained examiners at a dental unit.</s><s coords="2,126.71,496.48,160.98,9.69;2,60.94,508.98,226.78,9.69;2,60.94,521.48,226.79,9.69;2,60.94,533.98,226.78,9.69;2,60.94,546.48,226.78,9.69;2,60.94,558.98,226.78,9.69;2,60.94,571.48,213.61,9.69">After ocular and x-ray examination, the progression of all lesions in the subjects was classified as follows: CO, caries observed on the surface as white-spot lesions; C1, cavitated enamel caries lesions observed; C2, caries lesions extending into the dentin; C3, caries lesions extending into the dental pulp; C4, crown of the tooth missing, with only the root structure remaining.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head coords="2,60.94,595.32,141.58,9.69">Isolation of oral lactic acid bacteria</head><p coords="2,70.86,608.98,216.84,9.69;2,60.94,621.48,226.76,9.69;2,60.94,633.98,226.77,9.69;2,60.94,646.48,226.76,9.69;2,60.94,658.98,218.96,9.69;2,279.90,657.67,5.32,6.78;2,285.22,658.98,2.50,9.69;2,60.95,671.48,226.79,9.69;2,60.95,683.98,226.77,9.69;2,60.95,696.48,226.77,9.69;2,60.95,708.98,226.78,9.69;2,307.56,83.98,226.79,9.69;2,307.56,96.48,226.78,9.69;2,307.56,108.98,226.77,9.69;2,307.56,121.48,226.78,9.69;2,307.56,133.98,226.75,9.69;2,307.56,146.48,226.76,9.69;2,307.56,158.98,226.77,9.69;2,307.56,171.48,226.77,9.69;2,307.56,183.98,226.77,9.69;2,307.56,196.48,226.78,9.69;2,307.56,208.98,226.78,9.69;2,307.56,221.48,226.77,9.69;2,307.56,233.98,226.76,9.69;2,307.56,246.48,40.82,9.69"><s coords="2,70.86,608.98,216.84,9.69;2,60.94,621.48,210.23,9.69">LAB were collected from the buccal-side surfaces of teeth on the upper jaw using sterilized cotton swabs.</s><s coords="2,273.81,621.48,13.89,9.69;2,60.94,633.98,226.77,9.69;2,60.94,646.48,202.32,9.69">For this trial, mouthwash was restricted just before collecting the sample, but there were no other limitations.</s><s coords="2,267.71,646.48,19.99,9.69;2,60.94,658.98,218.96,9.69;2,279.90,657.67,5.32,6.78;2,285.22,658.98,2.50,9.69;2,60.95,671.48,226.79,9.69">Each swab was put into Cariostat liquid medium (CAT21 Test ® , Morita Co., Ltd., Osaka, Japan) at room temperature.</s><s coords="2,60.95,683.98,226.77,9.69;2,60.95,696.48,226.77,9.69;2,60.95,708.98,226.78,9.69;2,307.56,83.98,226.79,9.69;2,307.56,96.48,203.76,9.69">Within 30 min, a 100-μl portion of the medium was plated onto Rogosa agar medium (Oxoid, Basingstoke, UK) for lactobacilli selection and MRS agar medium (Merck KGaA, Darmstadt, Germany) for LAB selection and incubated anaerobically at 37°C for 1-2 days.</s><s coords="2,514.35,96.48,19.99,9.69;2,307.56,108.98,226.77,9.69;2,307.56,121.48,226.78,9.69;2,307.56,133.98,226.75,9.69">Each colony generated on the plate surface was picked up based on differences in shape, color, and margin and spread onto fresh agar medium for colony purification.</s><s coords="2,307.56,146.48,226.76,9.69;2,307.56,158.98,226.77,9.69;2,307.56,171.48,226.77,9.69;2,307.56,183.98,226.77,9.69;2,307.56,196.48,226.78,9.69">Prior to taxonomical identification of the LAB by 16S ribosomal DNA (rDNA), catalase production tests of the purified colonies were done as follows: each single colony was scraped using a sterilized inoculating loop and suspended in a 10% (w/v) hydrogen peroxide drop.</s><s coords="2,307.56,208.98,226.78,9.69;2,307.56,221.48,112.37,9.69">If the suspension frothed up, it was determined to be a catalase-positive bacterium.</s><s coords="2,423.17,221.48,111.16,9.69;2,307.56,233.98,226.76,9.69;2,307.56,246.48,40.82,9.69">However, if the sample did not produce oxygen gas, it was considered to be an LAB candidate.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head coords="2,307.56,270.32,126.72,9.69">Identification of LAB candidates</head><p coords="2,317.48,283.98,216.85,9.69;2,307.56,296.48,226.77,9.69;2,307.56,308.98,226.77,9.69;2,307.56,321.48,226.77,9.69;2,322.88,333.98,211.45,9.69;2,307.56,346.48,226.76,9.69;2,307.56,358.98,226.76,9.69;2,307.56,371.48,226.78,9.69;2,307.56,383.98,226.77,9.69;2,307.56,396.48,226.78,9.69;2,307.56,408.98,226.77,9.69;2,307.56,421.48,205.22,9.69"><s coords="2,317.48,283.98,216.85,9.69;2,307.56,296.48,226.77,9.69">To identify the LAB candidates, the V1-V3 regions of the 16S rDNA sequence of each strain were determined.</s><s coords="2,307.56,308.98,226.77,9.69;2,307.56,321.48,226.77,9.69;2,307.56,333.98,19.16,9.69">Chromosomal DNA from each LAB was isolated from the cell mass grown at 37°C for 24 h as described previously <ref type="bibr" target="#b20">[21]</ref>.</s><s coords="2,328.09,333.98,206.25,9.69;2,307.56,346.48,226.76,9.69;2,307.56,358.98,226.76,9.69;2,307.56,371.48,226.78,9.69">The entire 16S rDNA region was PCR amplified with 27f (5′-AGAGTTTGATCCTGGCTCAG-3′) and 1525r (5′-AAAGGAGGTGATCCAGCC-3′) primers, using the LAB candidate's chromosomal DNA as a template.</s><s coords="2,307.56,383.98,226.77,9.69;2,307.56,396.48,226.78,9.69;2,307.56,408.98,226.77,9.69;2,307.56,421.48,205.22,9.69">PCR was conducted under the following conditions: 1 cycle of 5 min at 96°C, 15 s at 55°C and 1.5 min at 72°C; 29 cycles of 1 min at 96°C, 15 s at 55°C and 1.5 min at 72°C; and finally a 7 min extension period at 72°C.</s></p><p coords="2,317.48,433.98,216.84,9.69;2,307.56,446.48,226.77,9.69;2,307.56,458.98,226.77,9.69;2,307.56,471.48,30.55,9.69;2,371.20,471.48,163.13,9.69;2,307.56,483.98,92.62,9.69;2,400.19,482.67,5.32,6.78;2,411.75,483.98,122.58,9.69;2,307.56,496.48,42.47,9.69;2,350.03,495.17,5.32,6.78;2,362.09,496.48,172.24,9.69;2,307.56,508.98,226.78,9.69;2,307.56,521.48,226.76,9.69;2,307.56,533.98,226.76,9.69;2,307.56,546.48,226.77,9.69;2,307.56,558.98,226.77,9.69;2,307.56,571.48,226.78,9.69;2,307.56,583.98,226.76,9.69;2,307.56,596.48,30.55,9.69;2,354.16,596.48,4.19,9.69;2,525.97,596.48,8.38,9.69;2,307.56,608.98,226.76,9.69;2,307.56,621.48,202.94,9.69;2,398.49,633.98,7.58,9.69"><s coords="2,317.48,433.98,216.84,9.69;2,307.56,446.48,226.77,9.69;2,307.56,458.98,226.77,9.69;2,307.56,471.48,67.91,9.69">The V1-V3 regions of the 16S rDNA sequence were determined using the 27f, r1L (5′-GTATTACCGCGGCTGC-TGG-3′), and r2L' (5′-GACTACCAGGGTATCTAATC-3′) primers <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref>.</s><s coords="2,378.67,471.48,155.66,9.69;2,307.56,483.98,92.62,9.69;2,400.19,482.67,5.32,6.78;2,411.75,483.98,122.58,9.69;2,307.56,496.48,42.47,9.69;2,350.03,495.17,5.32,6.78;2,362.09,496.48,172.24,9.69;2,307.56,508.98,226.78,9.69;2,307.56,521.48,129.27,9.69">Nucleotide sequencing was performed with an ABI PRISM ® 310 Genetic Analyzer using a BigDye ® Terminator v1.1 Cycle Sequencing Kit (Applied Biosystems, Foster City, CA, USA) according to the manufacturer's protocol.</s><s coords="2,441.19,521.48,93.13,9.69;2,307.56,533.98,226.76,9.69;2,307.56,546.48,207.55,9.69">Genetic analyses were performed using the ATGC software and GENETYX software (GENETYX Corporation, Tokyo, Japan).</s><s coords="2,518.78,546.48,15.55,9.69;2,307.56,558.98,226.77,9.69;2,307.56,571.48,226.78,9.69;2,307.56,583.98,226.76,9.69;2,307.56,596.48,30.55,9.69;2,354.16,596.48,4.19,9.69;2,525.97,596.48,8.38,9.69;2,307.56,608.98,226.76,9.69;2,307.56,621.48,202.94,9.69;2,398.49,633.98,7.58,9.69">The determined sequences of the V1-V3 regions of LAB candidates were compared with those of the LAB strain obtained from the DNA Data Bank of Japan (DDBJ) website (<ref type="url" target="http://www.ddbj.nig.ac.jp/Welcome-e.html">http://www.ddbj.nig.ac.jp/Welcome-e.html</ref>), and LAB species were identified by analyzing the sequence alignment using the ClustalW program (<ref type="url" target="http://clustalw.ddbj.nig.ac.jp/">http://  clustalw.ddbj.nig.ac.jp/</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head coords="2,307.56,657.82,73.39,9.69">Statistical analysis</head><p coords="2,317.48,671.48,216.84,9.69;2,307.56,683.98,226.78,9.69;2,307.56,696.48,226.76,9.69;2,307.56,708.98,187.79,9.69;2,530.36,708.98,3.96,9.69"><s coords="2,317.48,671.48,216.84,9.69;2,307.56,683.98,226.78,9.69">All statistical analyses were conducted using the SPSS 17.0 software (SPSS Japan, Inc., Tokyo, Japan).</s><s coords="2,307.56,696.48,226.76,9.69;2,307.56,708.98,226.76,9.69">Differences in caries scores in the groups were assessed with Welch's t-tests (unequal variance t-tests) <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b25">26]</ref>.</s></p><p coords="3,60.94,196.48,227.49,9.69;3,60.94,208.98,227.48,9.69;3,60.94,221.48,227.48,9.69;3,60.94,233.98,227.47,9.69;3,60.94,246.48,227.47,9.69;3,60.94,258.98,227.49,9.69;3,60.94,271.48,227.47,9.69;3,60.94,283.98,227.48,9.69;3,60.94,296.48,227.49,9.69;3,60.94,308.98,227.47,9.69;3,60.94,321.48,180.08,9.69"><s coords="3,60.94,196.48,227.49,9.69;3,60.94,208.98,227.48,9.69;3,60.94,221.48,68.15,9.69">Fisher's exact test was applied to assess differences in the occurrence of caries between the subjects with and without specific isolates.</s><s coords="3,134.02,221.48,154.40,9.69;3,60.94,233.98,227.47,9.69">The coexistence of specific LAB in subjects was assessed by determining the Phi coefficient.</s><s coords="3,60.94,246.48,227.47,9.69;3,60.94,258.98,227.49,9.69;3,60.94,271.48,79.64,9.69">The influences of the presence of LAB on caries scores and caries progression were estimated by multiple linear regression analysis.</s><s coords="3,144.24,271.48,144.17,9.69;3,60.94,283.98,227.48,9.69;3,60.94,296.48,227.49,9.69;3,60.94,308.98,48.04,9.69">The association between the caries scores and the properties of the lactobacillus isolates was calculated as Spearman's rho (rank correlation coefficient).</s><s coords="3,111.56,308.98,176.85,9.69;3,60.94,321.48,180.08,9.69">All statistical analyses were two tailed, and p&lt;0.05 was significant for all statistical tests.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head coords="3,60.94,345.32,167.85,9.69">Evaluation of saliva-induced agglutination</head><p coords="3,70.86,358.98,217.54,9.69;3,60.94,371.48,227.49,9.69;3,60.94,383.98,83.38,9.69;3,162.49,383.98,125.95,9.69;3,60.94,396.48,55.14,9.69;3,116.09,400.67,10.50,6.78;3,132.09,396.48,156.33,9.69;3,60.95,408.98,227.47,9.69;3,60.95,421.48,227.50,9.69;3,60.95,433.98,227.48,9.69;3,60.95,446.48,227.48,9.69;3,60.95,458.98,227.49,9.69;3,60.95,471.48,227.49,9.69;3,60.95,483.98,227.50,9.69;3,60.95,496.48,227.48,9.69;3,60.95,508.98,227.49,9.69;3,60.95,521.48,55.86,9.69;3,116.80,525.67,3.50,6.78;3,120.30,521.48,12.78,9.69;3,133.09,525.67,3.50,6.78;3,136.59,521.48,58.66,9.69;3,195.25,525.67,3.50,6.78;3,198.75,521.48,20.00,9.69;3,218.75,525.67,3.50,6.78;3,222.25,521.48,66.17,9.69;3,60.94,533.98,227.47,9.69;3,60.94,546.48,65.51,9.69;3,126.47,550.67,10.50,6.78;3,140.18,546.48,148.24,9.69;3,60.94,558.98,227.49,9.69;3,60.94,571.48,181.59,9.69;3,242.55,575.67,3.50,6.78;3,249.89,571.48,38.53,9.69;3,60.94,583.98,227.46,9.69;3,60.94,596.48,14.44,9.69;3,75.39,600.67,10.50,6.78;3,88.58,596.48,199.85,9.69;3,60.95,608.98,227.48,9.69;3,60.95,621.48,227.49,9.69;3,60.95,633.98,227.49,9.69;3,60.95,646.48,227.48,9.69;3,60.95,658.98,184.95,9.69"><s coords="3,70.86,358.98,217.54,9.69;3,60.94,371.48,227.49,9.69;3,60.94,383.98,105.38,9.69">The evaluation of saliva-induced agglutination of each LAB isolate was performed according to the protocol described previously <ref type="bibr" target="#b26">[27]</ref>.</s><s coords="3,168.98,383.98,119.46,9.69;3,60.94,396.48,55.14,9.69;3,116.09,400.67,10.50,6.78;3,132.09,396.48,156.33,9.69;3,60.95,408.98,227.47,9.69;3,60.95,421.48,46.15,9.69">To calculate the agglutination rate, the OD 550 decrease of the cell suspension was continuously measured after adding saliva during a 6-h period.</s><s coords="3,111.87,421.48,176.58,9.69;3,60.95,433.98,227.48,9.69;3,60.95,446.48,95.18,9.69">Unstimulated saliva was collected from a healthy woman without eating and toothbrushing within 2 h and stored on ice.</s><s coords="3,160.49,446.48,127.94,9.69;3,60.95,458.98,227.49,9.69;3,60.95,471.48,227.49,9.69;3,60.95,483.98,189.49,9.69">After the debris was removed by centrifugation at 12,000 × g for 15 min at 4°C, the resulting supernatant fluid was filtered using a membrane filter (φ = 0.45 μm) and stored at 4°C until use.</s><s coords="3,252.51,483.98,35.94,9.69;3,60.95,496.48,227.48,9.69;3,60.95,508.98,227.49,9.69;3,60.95,521.48,55.86,9.69;3,116.80,525.67,3.50,6.78;3,120.30,521.48,12.78,9.69;3,133.09,525.67,3.50,6.78;3,136.59,521.48,58.66,9.69;3,195.25,525.67,3.50,6.78;3,198.75,521.48,20.00,9.69;3,218.75,525.67,3.50,6.78;3,222.25,521.48,66.17,9.69;3,60.94,533.98,227.47,9.69;3,60.94,546.48,65.51,9.69;3,126.47,550.67,10.50,6.78;3,140.18,546.48,20.49,9.69">After the LAB strains were grown to the stationary phase in MRS broth, the cells were washed with agglutination buffer (1.5 mM KH 2 PO 4 , 6.5 mM Na 2 HPO 4 , 2.7 mM KCl, 137 mM NaCl, pH 7.2) twice and suspended in the same buffer to an OD 550 ≈1.5.</s><s coords="3,163.69,546.48,124.73,9.69;3,60.94,558.98,227.49,9.69;3,60.94,571.48,181.59,9.69;3,242.55,575.67,3.50,6.78;3,249.89,571.48,38.53,9.69;3,60.94,583.98,210.19,9.69">The assay mixture (3 mL) was added to a 10-mm path length cuvette and was composed of a cell suspension (2 mL), 1 mM of CaCl 2 (200 µL), saliva (200 µL) and an agglutination buffer (600 µL).</s><s coords="3,272.85,583.98,15.55,9.69;3,60.94,596.48,14.44,9.69;3,75.39,600.67,10.50,6.78;3,88.58,596.48,199.85,9.69;3,60.95,608.98,227.48,9.69;3,60.95,621.48,138.95,9.69">The OD 550 value of the reaction mixture was measured using a JASCO V-550 UV/VIS Spectrophotometer (JASCO Corporation, Tokyo, Japan) at RT.</s><s coords="3,203.01,621.48,85.43,9.69;3,60.95,633.98,152.35,9.69">The reaction mixture without saliva was used as a control.</s><s coords="3,216.61,633.98,71.83,9.69;3,60.95,646.48,227.48,9.69;3,60.95,658.98,24.16,9.69">The agglutination rate of the control was subtracted from each sample assay value.</s><s coords="3,87.05,658.98,158.85,9.69">All assays were performed in duplicate.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head coords="3,60.95,682.82,113.77,9.69">Evaluation of acid resistance</head><p coords="3,70.87,696.48,217.56,9.69;3,60.95,708.98,202.49,9.69;3,284.61,708.98,3.83,9.69"><s coords="3,70.87,696.48,217.56,9.69;3,60.95,708.98,227.49,9.69">The acid resistance of each LAB isolate was measured according to the protocol described previously <ref type="bibr" target="#b27">[28]</ref>.</s></p><p coords="3,306.86,196.48,205.85,9.69;3,512.70,200.67,10.50,6.78;3,526.00,196.48,8.33,9.69;3,306.85,208.98,227.47,9.69;3,306.85,221.48,227.47,9.69;3,306.85,233.98,227.50,9.69;3,306.85,246.48,227.49,9.69;3,306.85,258.98,227.47,9.69;3,306.85,271.48,227.47,9.69;3,306.85,283.98,227.48,9.69;3,306.85,296.48,227.49,9.69;3,306.85,308.98,227.47,9.69;3,306.85,321.48,227.49,9.69;3,306.85,333.98,227.84,9.69;3,306.85,346.48,227.48,9.69;3,306.85,358.98,157.56,9.69;3,464.42,363.17,10.50,6.78;3,478.81,358.98,55.53,9.69;3,306.86,371.48,174.85,9.69;3,481.72,370.17,5.32,6.78;3,489.88,371.48,44.45,9.69;3,306.85,383.98,227.48,9.69;3,306.85,396.48,227.47,9.69;3,306.85,408.98,227.48,9.69;3,306.85,421.48,92.49,9.69;3,399.33,425.67,10.50,6.78;3,412.33,421.48,84.16,9.69"><s coords="3,306.86,196.48,205.85,9.69;3,512.70,200.67,10.50,6.78;3,526.00,196.48,8.33,9.69;3,306.85,208.98,227.47,9.69;3,306.85,221.48,227.47,9.69;3,306.85,233.98,227.50,9.69;3,306.85,246.48,227.49,9.69;3,306.85,258.98,227.47,9.69;3,306.85,271.48,66.43,9.69">Briefly, resistance was tested by measuring the OD 600 of the culture grown in MRS medium supplemented with either acetic acid (AcOH) or lactic acid at concentrations from 0 to 2.0% (v/v), which corresponds to a pH range of 4.16 to 5.18 in acetic acid and a pH range of 3.86 to 5.40 in lactic acid, respectively, in a flat-bottom 96-well microtiter plate.</s><s coords="3,378.15,271.48,156.17,9.69;3,306.85,283.98,227.48,9.69;3,306.85,296.48,227.49,9.69;3,306.85,308.98,195.61,9.69">The cells, which were grown to the stationary phase in MRS broth, were washed with PBS (phosphate buffered saline) (-) and resuspended in the same buffer at an optical density of 0.5 at 600 nm.</s><s coords="3,504.38,308.98,29.94,9.69;3,306.85,321.48,227.49,9.69;3,306.85,333.98,227.84,9.69;3,306.85,346.48,171.75,9.69">In a 96well plate, a 50-μl portion of the cell suspension, which was diluted 12.5 times using PBS (-), was added to 150 µL MRS medium with or without acetic acid.</s><s coords="3,481.16,346.48,53.17,9.69;3,306.85,358.98,157.56,9.69;3,464.42,363.17,10.50,6.78;3,478.81,358.98,55.53,9.69;3,306.86,371.48,174.85,9.69;3,481.72,370.17,5.32,6.78;3,489.88,371.48,44.45,9.69;3,306.85,383.98,203.75,9.69">After 72 h of anaerobic incubation at 37°C, the OD 600 value for cell grown was measured using a 2300 EnSpire ® Multimode Plate Reader (PerkinElmer, Boston, MA, USA).</s><s coords="3,514.89,383.98,19.44,9.69;3,306.85,396.48,227.47,9.69;3,306.85,408.98,227.48,9.69;3,306.85,421.48,92.49,9.69;3,399.33,425.67,10.50,6.78;3,412.33,421.48,84.16,9.69">Acid resistance assays were performed in duplicate and evaluated as the relative ratio of cell growth as calculated by normalizing the OD 600 to that of the control.</s></p><p coords="3,316.77,433.98,77.19,9.69;3,393.95,438.17,7.00,6.78;3,403.96,433.98,130.37,9.69;3,306.85,446.48,227.48,9.69;3,306.85,458.98,227.48,9.69;3,306.85,471.48,227.48,9.69;3,306.85,483.98,227.47,9.69;3,306.85,496.48,227.48,9.69;3,306.85,508.98,93.88,9.69;3,353.62,521.48,59.01,9.69;3,412.63,520.17,11.65,6.78;3,424.27,521.48,5.83,9.69;3,306.85,533.98,150.27,9.69"><s coords="3,316.77,433.98,77.19,9.69;3,393.95,438.17,7.00,6.78;3,403.96,433.98,130.37,9.69;3,306.85,446.48,227.48,9.69;3,306.85,458.98,227.48,9.69;3,306.85,471.48,227.48,9.69;3,306.85,483.98,160.94,9.69">To calculate the IC 50 value, the concentration causing 50% growth inhibition of each acid, a dose-dependent curve was drawn by plotting the acid concentration (X in the following equation) versus the percentage of control growth (Y in the following equation).</s><s coords="3,472.26,483.98,62.06,9.69;3,306.85,496.48,227.48,9.69;3,306.85,508.98,93.88,9.69;3,353.62,521.48,59.01,9.69;3,412.63,520.17,11.65,6.78;3,424.27,521.48,5.83,9.69;3,306.85,533.98,150.27,9.69">The value was calculated from the sigmoidal curve using the following logistic curve equation: Y = α / (1 + βe -γX ), where α, β, and γ are given constants.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head coords="3,399.66,559.31,41.85,9.21">RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head coords="3,306.85,582.82,110.07,9.69">Subjects and characteristics</head><p coords="3,316.77,596.48,217.57,9.69;3,306.85,608.98,227.49,9.69;3,306.85,621.48,227.48,9.69;3,306.85,633.98,227.48,9.69;3,306.85,646.48,227.46,9.69;3,306.85,658.98,227.49,9.69;3,306.85,671.48,227.45,9.69;3,306.85,683.98,227.51,9.69;3,306.85,696.48,227.47,9.69;3,306.85,708.98,212.72,9.69;3,527.12,708.98,7.22,9.69;4,60.94,83.98,226.78,9.69;4,60.94,96.48,226.77,9.69;4,60.94,108.98,226.77,9.69;4,60.94,121.48,119.33,9.69"><s coords="3,316.77,596.48,217.57,9.69;3,306.85,608.98,227.49,9.69;3,306.85,621.48,227.48,9.69;3,306.85,633.98,52.84,9.69">A total of 74 Japanese preschool children (39 males and 35 females, aged 41.0 ± 13.3 months) were enrolled in the study; no subjects had missing teeth caused by dental caries.</s><s coords="3,362.09,633.98,172.24,9.69;3,306.85,646.48,122.94,9.69">They had mean dt and dmft scores of 4.5 ± 0.6 and 7.0 ± 0.7, respectively.</s><s coords="3,432.18,646.48,102.13,9.69;3,306.85,658.98,227.49,9.69;3,306.85,671.48,227.45,9.69;3,306.85,683.98,227.51,9.69;3,306.85,696.48,227.47,9.69;3,306.85,708.98,227.49,9.69">There were no significant differences in ages (42.0 ± 13.8 months in males and 39.8 ± 12.8 months in females; p=0.484), dt scores (4.8 ± 0.9 in males and 4.1 ± 0.7 in females; p=0.519), and dmft scores (7.6 ± 1.0 in males and 6.3 ± 1.0 in females; p=0.343) between male and female children (Table <ref type="table" target="#tab_0">1</ref>).</s><s coords="4,60.94,83.98,226.78,9.69;4,60.94,96.48,226.77,9.69;4,60.94,108.98,226.77,9.69;4,60.94,121.48,38.97,9.69">Among the subjects, 56 children (75.7%) were diagnosed as having dental caries (30 males and 26 females), and no significant difference was observed between the sexes (p=1.000,</s><s coords="4,102.41,121.48,77.86,9.69">Fisher's exact test).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head coords="4,60.94,145.32,154.27,9.69">Isolation and identification of oral LAB</head><p coords="4,70.86,158.98,216.86,9.69;4,60.94,171.48,226.77,9.69;4,60.94,183.98,226.78,9.69;4,60.94,196.48,226.78,9.69;4,60.94,208.98,226.77,9.69;4,60.94,221.48,226.78,9.69;4,60.94,233.98,226.79,9.69;4,60.94,246.48,226.77,9.69;4,60.94,258.98,25.40,9.69;4,95.82,258.98,191.88,9.69;4,60.94,271.48,226.77,9.69;4,60.94,283.98,226.77,9.69;4,60.93,296.48,226.77,9.69;4,60.93,308.98,226.78,9.69;4,60.93,321.48,226.76,9.69;4,60.93,333.98,226.77,9.69;4,60.93,346.48,226.77,9.69;4,60.93,358.98,226.77,9.69;4,60.93,371.48,226.77,9.69;4,60.93,383.98,226.76,9.69;4,60.93,396.48,226.78,9.69;4,60.93,408.98,226.78,9.69;4,60.93,421.48,226.78,9.69"><s coords="4,70.86,158.98,216.86,9.69;4,60.94,171.48,226.77,9.69;4,60.94,183.98,226.78,9.69;4,60.94,196.48,226.78,9.69;4,60.94,208.98,147.49,9.69">In the present study, a total of 147 strains of oral LAB (2.88 ± 0.17 strains per subject; range, 1-6 strains), including 52 lactobacilli, 94 streptococci, Lactococcus lactis, and Leuconostoc citreum, were isolated from the oral cavities of preschool children.</s><s coords="4,212.98,208.98,74.73,9.69;4,60.94,221.48,226.78,9.69;4,60.94,233.98,41.95,9.69">The Lactobacillus species were mostly L. gasseri, L. fermentum and L. salivarius.</s><s coords="4,108.17,233.98,179.56,9.69;4,60.94,246.48,226.77,9.69;4,60.94,258.98,42.10,9.69">The streptococci most frequently detected were S. salivarius, S. mitis, S. mutans, and S. anginosus (Table <ref type="table" target="#tab_1">2</ref>).</s><s coords="4,108.91,258.98,178.79,9.69;4,60.94,271.48,226.77,9.69;4,60.94,283.98,78.40,9.69">In caries-free subjects, S. mutans and S. sobrinus were not detected; however, S. salivarius and S. mitis were detected.</s><s coords="4,141.18,283.98,146.53,9.69;4,60.93,296.48,147.16,9.69">In addition, the Lactobacillus species described above were rarely detected.</s><s coords="4,209.51,296.48,78.19,9.69;4,60.93,308.98,226.78,9.69;4,60.93,321.48,226.76,9.69;4,60.93,333.98,226.77,9.69;4,60.93,346.48,50.84,9.69">The Phi coefficients were calculated to assess relationships between the 7 major isolated species, suggesting that coexisting mild negative associations were observed in species pairs L. salivarius-L.</s><s coords="4,117.46,346.48,115.54,9.69">fermentum, L. salivarius-L.</s><s coords="4,238.68,346.48,49.02,9.69;4,60.93,358.98,64.97,9.69">gasseri and L. salivarius-S.</s><s coords="4,132.54,358.98,155.16,9.69;4,60.93,371.48,226.77,9.69;4,60.93,383.98,54.16,9.69">anginosus, whereas coexisting mild positive correlations were observed in species pairs L. fermentum-L.</s><s coords="4,120.00,383.98,119.72,9.69">gasseri and L. fermentum-S.</s><s coords="4,244.63,383.98,43.06,9.69">anginosus.</s><s coords="4,60.93,396.48,226.78,9.69;4,60.93,408.98,226.78,9.69;4,60.93,421.48,226.78,9.69">However, notable correlations showing the coexistence of species detected in the subjects were not found (no Phi coefficients were greater than 0.280, data not shown).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head coords="4,60.93,445.32,219.03,9.69">Association between the caries score and LAB detection</head><p coords="4,70.85,458.98,216.85,9.69;4,60.93,471.48,226.77,9.69;4,60.93,483.98,226.77,9.69;4,60.93,496.48,226.78,9.69;4,60.93,508.98,119.08,9.69;4,187.97,508.98,99.73,9.69;4,60.93,521.48,226.76,9.69;4,60.93,533.98,226.76,9.69;4,60.93,546.48,226.78,9.69;4,60.93,558.98,226.78,9.69;4,60.93,571.48,226.78,9.69;4,60.93,583.98,226.76,9.69;4,60.93,596.48,226.76,9.69;4,60.93,608.98,50.82,9.69"><s coords="4,70.85,458.98,216.85,9.69;4,60.93,471.48,226.77,9.69;4,60.93,483.98,226.77,9.69;4,60.93,496.48,226.78,9.69;4,60.93,508.98,134.26,9.69">To comprehensively assess the influence of the 7 isolated species on caries scores, multiple regression analyses were done with the caries scores of the subjects as dependent variables and detection of the 7 species as independent variables (Table <ref type="table" target="#tab_2">3</ref>).</s><s coords="4,198.99,508.98,88.71,9.69;4,60.93,521.48,226.76,9.69;4,60.93,533.98,226.76,9.69;4,60.93,546.48,226.78,9.69;4,60.93,558.98,50.16,9.69">A significant positive influence was observed on both the dt and dmft scores in L. salivarius, but a positive tendency was observed on the dt and dmft scores in L. fermentum and L. gasseri, respectively.</s><s coords="4,114.64,558.98,173.07,9.69;4,60.93,571.48,226.78,9.69;4,60.93,583.98,226.76,9.69;4,60.93,596.48,226.76,9.69;4,60.93,608.98,50.82,9.69">While a significant positive influence was observed on the dt and dmft scores in S. mutans, which is generally detected in the oral cavity and carious lesions, no significant influence was observed in the other 3 streptococci.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head coords="4,60.93,632.82,203.05,9.69;4,60.93,645.32,58.04,9.69">Association between dental caries and lactobacillus characteristics</head><p coords="4,70.85,658.98,216.85,9.69;4,60.93,671.48,91.16,9.69;4,152.11,675.67,7.00,6.78;4,162.66,671.48,125.06,9.69;4,60.94,683.98,226.77,9.69;4,60.94,696.48,226.79,9.69;4,60.94,708.98,189.18,9.69;4,257.41,708.98,30.32,9.69;4,307.55,508.98,226.78,9.69;4,307.55,521.48,226.77,9.69;4,307.55,533.98,226.77,9.69;4,307.55,546.48,226.77,9.69;4,307.55,558.98,226.77,9.69;4,307.55,571.48,226.76,9.69;4,307.55,583.98,226.77,9.69;4,307.55,596.48,52.23,9.69"><s coords="4,70.85,658.98,216.85,9.69;4,60.93,671.48,91.16,9.69;4,152.11,675.67,7.00,6.78;4,162.66,671.48,125.06,9.69;4,60.94,683.98,226.77,9.69;4,60.94,696.48,226.79,9.69;4,60.94,708.98,203.69,9.69">By measuring the saliva-induced agglutination rate and calculating the IC 50 values of organic acids (acetic acid and lactic acid) in each lactobacillus isolate, some positive associations between the calculated parameters and the dt and dmft scores were found (Table <ref type="table" target="#tab_3">4</ref>).</s><s coords="4,268.13,708.98,19.60,9.69;4,307.55,508.98,226.78,9.69;4,307.55,521.48,226.77,9.69;4,307.55,533.98,226.77,9.69;4,307.55,546.48,209.05,9.69">With regard to the resistance to acetate and lactate, a positive tendency was observed in the dt (lactate) and dmft (AcOH and lactate) scores in L. salivarius, while there were no associations in L. fermentum and L. gasseri.</s><s coords="4,518.77,546.48,15.55,9.69;4,307.55,558.98,226.77,9.69;4,307.55,571.48,226.76,9.69;4,307.55,583.98,226.77,9.69;4,307.55,596.48,52.23,9.69">The degree of agglutination possessed a significantly positive association with the dmft scores in L. salivarius, and a positive tendency was observed in the dt and dmft scores in L. gasseri.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head coords="4,307.55,620.32,218.58,9.69">Association between caries progression and lactobacilli</head><p coords="4,317.47,633.98,216.86,9.69;4,307.55,646.48,226.78,9.69;4,307.55,658.98,226.78,9.69;4,307.55,671.48,226.76,9.69;4,307.55,683.98,129.81,9.69;4,443.38,683.98,90.94,9.69;4,307.55,696.48,226.79,9.69;4,307.55,708.98,226.77,9.69;5,307.56,308.98,226.78,9.69;5,307.56,321.48,226.77,9.69;5,307.56,333.98,226.77,9.69;5,307.56,346.48,226.76,9.69;5,307.56,358.98,226.78,9.69;5,307.56,371.48,226.78,9.69;5,307.56,383.98,226.76,9.69;5,307.56,396.48,151.65,9.69"><s coords="4,317.47,633.98,216.86,9.69;4,307.55,646.48,226.78,9.69;4,307.55,658.98,50.83,9.69">Focusing on decayed teeth, the effect of each lactobacillus isolate on caries progression was also investigated.</s><s coords="4,365.68,658.98,168.65,9.69;4,307.55,671.48,226.76,9.69;4,307.55,683.98,143.05,9.69">Multiple regression analyses with the number of CO-C4 teeth as dependent and independent variables were performed (Table <ref type="table" target="#tab_4">5</ref>).</s><s coords="4,452.46,683.98,81.86,9.69;4,307.55,696.48,226.79,9.69;4,307.55,708.98,226.77,9.69;5,307.56,308.98,226.78,9.69;5,307.56,321.48,49.16,9.69">Although significant influences on the CO stage were not observed in any lactobacilli, we found that the 3 Lactobacillus species had a positive influence according to the degree of caries progression.</s><s coords="5,361.66,321.48,172.67,9.69;5,307.56,333.98,226.77,9.69;5,307.56,346.48,226.76,9.69;5,307.56,358.98,143.06,9.69">Concretely, L. fermentum and L. gasseri affected caries progression at the C1 and C2 levels, respectively, and a significant influence was observed at stages C2 and over in L. salivarius.</s><s coords="5,453.44,358.98,80.90,9.69;5,307.56,371.48,226.78,9.69;5,307.56,383.98,226.76,9.69;5,307.56,396.48,151.65,9.69">In addition, because all variance inflation factors (VIF) in the analyses fell within the range of 1.0 to 1.2, the correlation of dependent variables did not influence the results.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head coords="5,392.33,421.81,57.21,9.21">DISCUSSION</head><p coords="5,317.48,446.48,216.85,9.69;5,307.56,458.98,226.78,9.69;5,307.56,471.48,226.78,9.69;5,307.56,483.98,226.78,9.69;5,307.56,496.48,226.77,9.69;5,307.56,508.98,126.29,9.69;5,466.93,508.98,67.39,9.69;6,60.94,83.98,226.76,9.69;6,60.94,96.48,207.88,9.69;6,284.18,96.48,3.54,9.69"><s coords="5,317.48,446.48,216.85,9.69;5,307.56,458.98,226.78,9.69;5,307.56,471.48,226.78,9.69;5,307.56,483.98,148.94,9.69">The present study shows that L. fermentum, L. gasseri and L. salivarius are detected in the dental cavity and carious lesions, suggesting the potent contribution to dental caries of these LAB species.</s><s coords="5,460.69,483.98,73.65,9.69;5,307.56,496.48,226.77,9.69;5,307.56,508.98,163.33,9.69">L. fermentum and L. gasseri are also known to be useful for producing fermented foods such as yogurt <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b29">30]</ref>.</s><s coords="5,473.58,508.98,60.74,9.69;6,60.94,83.98,226.76,9.69;6,60.94,96.48,226.78,9.69">Furthermore, it   has been reported that L. salivarius TI 2711 suppresses the growth of periodontopathic bacteria in saliva <ref type="bibr" target="#b5">[6]</ref>.</s></p><p coords="6,60.94,108.98,226.76,9.69;6,60.93,121.48,226.76,9.69;6,60.93,133.98,226.76,9.69;6,60.93,146.48,57.67,9.69"><s coords="6,60.94,108.98,226.76,9.69;6,60.93,121.48,226.76,9.69;6,60.93,133.98,226.76,9.69;6,60.93,146.48,57.67,9.69">Although some Lactobacillus species are believed to be participants in the occurrence of dental caries, LAB species play a role in human health maintenance when ingested daily.</s></p><p coords="6,70.85,158.98,184.16,9.69;6,265.25,158.98,22.46,9.69;6,60.93,171.48,226.77,9.69;6,60.93,183.98,226.77,9.69;6,60.93,196.48,226.75,9.69;6,60.93,208.98,221.05,9.69"><s coords="6,70.85,158.98,216.86,9.69;6,60.93,171.48,226.77,9.69;6,60.93,183.98,173.29,9.69">Judging from the results shown in Table <ref type="table" target="#tab_2">3</ref>, the lactobacilli detected in the present study may be connected to the number of tooth caries.</s><s coords="6,238.80,183.98,48.90,9.69;6,60.93,196.48,226.75,9.69;6,60.93,208.98,221.05,9.69">However, it should be noted that the caries scores varied in subjects in which the same Lactobacillus species were detected.</s></p><p coords="6,70.85,221.48,216.85,9.69;6,60.93,233.98,64.22,9.69;6,158.95,233.98,128.75,9.69;6,60.93,246.48,226.78,9.69;6,60.93,258.98,226.77,9.69;6,60.93,271.48,226.75,9.69;6,60.93,283.98,226.76,9.69;6,60.93,296.48,226.76,9.69;6,60.93,308.98,226.79,9.69;6,60.93,321.48,226.76,9.69;6,60.93,333.98,226.76,9.69;6,60.93,346.48,226.77,9.69;6,60.93,358.98,226.77,9.69;6,60.93,371.48,98.04,9.69"><s coords="6,70.85,221.48,216.85,9.69;6,60.93,233.98,226.77,9.69;6,60.93,246.48,226.78,9.69">The ecological plaque hypothesis, which was proposed by Marsh et al. <ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref>, explains that cariogenicity of dental plaque is altered by its inner bacterial composition.</s><s coords="6,60.93,258.98,207.21,9.69">Many bacterial species participate in dental caries.</s><s coords="6,271.53,258.98,16.17,9.69;6,60.93,271.48,226.75,9.69;6,60.93,283.98,226.76,9.69;6,60.93,296.48,226.76,9.69;6,60.93,308.98,49.39,9.69">It is hard to determine the causative microorganism; however, there may be specific strains that contribute more to dental caries when the useful probiotic strains of lactobacilli are also present.</s><s coords="6,112.03,308.98,175.69,9.69;6,60.93,321.48,226.76,9.69;6,60.93,333.98,71.09,9.69">Therefore, in the present study, we evaluated the acid resistance and saliva-induced agglutination of the LAB isolates.</s><s coords="6,135.21,333.98,152.48,9.69;6,60.93,346.48,226.77,9.69;6,60.93,358.98,226.77,9.69;6,60.93,371.48,98.04,9.69">Generally, since bacterial metabolism and cell growth are repressed under acidic conditions, acid resistance may be a survival factor for the acid that surrounds dental plaque.</s></p><p coords="6,70.85,383.98,216.85,9.69;6,60.93,396.48,226.77,9.69;6,60.93,408.98,226.78,9.69;6,60.93,421.48,226.77,9.69;6,60.93,433.98,67.52,9.69;6,146.72,433.98,141.00,9.69;6,60.93,446.48,226.76,9.69;6,60.93,458.98,226.78,9.69;6,60.93,471.48,170.54,9.69;6,249.30,471.48,3.83,9.69"><s coords="6,70.85,383.98,216.85,9.69;6,60.93,396.48,226.77,9.69;6,60.93,408.98,43.06,9.69">Saliva contains electrolytes and enzymes, including amylase, mucus, immunoglobulins, and salivary agglutinin.</s><s coords="6,105.15,408.98,182.56,9.69;6,60.93,421.48,226.77,9.69;6,60.93,433.98,89.62,9.69">Salivary agglutinin plays a role in agglutination and induces early colonization of oral streptococci on the tooth surface <ref type="bibr" target="#b33">[34]</ref>.</s><s coords="6,153.49,433.98,134.23,9.69;6,60.93,446.48,226.76,9.69;6,60.93,458.98,226.78,9.69;6,60.93,471.48,192.20,9.69">In addition, salivary agglutinin is useful for excluding microorganisms from the oral cavity by agglutination occurring between different species and by disturbing adhesion to the tooth surface <ref type="bibr" target="#b34">[35]</ref>.</s></p><p coords="6,70.85,483.98,216.86,9.69;6,60.93,496.48,226.78,9.69;6,71.55,508.98,216.14,9.69;6,60.93,521.48,212.72,9.69;6,283.55,521.48,4.17,9.69;6,60.93,533.98,226.77,9.69;6,60.92,546.48,226.77,9.69;6,60.92,558.98,226.77,9.69;6,60.92,571.48,226.78,9.69;6,60.92,583.98,226.78,9.69;6,60.92,596.48,226.78,9.69;6,60.92,608.98,226.77,9.69;6,60.92,621.48,226.77,9.69;6,60.92,633.98,226.78,9.69;6,60.92,646.48,226.78,9.69;6,60.92,658.98,226.78,9.69;6,60.92,671.48,226.77,9.69;6,60.92,683.98,226.78,9.69;6,60.92,696.48,226.78,9.69;6,60.92,708.98,226.77,9.69;6,307.53,83.98,144.69,9.69"><s coords="6,70.85,483.98,216.86,9.69;6,60.93,496.48,226.78,9.69;6,60.93,508.98,226.76,9.69;6,60.93,521.48,226.78,9.69;6,60.93,533.98,226.77,9.69;6,60.92,546.48,226.77,9.69;6,60.92,558.98,113.17,9.69">Based on the hypothesis that specific lactobacilli are associated with the progression of dental caries <ref type="bibr" target="#b7">[8]</ref>, the present study examined whether the isolated lactobacilli affected the caries progression (Table <ref type="table" target="#tab_4">5</ref>) and demonstrated that specific Lactobacillus species are associated with dental caries based on their levels of carious lesion severity.</s><s coords="6,180.10,558.98,107.59,9.69;6,60.92,571.48,149.72,9.69">We also showed that L. fermentum influences only grade C1.</s><s coords="6,213.52,571.48,74.18,9.69;6,60.92,583.98,226.78,9.69;6,60.92,596.48,226.78,9.69;6,60.92,608.98,200.19,9.69">This might be due to its obligate heterofermentative property, in which only half of the volume of lactic acid is yielded from glucose when compared with the homofermentative style.</s><s coords="6,263.81,608.98,23.88,9.69;6,60.92,621.48,226.77,9.69;6,60.92,633.98,226.78,9.69;6,60.92,646.48,226.78,9.69;6,60.92,658.98,226.78,9.69;6,60.92,671.48,226.77,9.69;6,60.92,683.98,103.32,9.69">When compared with the decreased rate of pH under anaerobic conditions, obvious differences were observed, and the differences were not intraspecies but were instead interspecies (data not shown): L. salivarius rapidly decreased the medium pH, followed, in order, by L. gasseri and L. fermentum.</s><s coords="6,166.28,683.98,121.42,9.69;6,60.92,696.48,226.78,9.69;6,60.92,708.98,226.77,9.69;6,307.53,83.98,144.69,9.69">These differences may explain why only L. salivarius affects deeper carious lesions even though L. gasseri and L. salivarius are classified as obligate homofermentative bacteria.</s></p><p coords="6,317.45,96.48,216.85,9.69;6,307.52,108.98,139.22,9.69;6,471.32,108.98,62.98,9.69;6,307.52,121.48,36.11,9.69;6,361.02,121.48,173.28,9.69;6,307.52,133.98,226.77,9.69;6,307.52,146.48,226.77,9.69;6,307.52,158.98,226.77,9.69;6,307.52,171.48,226.78,9.69;6,307.52,183.98,226.79,9.69;6,307.52,196.48,203.09,9.69;6,530.46,196.48,3.83,9.69;6,307.52,208.98,226.77,9.69;6,307.52,221.48,226.77,9.69;6,307.52,233.98,161.54,9.69;6,487.15,233.98,47.15,9.69;6,307.52,246.48,226.78,9.69;6,307.52,258.98,198.97,9.69;6,512.60,258.98,7.22,9.69"><s coords="6,317.45,96.48,216.85,9.69;6,307.52,108.98,226.78,9.69;6,307.52,121.48,57.33,9.69">Recent studies indicate that L. salivarius displays a high level of genomic diversity <ref type="bibr" target="#b35">[36]</ref> and utility as a probiotic <ref type="bibr" target="#b36">[37]</ref>.</s><s coords="6,366.36,121.48,167.94,9.69;6,307.52,133.98,226.77,9.69;6,307.52,146.48,226.77,9.69;6,307.52,158.98,226.77,9.69">Among the diverse strains of L. salivarius, the specific aciduric and cariogenic strains may adapt and survive in the low pH environment during the incorporation into plaques and prolonged acidification.</s><s coords="6,307.52,171.48,226.78,9.69;6,307.52,183.98,226.79,9.69;6,307.52,196.48,226.77,9.69">A hypothesis wherein diversity is decreased is consistent with a previous report that the diversity of the bacterial community was reduced with caries progression <ref type="bibr" target="#b16">[17]</ref>.</s><s coords="6,307.52,208.98,226.77,9.69;6,307.52,221.48,226.77,9.69;6,307.52,233.98,183.46,9.69">The microbial diversity and complexity in dental plaque are significantly lower in preschool children with severe dental caries than in caries-free children <ref type="bibr" target="#b37">[38]</ref>.</s><s coords="6,493.19,233.98,41.11,9.69;6,307.52,246.48,226.78,9.69;6,307.52,258.98,212.30,9.69">A positive tendency has also been observed between acid resistance levels and the caries scores in L. salivarius (Table <ref type="table" target="#tab_3">4</ref>).</s></p><p coords="6,317.44,271.48,216.85,9.69;6,307.52,283.98,226.76,9.69;6,307.52,296.48,226.76,9.69;6,307.52,308.98,226.77,9.69;6,307.52,321.48,226.78,9.69;6,307.52,333.98,226.77,9.69;6,307.52,346.48,226.77,9.69;6,307.52,358.98,26.66,9.69;6,352.75,358.98,181.56,9.69;6,307.52,371.48,226.78,9.69;6,307.52,383.98,226.79,9.69;6,307.52,396.48,226.77,9.69;6,307.52,408.98,226.78,9.69;6,307.52,421.48,226.77,9.69;6,307.52,433.98,226.76,9.69;6,307.52,446.48,88.59,9.69;6,413.94,446.48,3.83,9.69"><s coords="6,317.44,271.48,216.85,9.69;6,307.52,283.98,194.79,9.69">In contrast, the resistance levels of the L. gasseri isolates to acid may not correlate with the caries scores.</s><s coords="6,505.39,283.98,28.89,9.69;6,307.52,296.48,226.76,9.69;6,307.52,308.98,226.77,9.69;6,307.52,321.48,68.76,9.69">In fact, our results with regard to the bacteria demonstrate that saliva-induced agglutination might be associated with the caries scores.</s><s coords="6,379.15,321.48,155.15,9.69;6,307.52,333.98,226.77,9.69;6,307.52,346.48,226.77,9.69;6,307.52,358.98,226.79,9.69;6,307.52,371.48,226.78,9.69;6,307.52,383.98,226.79,9.69;6,307.52,396.48,215.14,9.69">In a previous study, a relationship was observed between the saliva-induced agglutination of S. mutans and the bacterial appearance frequency in dental plaque <ref type="bibr" target="#b38">[39]</ref>, and the results of the present agglutination analysis demonstrated that saliva works to incorporate into developing plaque rather than to exclude it from the dental cavity, at least in L. gasseri and L. salivarius.</s><s coords="6,525.96,396.48,8.33,9.69;6,307.52,408.98,226.78,9.69;6,307.52,421.48,226.77,9.69;6,307.52,433.98,226.76,9.69;6,307.52,446.48,110.25,9.69">In addition, it has been suggested that L. salivarius might be more easily incorporated into dental plaque than other lactobacilli because of its ability to adhere to salivacoated hydroxyapatite <ref type="bibr" target="#b39">[40]</ref>.</s></p><p coords="6,317.44,458.98,216.85,9.69;6,307.52,471.48,226.77,9.69;6,307.52,483.98,226.78,9.69;6,307.52,496.48,226.76,9.69;6,307.52,508.98,226.77,9.69;6,307.52,521.48,226.79,9.69;6,307.52,533.98,226.76,9.69;6,307.52,546.48,226.77,9.69;6,307.52,558.98,226.77,9.69;6,307.52,571.48,26.98,9.69;6,334.54,575.67,7.00,6.78;6,343.52,571.48,190.81,9.69;6,307.56,583.98,226.77,9.69;6,307.56,596.48,226.75,9.69;6,307.56,608.98,158.72,9.69;6,473.26,608.98,61.07,9.69;6,307.56,621.48,226.77,9.69;6,307.56,633.98,226.78,9.69;6,307.56,646.48,226.78,9.69;6,311.17,658.98,223.15,9.69;6,307.56,671.48,226.76,9.69;6,307.56,683.98,83.59,9.69"><s coords="6,317.44,458.98,216.85,9.69;6,307.52,471.48,226.77,9.69;6,307.52,483.98,226.78,9.69;6,307.52,496.48,150.21,9.69">The present study suggests that the level of salivainduced agglutination of L. gasseri and L. salivarius is positively associated with the caries scores in preschool children harboring each bacterium.</s><s coords="6,463.65,496.48,70.63,9.69;6,307.52,508.98,226.77,9.69;6,307.52,521.48,226.79,9.69;6,307.52,533.98,27.49,9.69">Furthermore, the different acid-resistance abilities of each isolate of L. salivarius are also potentially associated with the caries scores.</s><s coords="6,338.34,533.98,195.94,9.69;6,307.52,546.48,226.77,9.69;6,307.52,558.98,226.77,9.69;6,307.52,571.48,26.98,9.69;6,334.54,575.67,7.00,6.78;6,343.52,571.48,190.81,9.69;6,307.56,583.98,226.77,9.69;6,307.56,596.48,226.75,9.69;6,307.56,608.98,79.42,9.69">The acid-resistance ability of L. gasseri did not exhibit a significant relationship with the caries scores; however, the L. gasseri isolate displaying an extremely low IC 50 value for resistance to acid, strain 34-1R, did not display cariogenic potential, since both the dmft and dt scores of the preschool child harboring strain 34-1R were 0 (data not shown).</s><s coords="6,389.67,608.98,144.66,9.69;6,307.56,621.48,226.77,9.69;6,307.56,633.98,226.78,9.69;6,307.56,646.48,226.78,9.69;6,307.56,658.98,10.83,9.69">As shown in Table <ref type="table" target="#tab_4">5</ref>, L. fermentum affects grade C1 caries, whereas the acid-resistance property and saliva-induced agglutination of this species were not associated with the dt and dmft scores (Table <ref type="table" target="#tab_3">4</ref>).</s><s coords="6,322.30,658.98,212.02,9.69;6,307.56,671.48,226.76,9.69;6,307.56,683.98,83.59,9.69">These results suggest that other properties, besides resistance to acid and saliva-induced agglutination may also influence caries.</s></p><p coords="6,317.48,696.48,216.82,9.69;6,307.56,708.98,226.77,9.69;7,60.94,83.98,226.78,9.69;7,60.94,96.48,226.77,9.69;7,60.94,108.98,226.80,9.69;7,60.94,121.48,226.79,9.69;7,60.94,133.98,226.76,9.69;7,60.94,146.48,226.76,9.69;7,60.94,158.98,226.76,9.69;7,60.94,171.48,226.77,9.69;7,60.94,183.98,71.09,9.69"><s coords="6,317.48,696.48,216.82,9.69;6,307.56,708.98,226.77,9.69;7,60.94,83.98,226.78,9.69;7,60.94,96.48,226.77,9.69;7,60.94,108.98,119.32,9.69">In the present study, we investigated LAB detected in the dental cavity and saliva in children with or without dental caries, and the results suggested that peculiar species of Lactobacillus were detected according to the level of carious lesion severity.</s><s coords="7,181.58,108.98,106.16,9.69;7,60.94,121.48,226.79,9.69;7,60.94,133.98,226.76,9.69;7,60.94,146.48,131.43,9.69">Our present results indicate that children with L. gasseri and L. salivarius detected in their oral cavities are at high risk for the occurrence and progression of dental caries.</s><s coords="7,195.31,146.48,92.39,9.69;7,60.94,158.98,226.76,9.69;7,60.94,171.48,226.77,9.69;7,60.94,183.98,71.09,9.69">Furthermore, there is a possibility that some LAB strains isolated from a person without caries might be useful as effective probiotics for caries prevention.</s></p><p coords="7,70.86,196.48,216.86,9.69;7,60.94,208.98,226.77,9.69;7,60.94,221.48,226.78,9.69;7,60.94,233.98,226.78,9.69;7,60.94,246.48,226.77,9.69;7,60.94,258.98,226.76,9.69;7,60.94,271.48,226.79,9.69;7,60.94,283.98,226.77,9.69;7,60.94,296.48,226.77,9.69;7,60.94,308.98,76.65,9.69"><s coords="7,70.86,196.48,216.86,9.69;7,60.94,208.98,188.89,9.69">What kinds of genes bring about the differences in the above properties among oral lactobacilli?</s><s coords="7,254.04,208.98,33.67,9.69;7,60.94,221.48,226.78,9.69;7,60.94,233.98,51.10,9.69">How do the differences in these properties contribute to caries progression?</s><s coords="7,116.35,233.98,171.37,9.69;7,60.94,246.48,36.38,9.69">Research to answer these questions is in progress.</s><s coords="7,101.75,246.48,185.96,9.69;7,60.94,258.98,167.56,9.69">The present study is a cross-sectional study about LAB detected in the dental cavity.</s><s coords="7,232.06,258.98,55.64,9.69;7,60.94,271.48,226.79,9.69;7,60.94,283.98,226.77,9.69;7,60.94,296.48,226.77,9.69;7,60.94,308.98,76.65,9.69">However, our results indicate that not only oral bacterial flora but also some properties of each strain may provide significant information for research into the prevention of caries in preschool children.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="3,143.15,83.64,302.19,70.27"><head>Table 1 .</head><label>1</label><figDesc><div><p><s coords="3,177.17,83.64,101.74,8.24">Characteristics of the subjects</s></p></div></figDesc><table coords="3,144.56,97.70,300.78,56.21"><row><cell></cell><cell cols="2">Male (n = 39) Female (n = 35)</cell><cell>Total (n = 74)</cell><cell>p-values  §</cell></row><row><cell>Age  † (months)</cell><cell>42.0 ± 13.8</cell><cell>39.8 ± 12.8</cell><cell>41.0 ± 13.3</cell><cell>0.484</cell></row><row><cell>Number of teeth  ‡</cell><cell>18.8 ± 0.5</cell><cell>19.0 ± 0.4</cell><cell>18.9 ± 2.5</cell><cell>0.758</cell></row><row><cell>dt score  ‡</cell><cell>4.8 ± 0.9</cell><cell>4.1 ± 0.7</cell><cell>4.5 ± 0.6</cell><cell>0.519</cell></row><row><cell>dmft score  ‡</cell><cell>7.6 ± 1.0</cell><cell>6.3 ± 1.0</cell><cell>7.0 ± 0.7</cell><cell>0.343</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="4,307.91,83.64,226.76,393.59"><head>Table 2 .</head><label>2</label><figDesc><div><p><s coords="4,341.93,83.64,192.75,8.24;4,341.93,93.64,79.56,8.24;4,329.66,115.26,25.97,8.24;4,378.78,107.49,154.49,9.36">Differences in the isolation frequency between subjects with and without cariesSpeciesSubjects with caries † Subjects without caries ‡</s></p></div></figDesc><table coords="4,307.91,121.91,224.65,351.95"><row><cell></cell><cell cols="2">Number Ratio (%)</cell><cell cols="2">Number Ratio (%)</cell></row><row><cell>Lactobacillus (L.)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>L. gasseri</cell><cell>14</cell><cell>25.0</cell><cell>1</cell><cell>5.6</cell></row><row><cell>L. fermentum</cell><cell>13</cell><cell>23.2</cell><cell>1</cell><cell>5.6</cell></row><row><cell>L. salivarius</cell><cell>10</cell><cell>17.9</cell><cell>1</cell><cell>5.6</cell></row><row><cell>L. casei</cell><cell>3</cell><cell>5.4</cell><cell>1</cell><cell>5.6</cell></row><row><cell>L. mucosae</cell><cell>2</cell><cell>3.6</cell><cell>0</cell><cell>0</cell></row><row><cell>L. oris</cell><cell>2</cell><cell>3.6</cell><cell>0</cell><cell>0</cell></row><row><cell>L. brevis</cell><cell>1</cell><cell>1.8</cell><cell>0</cell><cell>0</cell></row><row><cell>L. pentosus</cell><cell>1</cell><cell>1.8</cell><cell>0</cell><cell>0</cell></row><row><cell>L. rhamnosus</cell><cell>1</cell><cell>1.8</cell><cell>0</cell><cell>0</cell></row><row><cell>L. vaginalis</cell><cell>1</cell><cell>1.8</cell><cell>0</cell><cell>0</cell></row><row><cell>Streptococcus (S.)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>S. salivarius</cell><cell>27</cell><cell>48.2</cell><cell>12</cell><cell>66.7</cell></row><row><cell>S. mitis</cell><cell>9</cell><cell>16.1</cell><cell>5</cell><cell>27.8</cell></row><row><cell>S. mutans</cell><cell>8</cell><cell>14.3</cell><cell>0</cell><cell>0</cell></row><row><cell>S. anginosus</cell><cell>7</cell><cell>12.5</cell><cell>1</cell><cell>5.6</cell></row><row><cell>S. sobrinus</cell><cell>6</cell><cell>10.7</cell><cell>0</cell><cell>0</cell></row><row><cell>S. parasanguinis</cell><cell>3</cell><cell>5.4</cell><cell>1</cell><cell>5.6</cell></row><row><cell>S. cristatus</cell><cell>2</cell><cell>3.6</cell><cell>1</cell><cell>5.6</cell></row><row><cell>S. oralis</cell><cell>2</cell><cell>3.6</cell><cell>1</cell><cell>5.6</cell></row><row><cell>S. vestibularis</cell><cell>3</cell><cell>5.4</cell><cell>0</cell><cell>0</cell></row><row><cell>S. intermedius</cell><cell>2</cell><cell>3.6</cell><cell>0</cell><cell>0</cell></row><row><cell>S. sanguinis</cell><cell>0</cell><cell>0</cell><cell>1</cell><cell>5.6</cell></row><row><cell>S. downei</cell><cell>1</cell><cell>1.8</cell><cell>0</cell><cell>0</cell></row><row><cell>S. gordonii</cell><cell>1</cell><cell>1.8</cell><cell>0</cell><cell>0</cell></row><row><cell>Streptococcus sp.</cell><cell>1</cell><cell>1.8</cell><cell>0</cell><cell>0</cell></row><row><cell>Lactococcus (Lc.)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Lc. lactis</cell><cell>0</cell><cell>0</cell><cell>1</cell><cell>5.6</cell></row><row><cell>Leuconostoc (Leu.)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Leu. citreum</cell><cell>0</cell><cell>0</cell><cell>1</cell><cell>5.6</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p><s coords="4,309.31,468.43,51.22,8.80">† n = 56, ‡ n = 18.</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="5,102.05,83.64,391.19,186.50"><head>Table 3 .</head><label>3</label><figDesc><div><p><s coords="5,136.06,83.64,357.17,8.24;5,136.06,93.64,174.21,8.24">Summary of the multiple regression analysis with the caries scores in subjects as dependent variables and detection of seven species as independent variables</s></p></div></figDesc><table coords="5,102.05,108.61,380.28,161.53"><row><cell>Variables in the model</cell><cell>B  ‡</cell><cell>dt score</cell><cell>β  §</cell><cell>B</cell><cell cols="2">dmft score</cell><cell>β</cell><cell>VIF</cell></row><row><cell>Constant term</cell><cell cols="2">(3.617) **</cell><cell></cell><cell cols="2">(5.222) ***</cell><cell></cell><cell></cell></row><row><cell>L. fermentum</cell><cell>2.627</cell><cell cols="2">0.210  †</cell><cell cols="2">1.665</cell><cell cols="2">0.112</cell><cell>1.264</cell></row><row><cell>L. gasseri</cell><cell>1.85</cell><cell cols="2">0.152</cell><cell cols="2">2.87</cell><cell cols="2">0.197  †</cell><cell>1.37</cell></row><row><cell>L. salivarius</cell><cell>4.529</cell><cell cols="2">0.329 **</cell><cell cols="2">4.144</cell><cell cols="2">0.252 *</cell><cell>1.092</cell></row><row><cell>S. salivarius</cell><cell>-1.342</cell><cell cols="2">-0.137</cell><cell cols="2">-0.641</cell><cell cols="2">-0.055</cell><cell>1.264</cell></row><row><cell>S. mitis</cell><cell>-0.851</cell><cell cols="2">-0.068</cell><cell cols="2">-1.221</cell><cell cols="2">-0.082</cell><cell>1.07</cell></row><row><cell>S. mutans</cell><cell>3.448</cell><cell cols="2">0.219 *</cell><cell cols="2">6.949</cell><cell cols="2">0.369 **</cell><cell>1.041</cell></row><row><cell>S. anginosus</cell><cell>-2.038</cell><cell cols="2">-0.129</cell><cell cols="2">0.518</cell><cell cols="2">0.028</cell><cell>1.326</cell></row><row><cell>Adjusted coefficient of determination (R 2 )</cell><cell></cell><cell>0.289</cell><cell></cell><cell></cell><cell>0.271</cell><cell></cell><cell></cell></row><row><cell>Multiple correlation coefficient (R)</cell><cell></cell><cell>0.598</cell><cell></cell><cell></cell><cell>0.584</cell><cell></cell><cell></cell></row><row><cell>Goodness of fit</cell><cell cols="2">p&lt;0.001 ***</cell><cell></cell><cell cols="3">p&lt;0.001 ***</cell><cell></cell></row><row><cell>† p&lt;0.1; *p&lt;0.05; **p&lt;0.01; ***p&lt;0.001.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p><s coords="5,236.96,261.33,236.58,8.80">‡ Partial regression coefficient, § Standardized partial regression coefficient.</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="5,70.87,309.85,206.93,205.01"><head>Table 4 .</head><label>4</label><figDesc><div><p><s coords="5,104.88,309.85,172.92,8.24;5,104.88,319.84,172.90,8.24">Summary of associations between the caries scores in subjects and the biological properties of</s></p></div></figDesc><table coords="5,70.87,329.84,189.83,185.02"><row><cell cols="2">lactobacilli isolates</cell><cell></cell></row><row><cell></cell><cell cols="2">Spearman's ρ</cell></row><row><cell></cell><cell>dt</cell><cell>dmft</cell></row><row><cell>IC 50 (AcOH)</cell><cell></cell><cell></cell></row><row><cell>L. fermentum</cell><cell>-0.208</cell><cell>-0.221</cell></row><row><cell>L. gasseri</cell><cell>-0.032</cell><cell>-0.129</cell></row><row><cell>L. salivarius</cell><cell>0.534</cell><cell>0.572  †</cell></row><row><cell>IC 50 (Lactate)</cell><cell></cell><cell></cell></row><row><cell>L. fermentum</cell><cell>-0.046</cell><cell>-0.028</cell></row><row><cell>L. gasseri</cell><cell>-0.146</cell><cell>-0.032</cell></row><row><cell>L. salivarius</cell><cell>0.595  †</cell><cell>0.597  †</cell></row><row><cell>Agglutination</cell><cell></cell><cell></cell></row><row><cell>L. fermentum</cell><cell>0.07</cell><cell>0.211</cell></row><row><cell>L. gasseri</cell><cell>0.543  †</cell><cell>0.538  †</cell></row><row><cell>L. salivarius</cell><cell>0.509</cell><cell>0.739 *</cell></row><row><cell>† p&lt;0.1; *p&lt;0.05.</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="5,60.94,557.59,473.41,139.30"><head>Table 5 .</head><label>5</label><figDesc><div><p><s coords="5,94.96,557.59,439.39,8.24;5,94.96,567.59,167.59,8.24">Summary of the multiple regression analysis with the numbers of teeth in each category of caries progression as dependent variables and the species detected as independent</s></p></div></figDesc><table coords="5,62.36,582.57,470.30,114.33"><row><cell>Variables in the model</cell><cell>B  ‡</cell><cell>CO</cell><cell>β  §</cell><cell>B</cell><cell>C1</cell><cell>β</cell><cell>B</cell><cell>C2</cell><cell>β</cell><cell>B</cell><cell>C3</cell><cell>β</cell><cell>B</cell><cell>C4</cell><cell>β</cell></row><row><cell>Detection</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Constant term</cell><cell cols="2">(0.234) *</cell><cell></cell><cell cols="2">(0.450)  †</cell><cell></cell><cell cols="2">(1.643) **</cell><cell></cell><cell>-0.169</cell><cell></cell><cell></cell><cell>-0.226</cell><cell></cell><cell></cell></row><row><cell>L. fermentum</cell><cell cols="3">0.017 0.01</cell><cell>1.146</cell><cell cols="3">0.261 * 1.381</cell><cell cols="5">0.154 -0.038 -0.011</cell><cell cols="3">-0.516 -0.163</cell></row><row><cell>L. gasseri</cell><cell>0.1</cell><cell cols="3">0.062 0.747</cell><cell cols="2">0.175</cell><cell>2.156</cell><cell cols="5">0.247 * 0.614 0.179</cell><cell cols="3">-0.373 -0.121</cell></row><row><cell>L. salivarius</cell><cell cols="7">-0.276 -0.153 -0.956 -0.198  † 2.435</cell><cell cols="8">0.247 * 1.622 0.419 *** 1.824 0.522 ***</cell></row><row><cell>Adjusted coefficient of determination (R 2 )</cell><cell></cell><cell>0.024</cell><cell></cell><cell cols="2">0.132</cell><cell></cell><cell cols="2">0.201</cell><cell></cell><cell></cell><cell>0.23</cell><cell></cell><cell cols="2">0.272</cell><cell></cell></row><row><cell>Multiple correlation coefficient (R)</cell><cell></cell><cell>0.155</cell><cell></cell><cell cols="2">0.363</cell><cell></cell><cell cols="2">0.449</cell><cell></cell><cell></cell><cell>0.48</cell><cell></cell><cell cols="2">0.521</cell><cell></cell></row><row><cell>Goodness of fit</cell><cell cols="3">p=0.635</cell><cell cols="2">p=0.019 *</cell><cell></cell><cell cols="3">p=0.001 **</cell><cell cols="3">p&lt;0.001 ***</cell><cell cols="3">p&lt;0.001 ***</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0" coords="3,144.55,158.95,191.10,8.80"><p><s coords="3,144.55,158.95,191.10,8.80">† Mean ± SD, ‡ Mean ± SE, § Welch's t-test (male vs. female).</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1" coords="5,62.34,701.94,368.09,8.80"><p><s coords="5,62.34,701.94,52.87,8.80">† p&lt;0.1; *p&lt;0.05;</s><s coords="5,117.22,702.99,32.74,7.75">**p&lt;0.01;</s><s coords="5,151.95,701.94,41.91,8.80">***p&lt;0.001</s><s coords="5,193.86,701.94,236.58,8.80">‡ Partial regression coefficient, § Standardized partial regression coefficient.</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head coords="7,121.77,327.48,105.29,9.21">ACKNOWLEDGEMENT</head><p coords="7,70.87,346.81,216.85,9.21;7,60.95,359.32,226.76,9.21;7,60.95,371.82,226.77,9.21;7,60.95,384.32,35.09,9.21"><s coords="7,70.87,346.81,216.85,9.21;7,60.95,359.32,226.76,9.21;7,60.95,371.82,226.77,9.21;7,60.95,384.32,35.09,9.21">We wish to thank the <rs type="institution">Research Center for Molecular Medicine</rs>, the <rs type="funder">Faculty of Medicine</rs>, and the <rs type="funder">Analysis Center of Life Science, Hiroshima University</rs>, for the use of their facilities.</s></p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="7,68.24,422.49,219.45,9.21;7,77.96,433.99,209.75,9.21" status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Yogurt and gut function</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Adolfsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Meydani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Russell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Clin Nutr</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="245" to="256" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,68.24,457.00,219.46,9.21;7,77.96,468.51,209.80,9.21;7,77.96,480.01,209.79,9.21;7,77.96,491.52,209.77,9.21;7,77.97,503.02,42.11,9.21" status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Antiallergy properties of fermented foods: an important immunoregulatory mechanism of lactic acid bacteria?</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Cross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Stevenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Gill</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1567-5769(01)00025-X</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int Immunopharmacol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="891" to="901" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,68.25,514.53,219.47,9.21;7,77.97,526.03,209.77,9.21;7,77.97,537.54,132.04,9.21" status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Effect of lactic acid bacteria on diarrheal diseases</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heyman</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/07315724.2000.10718084</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Nutr</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note>Suppl: 137S-146S. [Medline] [CrossRef</note>
+</biblStruct>
+
+<biblStruct coords="7,68.25,549.04,219.46,9.21;7,77.97,560.54,182.86,9.21" status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Immunologic effects of yogurt</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Meydani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Ha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Clin Nutr</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="861" to="872" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,68.25,572.05,219.46,9.21;7,77.97,583.55,209.76,9.21;7,77.97,595.06,209.80,9.21;7,77.97,606.56,209.77,9.21;7,77.98,618.07,42.11,9.21" status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Evaluation and comparison of lactobacilli characteristics in the mouths of patients with or without cavities</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ahumada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Colloca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Nader-Macías</surname></persName>
+		</author>
+		<idno type="DOI">10.2334/josnusd.45.1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Oral Sci</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,68.26,629.57,219.46,9.21;7,77.98,641.08,209.77,9.21;7,77.98,652.58,209.79,9.21;7,77.98,664.08,209.76,9.21;7,77.98,675.59,141.64,9.21" status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Suppression of periodontal pathogenic bacteria in the saliva of humans by the administration of Lactobacillus salivarius TI 2711</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ishikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Aiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nakanishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Oh-Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Koga</surname></persName>
+		</author>
+		<idno type="DOI">10.2329/perio.45.105</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Jpn Soc Periodontal</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="105" to="112" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,68.26,687.09,219.46,9.21;7,77.98,698.60,209.79,9.21;7,77.98,710.10,209.79,9.21;7,324.59,83.93,209.79,9.21;7,324.59,95.43,209.79,9.21;7,324.59,106.94,209.77,9.21;7,324.59,118.44,209.80,9.21;7,324.59,129.95,121.38,9.21" status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Bovine milk fermented with Lactobacillus rhamnosus L8020 decreases the oral carriage of mutans streptococci and the burden of periodontal pathogens</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tomiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hiramatsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yushita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Takamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sasahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kawahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Makihira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Satoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Takemoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Murata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Taji</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.2041-1626.2011.00056.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Investig Clin Dent</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="187" to="196" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,314.87,141.45,219.46,9.21;7,324.59,152.96,171.31,9.21" status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Role of micro-organisms in caries etiology</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Houte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Dent Res</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="672" to="681" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,314.87,164.46,219.50,9.21;7,324.59,175.97,209.76,9.21;7,324.59,187.47,208.26,9.21" status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Association of Streptococcus mutants with human dental decay</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Loesche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Straffon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Loos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Immun</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1252" to="1260" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,315.56,198.97,218.77,9.21;7,324.59,210.48,209.77,9.21;7,324.59,221.98,209.80,9.21;7,324.59,233.49,209.81,9.21;7,324.59,244.99,186.52,9.21" status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Molecular analysis of bacterial species associated with childhood caries</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Paster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Leys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Moeschberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Kenyon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Galvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Boches</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Dewhirst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Griffen</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/JCM.40.3.1001-1009.2002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="1001" to="1009" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,315.33,256.50,219.01,9.21;7,324.59,268.00,209.75,9.21;7,324.59,279.51,209.81,9.21;7,324.59,291.01,209.77,9.21;7,324.60,302.51,42.11,9.21" status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The isolation of bifidobacteria from occlusal carious lesions in children and adults</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mantzourani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Sulong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Sheehy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fenlon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Beighton</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000222659</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Caries Res</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="308" to="313" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,315.57,314.02,218.80,9.21;7,324.60,325.52,209.78,9.21;7,324.60,337.03,209.80,9.21;7,324.60,348.53,82.95,9.21" status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The predominant microflora of nursing caries lesions</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marchant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Brailsford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Twomey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Beighton</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000047482</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Caries Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="397" to="406" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,315.57,360.04,218.77,9.21;7,324.60,371.54,209.79,9.21;7,324.60,383.05,179.87,9.21" status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The microflora associated with developing lesions of nursing caries</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Milnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Bowden</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000260858</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Caries Res</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="289" to="297" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,315.57,394.55,218.79,9.21;7,324.60,406.06,209.77,9.21;7,324.60,417.56,209.80,9.21;7,324.60,429.06,209.77,9.21;7,324.61,440.57,42.11,9.21" status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Microbiota of severe early childhood caries before and after therapy</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Tanner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Kent</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Holgerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Loo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kanasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">I</forename><surname>Chalmers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Johansson</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0022034511421201</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Dent Res</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="1298" to="1305" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,315.58,452.07,218.77,9.21;7,324.61,463.58,209.82,9.21;7,324.61,475.08,121.38,9.21" status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Oral flora of children with &quot;nursing bottle caries</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Houte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gibbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Butera</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/00220345820610020201</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Dent Res</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="382" to="385" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,315.58,486.59,218.76,9.21;7,324.61,498.09,209.76,9.21;7,324.61,509.60,209.81,9.21;7,324.61,521.10,136.08,9.21" status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Microbial risk markers for childhood caries in pediatricians&apos; offices</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kanasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Johansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Kressin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Nunn</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kent R Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Tanner</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0022034509360010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Dent Res</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="378" to="383" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,315.57,532.60,218.80,9.21;7,324.60,544.11,209.77,9.21;7,324.60,555.61,209.81,9.21;7,324.60,567.12,209.79,9.21;7,324.60,578.62,130.98,9.21" status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Bacterial 16S sequence analysis of severe caries in young permanent teeth</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Gross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Leys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Gasparovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Firestone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Schwartzbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Janies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Asnani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Griffen</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/JCM.01232-10</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="4121" to="4128" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,315.57,590.13,218.78,9.21;7,324.60,601.63,209.82,9.21;7,324.60,613.14,209.79,9.21;7,324.60,624.64,209.81,9.21;7,324.60,636.15,173.67,9.21" status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Determination of mutacin activity and detection of mutA genes in Streptococcus mutans genotypes from caries-free and caries-active children</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Longo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Mattos-Graner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mpa</forename><surname>Mayer</surname></persName>
+		</author>
+		<idno type="DOI">10.1034/j.1399-302X.2003.00042.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Oral Microbiol Immunol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="144" to="149" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,315.57,647.65,218.79,9.21;7,324.60,659.15,209.79,9.21;7,324.60,670.66,209.76,9.21;7,324.60,682.16,209.79,9.21;7,324.60,693.67,209.77,9.21;7,324.60,705.17,82.95,9.21" status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Comparative analysis of Gtf isozyme production and diversity in isolates of Streptococcus mutans with different biofilm growth phenotypes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Mattos-Graner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Napimoga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fukushima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/JCM.42.10.4586-4592.2004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="4586" to="4592" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,315.57,716.68,218.77,9.21;8,77.95,83.81,210.49,9.21;8,77.95,95.32,210.52,9.21;8,77.95,106.82,210.46,9.21;8,77.95,118.32,106.99,9.21" status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Water-insoluble glucan synthesis by mutans streptococcal strains correlates with caries incidence in 12-to 30-month-old children</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Mattos-Graner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Mayer</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/00220345000790060401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Dent Res</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="1371" to="1377" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,68.93,129.83,219.53,9.21;8,77.95,141.33,210.49,9.21;8,77.95,152.84,210.51,9.21;8,77.95,164.34,210.51,9.21;8,77.95,175.85,210.52,9.21;8,77.95,187.35,210.52,9.21;8,77.95,198.86,150.47,9.21" status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Characterization of four plasmids harboured in a Lactobacillus brevis strain encoding a novel bacteriocin, brevicin 925A, and construction of a shuttle vector for lactic acid bacteria and Escherichia coli</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Noda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kashiwabara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shirakawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yabu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Matoba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kumagai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sugiyama</surname></persName>
+		</author>
+		<idno type="DOI">10.1099/mic.0.022871-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="1726" to="1737" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,68.92,210.36,219.52,9.21;8,77.94,221.86,210.51,9.21;8,77.94,233.37,210.49,9.21;8,77.94,244.87,176.93,9.21" status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Direct automated sequencing of 16S rDNA amplified by polymerase chain reaction from bacterial cultures without DNA purification</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hiraishi</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1472-765X.1992.tb00765.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lett Appl Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="210" to="213" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,68.92,256.38,219.50,9.21;8,77.94,267.88,210.50,9.21;8,77.94,279.39,210.45,9.21;8,77.94,290.89,82.04,9.21" status="extracted"  xml:id="b22">
+	<monogr>
+		<title level="m" type="main">16S/23S sequencing In Nucleic Acid</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lane</surname></persName>
+		</author>
+		<editor>Bacterial Systematics, Stackebrandt E, Goodfellow M</editor>
+		<imprint>
+			<date type="published" when="1991">1991</date>
+			<publisher>John Wiley and Sons</publisher>
+			<biblScope unit="page" from="115" to="175" />
+			<pubPlace>Chichester, England</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,68.92,302.40,219.50,9.21;8,77.94,313.90,210.49,9.21;8,77.94,325.41,165.20,9.21" status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">16S ribosomal DNA amplification for phylogenetic study</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Weisburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Barns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Pelletier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page" from="697" to="703" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,68.92,336.91,219.53,9.21;8,77.94,348.41,210.51,9.21;8,77.94,359.92,180.20,9.21" status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The generalisation of student&apos;s problems when several different population variances are involved</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Welch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrika</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="28" to="35" />
+			<date type="published" when="1947">1947</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,68.92,371.42,219.51,9.21;8,77.94,382.93,210.48,9.21;8,77.94,394.43,205.23,9.21" status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The unequal variance t-test is an underused alternative to Student&apos;s t-test and the Mann-Whitney U test</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Ruxton</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/beheco/ark016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Behav Ecol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="688" to="690" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,68.91,405.94,219.54,9.21;8,77.93,417.44,211.02,9.21;8,77.93,428.95,210.48,9.21;8,77.93,440.45,178.69,9.21" status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Binding of salivary glycoprotein-secretory immunoglobulin A complex to the surface protein antigen of Streptococcus mutans</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Oho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yamashita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Koga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Immun</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="115" to="121" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,68.91,451.95,219.53,9.21;8,77.93,463.46,210.48,9.21;8,77.93,474.96,210.48,9.21;8,77.93,486.47,140.87,9.21" status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Biofilm formation by lactic acid bacteria and resistance to environmental stress</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kubota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Senda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tokuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Uchiyama</surname></persName>
+		</author>
+		<idno type="DOI">10.1263/jbb.106.381</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biosci Bioeng</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="381" to="386" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,68.90,497.97,219.49,9.21;8,77.92,509.48,210.45,9.21;8,77.92,520.98,210.47,9.21;8,77.92,532.49,210.47,9.21;8,77.92,543.99,210.47,9.21;8,77.92,555.50,210.47,9.21;8,77.92,567.00,210.48,9.21;8,323.83,84.00,210.48,9.21;8,323.83,95.51,102.19,9.21" status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Lactobacillus fermentum CECT 5716 is safe and well tolerated in infants of 1-6 months of age: a randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gil-Campos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Rodriguez-Benítez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Roncero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Linares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Maldonado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>López-Huertas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Berwind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Ritzenthaler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Navas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sierra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sempere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Geerlings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Maldonado-Lobón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Valero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lara-Villoslada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Olivares</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.phrs.2011.11.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacol Res</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="231" to="238" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,314.81,107.01,219.48,9.21;8,323.83,118.51,210.48,9.21;8,323.83,130.02,210.48,9.21;8,323.83,141.52,210.47,9.21;8,323.83,153.03,121.38,9.21" status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Suppressive effect of Lactobacillus gasseri OLL 2716 (LG21) on Helicobacter pylori infection in humans</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sakamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Igarashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Takagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Koga</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jac/47.5.709</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Antimicrob Chemother</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="709" to="710" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,314.81,164.53,219.51,9.21;8,323.83,176.04,210.51,9.21;8,323.83,187.54,76.80,9.21" status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Sugar, fluoride, pH and microbial homeostasis in dental plaque</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Marsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Finn Dent Soc</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="515" to="525" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,314.81,199.05,219.53,9.21;8,323.83,210.55,210.52,9.21;8,323.83,222.05,86.71,9.21" status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Microbial ecology of dental plaque and its significance in health and disease</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Marsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Dent Res</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="263" to="271" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,314.81,233.56,219.48,9.21;8,323.83,245.06,210.49,9.21;8,323.83,256.57,152.54,9.21" status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Physiological approaches to the control of oral biofilms</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Marsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Bradshaw</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/08959374970110010901</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Dent Res</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="176" to="185" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,314.80,268.07,219.53,9.21;8,323.82,279.58,210.50,9.21;8,323.82,291.08,121.38,9.21" status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Streptococcal adhesion and colonization</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Jenkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lamont</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/10454411970080020601</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Crit Rev Oral Biol Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="175" to="200" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,314.80,302.59,219.54,9.21;8,323.82,314.09,210.52,9.21" status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Saliva-bacterium interaction in oral microbial ecology</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Scannapieco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Crit Rev Oral Med</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="203" to="248" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,314.80,325.60,219.52,9.21;8,323.82,337.10,210.48,9.21;8,323.82,348.60,210.47,9.21;8,323.82,360.11,42.11,9.21" status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Genomic diversity of Lactobacillus salivarius</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Raftis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Salvetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Torriani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Felis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Toole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.01687-10</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="954" to="965" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,314.80,371.61,219.51,9.21;8,323.82,383.12,210.48,9.21;8,323.82,394.62,210.49,9.21;8,323.82,406.13,82.95,9.21" status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Probiotic properties of Lactobacillus salivarius and closely related Lactobacillus species</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Neville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Toole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename></persName>
+		</author>
+		<idno type="DOI">10.2217/fmb.10.35</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Future Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="759" to="774" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,314.80,417.63,219.46,9.21;8,323.82,429.14,210.52,9.21;8,323.82,440.64,210.48,9.21;8,323.82,452.14,82.95,9.21" status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Genetic profiling of the oral microbiota associated with severe early-childhood caries</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Saxena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Caufield</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/JCM.01622-06</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="81" to="87" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,314.80,463.65,219.53,9.21;8,323.82,475.15,210.50,9.21;8,323.82,486.66,210.50,9.21;8,323.82,498.16,210.49,9.21;8,323.82,509.67,183.44,9.21" status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Saliva mediated adherence, aggregation and prevalence in dental plaque of Streptococcus mutans, Streptococcus sanguis and Actinomyces spp, in young and elderly humans</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Carlén</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Olsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ramberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0003-9969(96)00094-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Oral Biol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="1133" to="1140" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,314.80,521.17,219.48,9.21;8,323.82,532.68,210.46,9.21;8,323.82,544.18,210.47,9.21;8,323.82,555.69,198.63,9.21" status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Cariogenicity of the probiotic bacterium Lactobacillus salivarius in rats</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Matsumoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tsuji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fujita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nakano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shintani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ooshima</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000088183</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Caries Res</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="479" to="483" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
