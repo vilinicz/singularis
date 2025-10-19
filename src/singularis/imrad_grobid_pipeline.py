@@ -127,140 +127,136 @@ def union_bbox(boxes: List[Dict]) -> Tuple[int, List[float]]:
 #     return ""
 
 import re
-from lxml import etree
+_WORD = r"(?:^|[^a-z])"; _EOW = r"(?:$|[^a-z])"
 
-# 1) нормализатор + маппер заголовков → IMRAD (расширенные синонимы)
 def _clean_head_text(txt: str) -> str:
     t = (txt or "").strip()
-    t = re.sub(r"^\s*(?:\d+|[IVXLCM]+)[\.)]?\s+", "", t, flags=re.I)  # срезать "2." / "II."
+    t = re.sub(r"^\s*(?:\d+|[IVXLCM]+)[\.)]?\s+", "", t, flags=re.I)
     return t.replace("&", "and").lower()
 
 def map_head_to_hint(head_text: str) -> str:
     t = _clean_head_text(head_text)
     if not t: return "OTHER"
-    if any(k in t for k in ["abstract","introduction","background","aims and scope"]): return "INTRO"
-    if any(k in t for k in ["materials and methods","material and methods","methods","methodology",
-                            "patients and methods","subjects and methods","experimental section",
-                            "materials methods","patients methods","subjects methods","study design"]): return "METHODS"
-    if "results and discussion" in t: return "RESULTS"  # или DISCUSSION — по желанию
-    if any(k in t for k in ["results","findings","outcomes","evaluation"]): return "RESULTS"
-    if any(k in t for k in ["general discussion","discussion","conclusion","conclusions",
-                            "concluding remarks","implications","limitations"]): return "DISCUSSION"
-    if any(k in t for k in ["references","bibliography","works cited"]): return "REFERENCES"
+    if re.search(rf"{_WORD}(abstract|introduction|background|aims and scope){_EOW}", t): return "INTRO"
+    if (re.search(rf"{_WORD}(materials? and methods?){_EOW}", t) or
+        re.search(rf"{_WORD}(methods?|methodology){_EOW}", t) or
+        re.search(rf"{_WORD}(experimental(?: section)?){_EOW}", t) or
+        re.search(rf"{_WORD}(patients? and methods?|subjects? and methods?){_EOW}", t) or
+        re.search(rf"{_WORD}(study design){_EOW}", t) or
+        re.search(rf"{_WORD}(statistical (analysis|methods?)){_EOW}", t)):
+        return "METHODS"
+    if (re.search(rf"{_WORD}(results? and discussion){_EOW}", t) or
+        re.search(rf"{_WORD}(general discussion|discussion|conclusions?|concluding remarks|implications|limitations){_EOW}", t)):
+        return "DISCUSSION"
+    if re.search(rf"{_WORD}(results?|findings|outcomes){_EOW}", t): return "RESULTS"
+    if re.search(rf"{_WORD}(references|bibliography|works cited){_EOW}", t): return "REFERENCES"
     return "OTHER"
 
-def build_doc_order_index(root):
-    """
-    Возвращает словарь: {xpath_path: order_index}
-    Используем getroottree().getpath(el), чтобы уникально адресовать узел.
-    """
-    order = {}
-    i = 0
-    rt = root.getroottree()
-    for el in root.iter():
-        path = rt.getpath(el)
-        order[path] = i
-        i += 1
-    return order
+from lxml import etree
 
-def collect_heads_index(root, NS, order_index):
-    """
-    Возвращает список кортежей, отсортированный по документному порядку:
-    [(pos, head_text, imrad_label, head_elem, head_path), ...]
-    """
-    heads = []
-    rt = root.getroottree()
-    for h in root.findall(".//t:head", NS):
-        txt = "".join(h.itertext()).strip()
-        label = map_head_to_hint(txt)
-        h_path = rt.getpath(h)
-        pos = order_index.get(h_path)
-        if pos is not None:
-            heads.append((pos, txt, label, h, h_path))
-    heads.sort(key=lambda x: x[0])
-    return heads
-
-def find_imrad_head_for(elem, order_index, heads_index):
-    """
-    Находит ближайший ПРЕДШЕСТВУЮЩИЙ по документу <head>, который маппится в IMRAD (не OTHER).
-    Возвращает (head_text, imrad_label).
-    """
-    rt = elem.getroottree()
-    e_path = rt.getpath(elem)
-    pos = order_index.get(e_path, -1)
-
-    # двоичный поиск можно добавить позже; пока линейный проход назад
-    for i in range(len(heads_index) - 1, -1, -1):
-        head_pos, head_txt, head_label, _, _ = heads_index[i]
-        if head_pos < pos and head_label != "OTHER":
-            return head_txt, head_label
-    return "", "OTHER"
-
+def _page0_from_boxes(boxes):
+    page, _bbox = union_bbox(boxes)
+    # union_bbox у тебя возвращает page как 1-based → переведём в 0-based
+    return (page - 1) if page is not None else None, _bbox
 
 def tei_iter_sentences(tei_xml: str):
     """
-    Выдаёт элементы: {"text","page","bbox","section_hint","is_caption","caption_type"}
-    Источники координат:
-      - у предложений <s> берём @coords (как в твоём файле);
-      - у <figure>/<figDesc> и <table>/<head> — их @coords (если есть).
-    Страницы переводим в 0-based.
+    Однопроходный итератор по TEI:
+      - Держит current_imrad_section / current_head_text, обновляя их на IMRAD <head>.
+      - Для каждого <s> и капшенов отдаёт {"text","page","bbox","section_hint","is_caption","caption_type"}.
+      - Страницы — 0-based.
     """
-    root = etree.fromstring(tei_xml.encode("utf-8"))
+    root = etree.fromstring(tei_xml.encode("utf-8")) if isinstance(tei_xml, str) else tei_xml
     NS = {"t": root.nsmap.get(None) or "http://www.tei-c.org/ns/1.0"}
 
-    order_index = build_doc_order_index(root)
-    heads_index = collect_heads_index(root, NS, order_index)
+    current_head_text = ""
+    current_imrad_section = "OTHER"
 
-    # 1) Предложения <s> (с координатами внутри @coords)
-    for s in root.findall(".//t:s", NS):
-        text = "".join(s.itertext()).strip()
-        boxes = parse_coords_attr(s.get("coords") or "")
-        page, bbox = union_bbox(boxes)
-        head_txt, section_hint = find_imrad_head_for(s, order_index, heads_index)
-        if head_txt and section_hint != "OTHER":
-            print(f"[section] {section_hint} <- {head_txt}")
-        yield {
-            "text": text,
-            "page": page - 1,           # 0-based
-            "bbox": bbox,
-            "section_hint": section_hint,
-            "is_caption": False,
-            "caption_type": ""
-        }
+    # В некоторых вёрстках встречаются повторяющиеся "running headers".
+    # Простой фильтр: игнорировать <head>, которые маппятся в INTRO/REFERENCES и
+    # повторяются десятки раз с очень маленьким bbox-высотой. Оставим флаг —
+    # по умолчанию выключен. Если понадобится — можно включить.
+    IGNORE_NOISY_HEADERS = False
 
-    # 2) Figure captions: <figure><figDesc>
-    for fig in root.findall(".//t:figure", NS):
-        figdesc = fig.find("./t:figDesc", NS)
-        if figdesc is None:
-            continue
-        text = "".join(figdesc.itertext()).strip()
-        boxes = parse_coords_attr(figdesc.get("coords") or "") or parse_coords_attr(fig.get("coords") or "")
-        page, bbox = union_bbox(boxes)
-        yield {
-            "text": text,
-            "page": page - 1,
-            "bbox": bbox,
-            "section_hint": "OTHER",
-            "is_caption": True,
-            "caption_type": "Figure"
-        }
+    def _should_ignore_head(el, txt, label):
+        if not IGNORE_NOISY_HEADERS:
+            return False
+        # пример простого правила: крошечные по высоте и попадающие в INTRO/REFERENCES
+        boxes = parse_coords_attr(el.get("coords") or "")
+        _page0, bbox = _page0_from_boxes(boxes)
+        if not bbox:
+            return False
+        x, y, w, h = bbox
+        return (h is not None and h < 12.0) and label in {"INTRO", "REFERENCES"}
 
-    # 3) Table captions: <table><head>
-    for tab in root.findall(".//t:table", NS):
-        thead = tab.find("./t:head", NS)
-        if thead is None:
-            continue
-        text = "".join(thead.itertext()).strip()
-        boxes = parse_coords_attr(thead.get("coords") or "") or parse_coords_attr(tab.get("coords") or "")
-        page, bbox = union_bbox(boxes)
-        yield {
-            "text": text,
-            "page": page - 1,
-            "bbox": bbox,
-            "section_hint": "OTHER",
-            "is_caption": True,
-            "caption_type": "Table"
-        }
+    # Однопроходный стрим
+    for el in root.iter():
+        tag = etree.QName(el).localname
+
+        if tag == "head":
+            head_txt = "".join(el.itertext()).strip()
+            label = map_head_to_hint(head_txt)
+            # подзаголовки типа "Study population" / "Evaluation of …" дают OTHER
+            # и НЕ меняют текущую IMRAD-секцию
+            if label != "OTHER" and not _should_ignore_head(el, head_txt, label):
+                current_head_text = head_txt
+                current_imrad_section = label
+
+        elif tag == "s":
+            text = "".join(el.itertext()).strip()
+            if not text:
+                continue
+            boxes = parse_coords_attr(el.get("coords") or "")
+            page0, bbox = _page0_from_boxes(boxes)
+            yield {
+                "text": text,
+                "page": page0,
+                "bbox": bbox,
+                "section_hint": current_imrad_section,
+                "is_caption": False,
+                "caption_type": ""
+            }
+
+        elif tag == "figDesc":
+            # caption к figure
+            text = "".join(el.itertext()).strip()
+            if not text:
+                continue
+            # coords могут быть на figDesc, а могут на figure
+            boxes = parse_coords_attr(el.get("coords") or "")
+            if not boxes:
+                # найти родителя <figure> и взять его coords
+                fig = el.getparent() if el.getparent() is not None and etree.QName(el.getparent()).localname == "figure" else None
+                if fig is not None:
+                    boxes = parse_coords_attr(fig.get("coords") or "")
+            page0, bbox = _page0_from_boxes(boxes)
+            yield {
+                "text": text,
+                "page": page0,
+                "bbox": bbox,
+                "section_hint": current_imrad_section,
+                "is_caption": True,
+                "caption_type": "Figure"
+            }
+
+        elif tag == "table":
+            # caption у таблицы обычно в <table><head>…</head>
+            thead = el.find("./{http://www.tei-c.org/ns/1.0}head")
+            if thead is None:
+                continue
+            text = "".join(thead.itertext()).strip()
+            if not text:
+                continue
+            boxes = parse_coords_attr(thead.get("coords") or "") or parse_coords_attr(el.get("coords") or "")
+            page0, bbox = _page0_from_boxes(boxes)
+            yield {
+                "text": text,
+                "page": page0,
+                "bbox": bbox,
+                "section_hint": current_imrad_section,
+                "is_caption": True,
+                "caption_type": "Table"
+            }
 
 # ---------------- spaCy rules (как в прошлой версии) ----------------
 
