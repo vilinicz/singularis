@@ -1,11 +1,7 @@
 # Labels (merged spans)
 
 ## Result  
-(count: 13)
-- p.3 The evaluation of saliva-induced agglutination of each LAB isolate was performed according to the protocol described previously [27]. To calculate the agglutination rate, the OD 550 decrease of the cell suspension was continuously measured after adding saliva during a 6-h period. Unstimulated saliva was collected from a healthy woman without eating and toothbrushing within 2 h and stored on ice.
-- p.3 After the LAB strains were grown to the stationary phase in MRS broth, the cells were washed with agglutination buffer (1.5 mM KH 2 PO 4 , 6.5 mM Na 2 HPO 4 , 2.7 mM KCl, 137 mM NaCl, pH 7.2) twice and suspended in the same buffer to an OD 550 ≈1.5. The assay mixture (3 mL) was added to a 10-mm path length cuvette and was composed of a cell suspension (2 mL), 1 mM of CaCl 2 (200 µL), saliva (200 µL) and an agglutination buffer (600 µL). The OD 550 value of the reaction mixture was measured using a JASCO V-550 UV/VIS Spectrophotometer (JASCO Corporation, Tokyo, Japan) at RT. The reaction mixture without saliva was used as a control. The agglutination rate of the control was subtracted from each sample assay value. All assays were performed in duplicate. The acid resistance of each LAB isolate was measured according to the protocol described previously [28].
-- p.3 The cells, which were grown to the stationary phase in MRS broth, were washed with PBS (phosphate buffered saline) (-) and resuspended in the same buffer at an optical density of 0.5 at 600 nm. In a 96well plate, a 50-μl portion of the cell suspension, which was diluted 12.5 times using PBS (-), was added to 150 µL MRS medium with or without acetic acid. After 72 h of anaerobic incubation at 37°C, the OD 600 value for cell grown was measured using a 2300 EnSpire ® Multimode Plate Reader (PerkinElmer, Boston, MA, USA).
-- p.3 To calculate the IC 50 value, the concentration causing 50% growth inhibition of each acid, a dose-dependent curve was drawn by plotting the acid concentration (X in the following equation) versus the percentage of control growth (Y in the following equation). The value was calculated from the sigmoidal curve using the following logistic curve equation: Y = α / (1 + βe -γX ), where α, β, and γ are given constants.
+(count: 9)
 - p.3 They had mean dt and dmft scores of 4.5 ± 0.6 and 7.0 ± 0.7, respectively.
 - p.4 Fisher's exact test). In the present study, a total of 147 strains of oral LAB (2.88 ± 0.17 strains per subject; range, 1-6 strains), including 52 lactobacilli, 94 streptococci, Lactococcus lactis, and Leuconostoc citreum, were isolated from the oral cavities of preschool children. The Lactobacillus species were mostly L. gasseri, L. fermentum and L. salivarius. The streptococci most frequently detected were S. salivarius, S. mitis, S. mutans, and S. anginosus (Table 2). In caries-free subjects, S. mutans and S. sobrinus were not detected; however, S. salivarius and S. mitis were detected. In addition, the Lactobacillus species described above were rarely detected.
 - p.4 fermentum, L. salivarius-L. gasseri and L. salivarius-S. anginosus, whereas coexisting mild positive correlations were observed in species pairs L. fermentum-L. gasseri and L. fermentum-S. anginosus.
@@ -17,12 +13,14 @@
 - p.6 We also showed that L. fermentum influences only grade C1.
 
 ## Experiment  
-(count: 2)
+(count: 4)
 - p.2 Seventy-four Japanese preschool children from 9-72 months of age with primary dentition participated in the study. The background for this study is shown in Table 1. Prior to starting this study, we obtained written informed consent from the guardians of all study participants.
 - p.2 Within 30 min, a 100-μl portion of the medium was plated onto Rogosa agar medium (Oxoid, Basingstoke, UK) for lactobacilli selection and MRS agar medium (Merck KGaA, Darmstadt, Germany) for LAB selection and incubated anaerobically at 37°C for 1-2 days. Each colony generated on the plate surface was picked up based on differences in shape, color, and margin and spread onto fresh agar medium for colony purification.
+- p.3 The reaction mixture without saliva was used as a control. The agglutination rate of the control was subtracted from each sample assay value.
+- p.3 The value was calculated from the sigmoidal curve using the following logistic curve equation: Y = α / (1 + βe -γX ), where α, β, and γ are given constants.
 
 ## Technique  
-(count: 24)
+(count: 25)
 - p.1 Previous studies have demonstrated that the presence of lactic acid bacteria (LAB), especially those classified into the genus Lactobacillus, is associated with the progression of dental caries in preschool children.
 - p.1 The aims of this study were: (1) to investigate the distribution of oral LAB among Japanese preschool children with various prevalence levels of caries; and (2) to reveal the characteristics of these isolated LAB species.
 - p.1 Statistical analysis showed that preschool children carrying Lactobacillus (L.) salivarius or Streptococcus mutans have a significantly higher prevalence of dental caries, the growth ability in acidic environments correlates with the caries scores of individuals with L. salivarius, and the caries scores exhibit positive correlation with saliva-induced agglutination in L. salivarius. These results show that specific Lactobacillus species are associated with dental caries based on the level of carious lesion severity.
@@ -37,9 +35,10 @@
 - p.2 The determined sequences of the V1-V3 regions of LAB candidates were compared with those of the LAB strain obtained from the DNA Data Bank of Japan (DDBJ) website (http://www.ddbj.nig.ac.jp/Welcome-e.html), and LAB species were identified by analyzing the sequence alignment using the ClustalW program (http://  clustalw.ddbj.nig.ac.jp/).
 - p.2 Differences in caries scores in the groups were assessed with Welch's t-tests (unequal variance t-tests) [25,26].
 - p.3 Fisher's exact test was applied to assess differences in the occurrence of caries between the subjects with and without specific isolates. The coexistence of specific LAB in subjects was assessed by determining the Phi coefficient. The influences of the presence of LAB on caries scores and caries progression were estimated by multiple linear regression analysis.
-- p.3 After the debris was removed by centrifugation at 12,000 × g for 15 min at 4°C, the resulting supernatant fluid was filtered using a membrane filter (φ = 0.45 μm) and stored at 4°C until use.
-- p.3 Briefly, resistance was tested by measuring the OD 600 of the culture grown in MRS medium supplemented with either acetic acid (AcOH) or lactic acid at concentrations from 0 to 2.0% (v/v), which corresponds to a pH range of 4.16 to 5.18 in acetic acid and a pH range of 3.86 to 5.40 in lactic acid, respectively, in a flat-bottom 96-well microtiter plate.
-- p.3 Acid resistance assays were performed in duplicate and evaluated as the relative ratio of cell growth as calculated by normalizing the OD 600 to that of the control.
+- p.3 The evaluation of saliva-induced agglutination of each LAB isolate was performed according to the protocol described previously [27].
+- p.3 After the debris was removed by centrifugation at 12,000 × g for 15 min at 4°C, the resulting supernatant fluid was filtered using a membrane filter (φ = 0.45 μm) and stored at 4°C until use. After the LAB strains were grown to the stationary phase in MRS broth, the cells were washed with agglutination buffer (1.5 mM KH 2 PO 4 , 6.5 mM Na 2 HPO 4 , 2.7 mM KCl, 137 mM NaCl, pH 7.2) twice and suspended in the same buffer to an OD 550 ≈1.5. The assay mixture (3 mL) was added to a 10-mm path length cuvette and was composed of a cell suspension (2 mL), 1 mM of CaCl 2 (200 µL), saliva (200 µL) and an agglutination buffer (600 µL).
+- p.3 All assays were performed in duplicate. The acid resistance of each LAB isolate was measured according to the protocol described previously [28]. Briefly, resistance was tested by measuring the OD 600 of the culture grown in MRS medium supplemented with either acetic acid (AcOH) or lactic acid at concentrations from 0 to 2.0% (v/v), which corresponds to a pH range of 4.16 to 5.18 in acetic acid and a pH range of 3.86 to 5.40 in lactic acid, respectively, in a flat-bottom 96-well microtiter plate. The cells, which were grown to the stationary phase in MRS broth, were washed with PBS (phosphate buffered saline) (-) and resuspended in the same buffer at an optical density of 0.5 at 600 nm. In a 96well plate, a 50-μl portion of the cell suspension, which was diluted 12.5 times using PBS (-), was added to 150 µL MRS medium with or without acetic acid.
+- p.3 Acid resistance assays were performed in duplicate and evaluated as the relative ratio of cell growth as calculated by normalizing the OD 600 to that of the control. To calculate the IC 50 value, the concentration causing 50% growth inhibition of each acid, a dose-dependent curve was drawn by plotting the acid concentration (X in the following equation) versus the percentage of control growth (Y in the following equation).
 - p.6 The ecological plaque hypothesis, which was proposed by Marsh et al. [31][32][33], explains that cariogenicity of dental plaque is altered by its inner bacterial composition.
 - p.6 Based on the hypothesis that specific lactobacilli are associated with the progression of dental caries [8], the present study examined whether the isolated lactobacilli affected the caries progression (Table 5) and demonstrated that specific Lactobacillus species are associated with dental caries based on their levels of carious lesion severity.
 - p.6 When compared with the decreased rate of pH under anaerobic conditions, obvious differences were observed, and the differences were not intraspecies but were instead interspecies (data not shown): L. salivarius rapidly decreased the medium pH, followed, in order, by L. gasseri and L. fermentum.
@@ -49,7 +48,7 @@
 - p.7 Our present results indicate that children with L. gasseri and L. salivarius detected in their oral cavities are at high risk for the occurrence and progression of dental caries.
 
 ## Analysis  
-(count: 9)
+(count: 7)
 - p.2 In addition, to assess the cariogenic potential of the LAB isolates, we taxonomically identified the isolates and measured the saliva-induced agglutination rate and ability to resist to lactic acid.
 - p.4 The Phi coefficients were calculated to assess relationships between the 7 major isolated species, suggesting that coexisting mild negative associations were observed in species pairs L. salivarius-L.
 - p.4 To comprehensively assess the influence of the 7 isolated species on caries scores, multiple regression analyses were done with the caries scores of the subjects as dependent variables and detection of the 7 species as independent variables (Table 3).
@@ -57,16 +56,11 @@
 - p.6 Therefore, in the present study, we evaluated the acid resistance and saliva-induced agglutination of the LAB isolates.
 - p.5 ‡ Partial regression coefficient, § Standardized partial regression coefficient.
 - p.5 ‡ Partial regression coefficient, § Standardized partial regression coefficient.
-- p.5 Summary of the multiple regression analysis with the caries scores in subjects as dependent variables and detection of seven species as independent variables
-- p.5 Summary of the multiple regression analysis with the numbers of teeth in each category of caries progression as dependent variables and the species detected as independent
 
 ## Dataset  
-(count: 5)
+(count: 2)
 - p.2 The subjects were patients who consulted the Hiroshima University Hospital of Pediatric Dentistry.
 - p.4 † n = 56, ‡ n = 18.
-- p.3 Characteristics of the subjects
-- p.4 Differences in the isolation frequency between subjects with and without cariesSpeciesSubjects with caries † Subjects without caries ‡
-- p.5 Summary of associations between the caries scores in subjects and the biological properties of
 
 ## Hypothesis  
 (count: 2)
@@ -89,17 +83,17 @@
 - p.6 In a previous study, a relationship was observed between the saliva-induced agglutination of S. mutans and the bacterial appearance frequency in dental plaque [39], and the results of the present agglutination analysis demonstrated that saliva works to incorporate into developing plaque rather than to exclude it from the dental cavity, at least in L. gasseri and L. salivarius. In addition, it has been suggested that L. salivarius might be more easily incorporated into dental plaque than other lactobacilli because of its ability to adhere to salivacoated hydroxyapatite [40]. The present study suggests that the level of salivainduced agglutination of L. gasseri and L. salivarius is positively associated with the caries scores in preschool children harboring each bacterium.
 - p.6 These results suggest that other properties, besides resistance to acid and saliva-induced agglutination may also influence caries. In the present study, we investigated LAB detected in the dental cavity and saliva in children with or without dental caries, and the results suggested that peculiar species of Lactobacillus were detected according to the level of carious lesion severity.
 - p.7 What kinds of genes bring about the differences in the above properties among oral lactobacilli? How do the differences in these properties contribute to caries progression? Research to answer these questions is in progress. The present study is a cross-sectional study about LAB detected in the dental cavity. However, our results indicate that not only oral bacterial flora but also some properties of each strain may provide significant information for research into the prevention of caries in preschool children.
-- p.3 Characteristics of the subjects
-- p.4 Differences in the isolation frequency between subjects with and without cariesSpeciesSubjects with caries † Subjects without caries ‡
-- p.5 Summary of the multiple regression analysis with the caries scores in subjects as dependent variables and detection of seven species as independent variables
-- p.5 Summary of associations between the caries scores in subjects and the biological properties of Summary of the multiple regression analysis with the numbers of teeth in each category of caries progression as dependent variables and the species detected as independent
+- p.3 Characteristics of the subjects Characteristics of the subjects
+- p.4 Differences in the isolation frequency between subjects with and without cariesSpeciesSubjects with caries † Subjects without caries ‡ Differences in the isolation frequency between subjects with and without cariesSpeciesSubjects with caries † Subjects without caries ‡
+- p.5 Summary of the multiple regression analysis with the caries scores in subjects as dependent variables and detection of seven species as independent variables Summary of the multiple regression analysis with the caries scores in subjects as dependent variables and detection of seven species as independent variables
+- p.5 Summary of associations between the caries scores in subjects and the biological properties of Summary of associations between the caries scores in subjects and the biological properties of Summary of the multiple regression analysis with the numbers of teeth in each category of caries progression as dependent variables and the species detected as independent Summary of the multiple regression analysis with the numbers of teeth in each category of caries progression as dependent variables and the species detected as independent
 
 ## Input Fact  
 (count: 1)
 - p.2 The caries scores of each participant were recorded as the dmft (the sum total of decayed caries and missing and filled tooth surfaces of primary dentition) scores and dt, mt and ft (decayed teeth, missing teeth and filled teeth, respectively, of primary dentition) scores according to criteria adapted from the World Health Organization's 1997 criteria.
 
 ## OTHER  
-(count: 25)
+(count: 28)
 - p.1 Nevertheless, the kinds of species of LAB and the characteristics that are important for dental caries have been unclear.
 - p.1 Seventy-four Japanese preschool children were examined for caries scores and caries progression, and their dental cavity samples were collected for LAB isolation and identification. The saliva-induced agglutination rate and the resistance to acidic environments of the identified strains were measured.
 - p.1 Microorganisms that bring health benefits to humans are called probiotics [1]. Some strains of lactic acid bacteria (LAB) that are recognized as probiotics are very useful for producing fermented foods such as yogurt. LAB themselves and foods fermented using them are also known to display anti-allergy properties and intestinal homeostasis [1][2][3][4] as health benefits to humans. Furthermore, certain LAB strains inhibit the growth of specific pathogenic oral bacteria, such as Porphyromonas gingivalis and Streptococcus (S.) mutans [5][6][7].
@@ -111,6 +105,9 @@
 - p.2 Genetic analyses were performed using the ATGC software and GENETYX software (GENETYX Corporation, Tokyo, Japan).
 - p.2 All statistical analyses were conducted using the SPSS 17.0 software (SPSS Japan, Inc., Tokyo, Japan).
 - p.3 The association between the caries scores and the properties of the lactobacillus isolates was calculated as Spearman's rho (rank correlation coefficient). All statistical analyses were two tailed, and p<0.05 was significant for all statistical tests.
+- p.3 To calculate the agglutination rate, the OD 550 decrease of the cell suspension was continuously measured after adding saliva during a 6-h period. Unstimulated saliva was collected from a healthy woman without eating and toothbrushing within 2 h and stored on ice.
+- p.3 The OD 550 value of the reaction mixture was measured using a JASCO V-550 UV/VIS Spectrophotometer (JASCO Corporation, Tokyo, Japan) at RT.
+- p.3 After 72 h of anaerobic incubation at 37°C, the OD 600 value for cell grown was measured using a 2300 EnSpire ® Multimode Plate Reader (PerkinElmer, Boston, MA, USA).
 - p.3 A total of 74 Japanese preschool children (39 males and 35 females, aged 41.0 ± 13.3 months) were enrolled in the study; no subjects had missing teeth caused by dental caries.
 - p.3 There were no significant differences in ages (42.0 ± 13.8 months in males and 39.8 ± 12.8 months in females; p=0.484), dt scores (4.8 ± 0.9 in males and 4.1 ± 0.7 in females; p=0.519), and dmft scores (7.6 ± 1.0 in males and 6.3 ± 1.0 in females; p=0.343) between male and female children (Table 1).
 - p.4 Among the subjects, 56 children (75.7%) were diagnosed as having dental caries (30 males and 26 females), and no significant difference was observed between the sexes (p=1.000,

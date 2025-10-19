@@ -21,22 +21,19 @@ from collections import defaultdict
 # ---------------- GROBID ----------------
 
 def grobid_fulltext_tei(server: str, pdf_path: str, timeout: int = 120) -> str:
-    """
-    Calls GROBID /api/processFulltextDocument and returns TEI XML (str).
-    Requires GROBID running, e.g. via Docker on http://localhost:8070
-    """
     url = server.rstrip("/") + "/api/processFulltextDocument"
-    files = {"input": open(pdf_path, "rb")}
-    data = [
-        ("segmentSentences", "1"),
-        ("teiCoordinates", "s"),
-        ("teiCoordinates", "p"),
-        ("teiCoordinates", "head"),
-        ("teiCoordinates", "figure"),
-        ("teiCoordinates", "table"),
-        ("teiCoordinates", "biblStruct"),
-    ]
-    r = requests.post(url, files=files, data=data, timeout=timeout)
+    with open(pdf_path, "rb") as f:
+        files = {"input": f}
+        data = [
+            ("segmentSentences", "1"),
+            ("teiCoordinates", "s"),
+            ("teiCoordinates", "p"),
+            ("teiCoordinates", "head"),
+            ("teiCoordinates", "figure"),
+            ("teiCoordinates", "table"),
+            ("teiCoordinates", "biblStruct"),
+        ]
+        r = requests.post(url, files=files, data=data, timeout=timeout)
     r.raise_for_status()
     return r.text
 
@@ -201,6 +198,7 @@ def tei_iter_sentences(tei_xml: str):
             if label != "OTHER" and not _should_ignore_head(el, head_txt, label):
                 current_head_text = head_txt
                 current_imrad_section = label
+            print(current_imrad_section, current_head_text)
 
         elif tag == "s":
             text = "".join(el.itertext()).strip()
@@ -377,8 +375,12 @@ def main():
     args = ap.parse_args()
 
     tei = grobid_fulltext_tei(args.server, args.pdf)
-    items = list(tei_iter_sentences(tei))  # sentences + captions with page/bbox
 
+    tei_path = Path(args.pdf).with_suffix(".tei.xml")
+    tei_path.write_text(tei, encoding="utf-8")
+    print(f"[tei] saved to {tei_path}")
+
+    items = list(tei_iter_sentences(tei))
     nlp = build_nlp(args.model)
     matcher, depmatcher = build_matchers(nlp)
 
@@ -407,7 +409,8 @@ def main():
         records.append(rec)
 
     # merge consecutive same-label spans
-    records = merge_adjacent(records)
+    # records = merge_adjacent(records)
+    records = records
 
     with open(args.out, "w", encoding="utf-8") as f:
         for r in records:
