@@ -6,7 +6,7 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 
-PDF_PATH="$PROJECT_DIR/article.pdf"
+PDF_PATH="$PROJECT_DIR/article2.pdf"
 OUT_PATH="$PROJECT_DIR/outputs/layout.json"
 
 echo "📘 Extracting layout from: $PDF_PATH"
