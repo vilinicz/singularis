@@ -11,7 +11,9 @@ Deps:
   poetry run python -m spacy download en_core_web_sm
 """
 
-import re, json, argparse
+import re
+import json
+import argparse
 from pathlib import Path
 from typing import List, Dict, Tuple
 import requests
@@ -106,12 +108,34 @@ def map_head_to_hint(head_text: str) -> str:
     if re.search(rf"{_WORD}(references|bibliography|works cited){_EOW}", t): return "REFERENCES"
     return "OTHER"
 
-from lxml import etree
 
 def _page0_from_boxes(boxes):
     page, _bbox = union_bbox(boxes)
     # union_bbox у тебя возвращает page как 1-based → переведём в 0-based
     return (page - 1) if page is not None else None, _bbox
+
+
+def has_struct_citation(sent_el: etree._Element) -> bool:
+    """
+    Проверяем структуру TEI:
+      - <ref type="bibr|bibl|citation" ...>
+      - target="#b\d+" или href на библиографию
+      - <ptr> в сторону библиографии
+      - <bibl> внутри предложения (редко)
+    """
+    for el in sent_el.iter():
+        tag = etree.QName(el).localname.lower()
+        if tag in {"ref", "ptr"}:
+            typ = (el.get("type") or "").lower()
+            tgt = (el.get("target") or el.get("{http://www.w3.org/1999/xlink}href") or "")
+            if typ in {"bibr","bibl","citation"}:
+                return True
+            if tgt.startswith("#b") or "bibl" in tgt.lower():
+                return True
+        if tag == "bibl":
+            return True
+    return False
+
 
 def tei_iter_sentences(tei_xml: str):
     """
@@ -163,13 +187,15 @@ def tei_iter_sentences(tei_xml: str):
                 continue
             boxes = parse_coords_attr(el.get("coords") or "")
             page0, bbox = _page0_from_boxes(boxes)
+
             yield {
                 "text": text,
                 "page": page0,
                 "bbox": bbox,
                 "section_hint": current_imrad_section,
                 "is_caption": False,
-                "caption_type": ""
+                "caption_type": "",
+                "has_citation": has_struct_citation(el)
             }
 
         elif tag == "figDesc":
@@ -191,7 +217,8 @@ def tei_iter_sentences(tei_xml: str):
                 "bbox": bbox,
                 "section_hint": current_imrad_section,
                 "is_caption": True,
-                "caption_type": "Figure"
+                "caption_type": "Figure",
+                "has_citation": has_struct_citation(el)
             }
 
         elif tag == "table":
@@ -210,7 +237,8 @@ def tei_iter_sentences(tei_xml: str):
                 "bbox": bbox,
                 "section_hint": current_imrad_section,
                 "is_caption": True,
-                "caption_type": "Table"
+                "caption_type": "Table",
+                "has_citation": has_struct_citation(el)
             }
 
 # ---------------- spaCy rules (как в прошлой версии) ----------------
@@ -270,10 +298,48 @@ def build_matchers(nlp):
     # INPUT FACT
     m.add("INF_SURFACE", [[{"LOWER":{"IN":["according","given","based"]}}, {"LOWER":"on","OP":"?"}], [{"LOWER":{"IN":["it","this"]}}, {"LEMMA":{"IN":["be"]}}, {"LOWER":{"IN":["known","established","well-known"]}}], [{"LOWER":{"IN":["prior","previous","existing"]}}, {"LOWER":{"IN":["work","evidence","studies","literature"]}}], [{"LOWER":{"IN":["guidelines","consensus","recommendations"]}}], [{"LOWER":{"IN":["baseline","assumption","assumptions","inclusion","exclusion","criteria"]}}]])
     d.add("INF_CITATION", [[{"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":{"IN":["report","show","demonstrate"]}}}, {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"obl","RIGHT_ATTRS":{"LOWER":{"IN":["previously","earlier"]}}}]])
+    # ---------- INPUT FACT: ЦИТАТЫ (жёсткие surface-паттерны) ----------
+    # [12] или [1–3,7]
+    m.add("INF_CIT_BRACK_NUM", [[{"TEXT":{"REGEX":r"^\[\s*\d+(\s*[,–-]\s*\d+)*\s*\]$"}}]])
+    # (Smith, 2010) / (Smith et al., 2010a)
+    m.add("INF_CIT_PAREN_AUTHOR_YEAR", [[
+        {"ORTH":"("},
+        {"IS_TITLE":True, "OP":"*"}, # фамилии (1+ токенов с заглавной)
+        {"IS_PUNCT":True, "OP":"?"},
+        {"LOWER":"et"}, {"LOWER":"al"}, {"IS_PUNCT":True, "OP":"?"},
+        {"IS_PUNCT":True, "OP":"?"}, # запятая
+        {"LIKE_NUM":True}, # 2010
+        {"IS_ALPHA":True, "OP":"?"}, # суффикс a/b
+        {"ORTH":")"}
+    ]])
+    # (2010a)
+    m.add("INF_CIT_PAREN_YEAR_ONLY", [[
+        {"ORTH":"("}, {"LIKE_NUM":True}, {"IS_ALPHA":True, "OP":"?"}, {"ORTH":")"}
+    ]])
+    # Smith et al., 2010 — без скобок
+    m.add("INF_CIT_ETAL_YEAR", [[
+        {"IS_TITLE":True}, {"LOWER":"et"}, {"LOWER":"al"}, {"IS_PUNCT":True, "OP":"?"},
+        {"LIKE_NUM":True}
+    ]])
+    # DOI
+    m.add("INF_CIT_DOI", [[{"LOWER":"doi"}, {"IS_PUNCT":True,"OP":"?"}, {"IS_ASCII":True}]])
     # CONCLUSION
     m.add("CONC_SURFACE", [[{"LOWER":{"IN":["in","overall"]}}, {"LOWER":"conclusion","OP":"?"}], [{"LOWER":{"IN":["in","overall"]}}, {"LOWER":"summary"}], [{"LOWER":{"IN":["we"]}}, {"LEMMA":{"IN":["conclude","confirm"]}}], [{"LOWER":{"IN":["these","our","the"]}}, {"LOWER":{"IN":["findings","results","data"]}}, {"LEMMA":{"IN":["support","suggest","highlight","underscore"]}}], [{"LOWER":{"IN":["implications","clinical","practice","translation","future"]}}]])
     d.add("CONC_DEP", [[{"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":{"IN":["conclude","suggest","support","confirm","highlight","underscore"]}}}, {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"subj","RIGHT_ATTRS":{"DEP":{"IN":["nsubj","nsubjpass"]}}}]])
     return m, d
+
+
+# Маленький структурный бонус за TEI-цитату
+CIT_STRUCT_BONUS = 4
+CIT_RULE_BONUS = 3
+
+# Имена цитатных правил (для soft-логики)
+CIT_RULE_PREFIX = "INF_CIT_"
+
+def build_nlp_and_matchers(model="en_core_web_sm"):
+    nlp = build_nlp(model)
+    matcher, depmatcher = build_matchers(nlp)
+    return nlp, matcher, depmatcher
 
 def score_sentence(doc_sent, section, matcher, depmatcher):
     scores = {lab:0 for lab in LABELS}
@@ -295,6 +361,7 @@ def looks_like_reference(text: str) -> bool:
     if re.search(r"\b(19|20)\d{2}\b", text) and re.search(r"\b\d{1,4}\s*[–-]\s*\d{1,4}\b", text): return True
     return False
 
+
 def decide_label(scores: Dict[str,int], section: str, had_matches: bool) -> str:
     if section=="REFERENCES" or not had_matches:
         return "OTHER" if section != "RESULTS" else "Result"
@@ -305,6 +372,8 @@ def decide_label(scores: Dict[str,int], section: str, had_matches: bool) -> str:
     for lab in order:
         if lab in cands: return lab
     return cands[0]
+
+
 
 def merge_adjacent(records: List[Dict]) -> List[Dict]:
     if not records: return records
@@ -320,72 +389,121 @@ def merge_adjacent(records: List[Dict]) -> List[Dict]:
             merged.append(r.copy())
     return merged
 
+
+def classify_sentence(
+    text: str,
+    section: str,
+    has_citation: bool,
+    *,
+    nlp,
+    matcher,
+    depmatcher,
+    citation_soft: bool
+) -> tuple[Dict[str,int], Dict[str,int], str]:
+    """
+    Возвращает (scores, hits, label).
+    Политика: цитаты усиливаются весами (CIT_STRUCT_BONUS, CIT_RULE_BONUS в score_sentence);
+    здесь лишь добавляем структурный бонус и (опц.) мягкий фильтр.
+    """
+    doc = nlp(text)
+    scores, hits = score_sentence(doc, section, matcher, depmatcher)
+
+    # Структурная цитата из TEI → бонус и маркер (увеличиваем hits на 1, а не на 4)
+    if has_citation:
+        scores["Input Fact"] += CIT_STRUCT_BONUS
+        hits["INF_CIT_STRUCT"] = hits.get("INF_CIT_STRUCT", 0) + 1
+
+    # Базовое решение по скорингу (учтёт секционные приоры и вес цитат)
+    label = decide_label(scores, section, had_matches=bool(hits))
+
+    # Опционально: если фраза выглядит как элемент референс-листа — глушим в OTHER
+    if looks_like_reference(text):
+        label = "OTHER"
+
+    # Опционально: мягкое правило — если НЕТ структурной цитаты и
+    # хиты ТОЛЬКО цитатные (surface), понижать до OTHER
+    if (not has_citation) and citation_soft and label == "Input Fact":
+        non_cit_hits = sum(
+            v for k, v in hits.items()
+            if not (k.startswith("INF_CIT_") or k == "INF_CITATION" or k == "INF_CIT_STRUCT")
+        )
+        cit_hits = sum(
+            v for k, v in hits.items()
+            if (k.startswith("INF_CIT_") or k == "INF_CITATION" or k == "INF_CIT_STRUCT")
+        )
+        if cit_hits > 0 and non_cit_hits == 0:
+            label = "OTHER"
+
+    return scores, hits, label
+
 # ---------------- Main ----------------
 
 def main():
-    ap = argparse.ArgumentParser(description="GROBID + spaCy rule labels (with bbox)")
+    ap = argparse.ArgumentParser(description="GROBID + spaCy rule labels (with bbox, citation-aware; clean main)")
     ap.add_argument("--pdf", required=True)
     ap.add_argument("--server", default="http://localhost:8070")
     ap.add_argument("--out", default="out.jsonl")
     ap.add_argument("--md", default="")
     ap.add_argument("--model", default="en_core_web_sm")
+    ap.add_argument("--citation-soft", action="store_true",
+    help="если у предложения есть только цитатные совпадения и ни одного иного сигнала — метить OTHER")
     args = ap.parse_args()
 
-    tei = grobid_fulltext_tei(args.server, args.pdf)
 
-    tei_path = Path(args.pdf).with_suffix(".tei.xml")
-    tei_path.write_text(tei, encoding="utf-8")
-    print(f"[tei] saved to {tei_path}")
+    tei = grobid_fulltext_tei(args.server, args.pdf)
+    Path(args.pdf).with_suffix(".tei.xml").write_text(tei, encoding="utf-8")
+
 
     items = list(tei_iter_sentences(tei))
-    nlp = build_nlp(args.model)
-    matcher, depmatcher = build_matchers(nlp)
+    Path("s0.json").write_text(json.dumps(items, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+    nlp, matcher, depmatcher = build_nlp_and_matchers(args.model)
+
 
     records = []
     for i, it in enumerate(items):
-        text = it["text"]
-        sec  = it["section_hint"]
-        if looks_like_reference(text):
-            label = "OTHER"; scores={lab:0 for lab in LABELS}; hits={}
-        else:
-            doc = nlp(text)  # single sentence from GROBID
-            scores, hits = score_sentence(doc, sec, matcher, depmatcher)
-            label = decide_label(scores, sec, bool(hits))
+        scores, hits, label = classify_sentence(
+        it["text"], it["section_hint"], it.get("has_citation", False),
+        nlp=nlp, matcher=matcher, depmatcher=depmatcher, citation_soft=args.citation_soft,
+        )
         rec = {
-            "idx": i,
-            "section": sec,
-            "label": label,
-            "text": text,
-            "page": it["page"],            # 0-based
-            "bbox": it["bbox"],            # [x0,y0,x1,y1] in PDF units
-            "is_caption": it["is_caption"],
-            "caption_type": it["caption_type"],
-            "scores": scores,
-            "matches": hits,
+        "idx": i,
+        "section": it["section_hint"],
+        "label": label,
+        "text": it["text"],
+        "page": it["page"],
+        "bbox": it["bbox"],
+        "is_caption": it["is_caption"],
+        "caption_type": it["caption_type"],
+        "scores": scores,
+        "matches": hits,
         }
         records.append(rec)
 
-    # merge consecutive same-label spans
-    # records = merge_adjacent(records)
-    records = records
 
     with open(args.out, "w", encoding="utf-8") as f:
-        for r in records:
-            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+      for r in records:
+        f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
 
     if args.md:
         groups = defaultdict(list)
         for r in records: groups[r["label"]].append(r)
-        lines = ["# Labels (merged spans)\n"]
+        lines = ["# Labels (unmerged spans)\n"]
         for lab in ["Result","Experiment","Technique","Analysis","Dataset","Hypothesis","Conclusion","Input Fact","OTHER"]:
-            if not groups[lab]: continue
-            lines.append(f"## {lab}  \n(count: {len(groups[lab])})")
-            for r in groups[lab][:200]:
-                lines.append(f"- p.{r['page']+1} {r['text']}")
-            lines.append("")
+          if not groups[lab]: continue
+          lines.append(f"## {lab} \\n(count: {len(groups[lab])})")
+          for r in groups[lab][:200]:
+            lines.append(f"- p.{(r['page'] or 0)+1} {r['text']}")
+          lines.append("")
         Path(args.md).write_text("\n".join(lines), encoding="utf-8")
+
 
     print(f"[done] items={len(records)} jsonl={args.out}" + (f" md={args.md}" if args.md else ""))
 
+
+
+
 if __name__ == "__main__":
-    main()
+  main()
