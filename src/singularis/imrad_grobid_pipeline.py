@@ -80,49 +80,6 @@ def union_bbox(boxes: List[Dict]) -> Tuple[int, List[float]]:
     ys1 = [b["y"] + b["h"] for b in boxes if b["page"] == page]
     return page, [min(xs0), min(ys0), max(xs1), max(ys1)]
 
-
-# def map_head_to_hint(head_text: str) -> str:
-#     t = (head_text or "").strip().lower()
-#     if "abstract" in t: return "INTRO"
-#     if any(k in t for k in ["introduction","background"]): return "INTRO"
-#     if any(k in t for k in ["materials and methods","material and methods","methods","methodology","experimental"]): return "METHODS"
-#     if any(k in t for k in ["results","findings","outcomes","evaluation"]): return "RESULTS"
-#     if any(k in t for k in ["discussion","conclusion","conclusions","implications","limitations"]): return "DISCUSSION"
-#     if any(k in t for k in ["references","bibliography","works cited"]): return "REFERENCES"
-#     return "OTHER"
-
-# Не работает!
-# def nearest_div_head_text(elem, NS) -> str:
-#     """
-#     Идём вверх до ближайшего <div> и берём его <head> (если есть).
-#     В твоём TEI <s> лежат внутри <p> внутри <div>, а <head> — сосед того же <div>.
-#     """
-#     node = elem.getparent()
-#     div_tag = f"{{{NS['t']}}}div"
-#     head_tag = f"{{{NS['t']}}}head"
-#     while node is not None and node.tag != div_tag:
-#         node = node.getparent()
-#     if node is None:
-#         return ""
-#     head = node.find(head_tag)
-#     return "".join(head.itertext()).strip() if head is not None else ""
-
-# def topmost_div_head_text(elem, NS) -> str:
-#     """
-#     Возвращает текст САМОГО ВЕРХНЕГО <head> среди всех ancestor::<div> текущего узла.
-#     XPath ancestor:: возвращает предков в порядке от КОРНЯ к РОДИТЕЛЮ,
-#     т.е. divs[0] — самый верхний <div>, divs[-1] — ближайший <div>.
-#     Мы берём первый предок, у которого реально есть <head>.
-#     """
-#     divs = elem.xpath("ancestor::t:div", namespaces=NS)
-#     for d in divs:                         # идём сверху вниз
-#         h = d.find("./t:head", NS)
-#         if h is not None:
-#             txt = "".join(h.itertext()).strip()
-#             if txt:
-#                 return txt
-#     return ""
-
 import re
 _WORD = r"(?:^|[^a-z])"; _EOW = r"(?:$|[^a-z])"
 
