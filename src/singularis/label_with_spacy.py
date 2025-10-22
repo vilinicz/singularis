@@ -65,7 +65,7 @@ WEIGHTS = {
 # Секционно-зависимые приоритеты (IMRAD)
 SECTION_TIE_ORDER = {
     # Аннотация: мини-вывод и цели
-    "ABSTRACT":   ["Conclusion","Result","Hypothesis","Dataset","Technique","Analysis","Experiment","Input Fact"],
+    "ABSTRACT":   ["Hypothesis", "Input Fact", "Conclusion","Result","Dataset","Technique","Analysis","Experiment"],
     # Введение: цель/фон > интерпретации
     "INTRO":      ["Hypothesis","Input Fact","Conclusion","Result","Analysis","Technique","Experiment","Dataset"],
     # Методы: техника и эксперимент первыми
@@ -92,6 +92,34 @@ def looks_like_reference(text: str) -> bool:
     if re.search(r"\b(vol\.?|no\.?|pp\.?|doi:?|issn|et al\.)\b", text, re.I):
         return True
     if re.search(r"\b(19|20)\d{2}\b", text) and re.search(r"\b\d{1,4}\s*[–-]\s*\d{1,4}\b", text):
+        return True
+    return False
+
+AUTH_NUM_RE     = re.compile(r"\b[A-Z][\w’'-]+(?:\s+[A-Z][\w’'-]+)?(?:\s+(?:et\s+al\.?|and\s+(?:colleagues|coworkers|associates)))?\s*\(\s*\d+\s*\)")
+MULTI_IN_ONE_RE = re.compile(r"\(\s*\d+(?:\s*[,;–-]\s*\d+)+\s*\)")
+PAREN_NUM_RE    = re.compile(r"\(\s*\d+\s*\)")
+TRAIL_ENUM_RE   = re.compile(r"(?:^|[\s;])(?:\d+|[ivxlcdm]+)\s*[\)\.\*]\s", re.I)
+ENUM_CTX_RE     = re.compile(r"\b(aims?|objectives?|goal|goals|purpose|hypothesis|hypotheses)\b", re.I)
+
+def is_numbered_list_like(text: str) -> bool:
+    # Явная мульти-ссылка в ОДНИХ скобках — это не список
+    if MULTI_IN_ONE_RE.search(text):
+        return False
+    # Две и более конструкции "Автор (число)" — это не список, а несколько ссылок
+    if len(AUTH_NUM_RE.findall(text)) >= 2:
+        return False
+
+    paren = len(PAREN_NUM_RE.findall(text))
+    trail = len(TRAIL_ENUM_RE.findall(text))
+
+    # Контекст целей + хотя бы один маркер → список
+    if (paren or trail) and ENUM_CTX_RE.search(text):
+        return True
+    # Двоеточие перед первым маркером → список
+    if re.search(r":\s*(?:\(\s*1\s*\)|(?:\d+|[ivxlcdm]+)\s*[\)\.\*]\s)", text, flags=re.I):
+        return True
+    # ≥2 маркеров (скобочных/трейлинговых) без авторских паттернов → список
+    if (paren + trail) >= 2:
         return True
     return False
 
@@ -137,7 +165,13 @@ def _score_sentence(doc_sent, section, matcher, depmatcher):
             if name.startswith(pref):
                 scores[lab] += 1
         if name.startswith(CIT_RULE_PREFIX):
-            scores["Input Fact"] += CIT_RULE_BONUS
+            # даём бонус всегда, если это наш "автор + (номер)"
+            if name == "INF_CIT_PAREN_NUM_AFTER_NAME":
+                scores["Input Fact"] += CIT_RULE_BONUS
+            else:
+                # иначе — только если это НЕ похоже на нумерованный список
+                if not is_numbered_list_like(doc_sent.text):
+                    scores["Input Fact"] += CIT_RULE_BONUS
 
     # Dependency patterns
     for mid, toks in depmatcher(doc_sent):
@@ -185,6 +219,9 @@ def _compute_flags(doc, hits: Dict[str,int], section_hint: str, has_citation_fie
     # dataset
     has_dataset_cues   = _any_hit(hits, ["DATA_SURFACE"])
 
+    # input fact from previous studies / lit review
+    has_prev_assoc_lit = _any_hit(hits, ["INF_PREV_ASSOC", "INF_ASSOC_SUBJ_LIT"])
+
     # citation rules or structural field
     has_citation_rule  = _any_hit(hits, [
         "INF_CIT_BRACK_NUM","INF_CIT_PAREN_AUTHOR_YEAR","INF_CIT_PAREN_YEAR_ONLY","INF_CIT_ETAL_YEAR","INF_CIT_DOI"
@@ -217,48 +254,64 @@ def _compute_flags(doc, hits: Dict[str,int], section_hint: str, has_citation_fie
         "has_abs_head_results": has_abs_head_results,
         "has_abs_head_conc": has_abs_head_conc,
         "has_pct_list": has_pct_list,
-        "has_hyp_surface_any": _any_hit(hits, ["HYP_SURFACE"])
+        "has_hyp_surface_any": _any_hit(hits, ["HYP_SURFACE"]),
+        "has_prev_assoc_lit": has_prev_assoc_lit,
     }
 
 # ============================================
 # [IMRAD-D] Apply soft boosts (section priors
 # уже применены в _score_sentence)
 # ============================================
-def _apply_boosts(scores: Dict[str,int], flags: Dict[str, bool]):
-    if flags["has_analysis_test"]:
+def _apply_boosts(scores: Dict[str, int], flags: Dict[str, bool]):
+    # Analysis / Results boosts
+    if flags.get("has_analysis_test"):
         scores["Analysis"] = scores.get("Analysis", 0) + WEIGHTS["boosts"]["ANA"]
-    if flags["has_res_summary"] or flags["has_res_verb_cues"] or flags["has_res_stats"]:
+    if flags.get("has_res_summary") or flags.get("has_res_verb_cues") or flags.get("has_res_stats"):
         scores["Result"] = scores.get("Result", 0) + WEIGHTS["boosts"]["RES"]
-    if flags["has_hyp_intro"]:
+
+    # Hypothesis boost in INTRO/ABSTRACT
+    if flags.get("has_hyp_intro"):
         scores["Hypothesis"] = scores.get("Hypothesis", 0) + WEIGHTS["boosts"]["HYP_INTRO"]
-    if flags["has_experiment_ops"]:
+
+    # Experiment / Technique boosts
+    if flags.get("has_experiment_ops"):
         scores["Experiment"] = scores.get("Experiment", 0) + WEIGHTS["boosts"]["EXP"]
-    if flags["has_tech_using"] or flags["has_scale_classification"]:
+    if flags.get("has_tech_using") or flags.get("has_scale_classification"):
         scores["Technique"] = scores.get("Technique", 0) + WEIGHTS["boosts"]["TEC"]
-    if flags["has_dataset_cues"] and not flags["has_significance"]:
-        scores["Dataset"] = scores.get("Dataset", 0) + WEIGHTS["boosts"]["DATA_NO_SIG"]
-    if flags["section"] in {"INTRO","ABSTRACT"} and flags["has_citation_rule"]:
+
+    # Dataset boost (no-significance) — BUT do not inflate for literature background in INTRO/ABSTRACT
+    if flags.get("has_dataset_cues") and not flags.get("has_significance"):
+        skip_dataset_boost = (
+            flags.get("section") in {"INTRO", "ABSTRACT"}
+            and flags.get("has_prev_assoc_lit", False)  # <- фон из литературы (previous studies …)
+        )
+        if not skip_dataset_boost:
+            scores["Dataset"] = scores.get("Dataset", 0) + WEIGHTS["boosts"]["DATA_NO_SIG"]
+
+    # Citation presence in INTRO/ABSTRACT → Input Fact
+    if flags.get("section") in {"INTRO", "ABSTRACT"} and flags.get("has_citation_rule"):
         scores["Input Fact"] = scores.get("Input Fact", 0) + WEIGHTS["boosts"]["INF_CIT"]
 
     # ABSTRACT: headers + percent lists → Result/Conclusion
-    if flags["section"] == "ABSTRACT":
-        if flags["has_abs_head_results"]:
+    if flags.get("section") == "ABSTRACT":
+        if flags.get("has_abs_head_results"):
             scores["Result"] = scores.get("Result", 0) + 2
-        if flags["has_abs_head_conc"]:
+        if flags.get("has_abs_head_conc"):
             scores["Conclusion"] = scores.get("Conclusion", 0) + 2
-        if flags["has_pct_list"]:
+        if flags.get("has_pct_list"):
             scores["Result"] = scores.get("Result", 0) + 1
 
-    # ABSTRACT/METHODS: when dataset cues present and no strong significance/analysis — help Dataset
-    if flags["section"] in {"ABSTRACT","METHODS"} and flags["has_dataset_cues"] and not (flags["has_significance"] or flags["has_analysis_test"]):
+    # ABSTRACT/METHODS: extra gentle help for Dataset when no strong stats/analysis
+    if flags.get("section") in {"ABSTRACT", "METHODS"} and flags.get("has_dataset_cues") and not (flags.get("has_significance") or flags.get("has_analysis_test")):
         scores["Dataset"] = scores.get("Dataset", 0) + 1
 
-    # INTRO/ABSTRACT: aims/objectives detected — slightly downweight Technique so it doesn't overshadow Hypothesis
-    if flags["section"] in {"INTRO","ABSTRACT"} and flags.get("has_hyp_surface_any") and scores.get("Technique", 0) > 0:
-        scores["Hypothesis"] += 2
-        scores["Technique"] -= 1
+    # INTRO/ABSTRACT: when aims/objectives present, keep Hypothesis ahead of Technique
+    if flags.get("section") in {"INTRO", "ABSTRACT"} and flags.get("has_hyp_surface_any") and scores.get("Technique", 0) > 0:
+        scores["Hypothesis"] = scores.get("Hypothesis", 0) + 2
+        scores["Technique"] = scores.get("Technique", 0) - 1
 
     return scores
+
 
 # =========================================
 # [IMRAD-E] Universal tie-breaks & postfixes

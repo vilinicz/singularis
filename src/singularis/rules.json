@@ -8,6 +8,15 @@
       [ {"LOWER":{"IN":["baseline","assumption","assumptions","inclusion","exclusion","criteria"]}} ]
     ],
 
+    "INF_PREV_ASSOC": [
+      [ {"LOWER":{"IN":["previous","prior","earlier","many"]}}, {"LOWER":{"IN":["work","study","studies","research","reports","literature"]}},
+        {"LEMMA":{"IN":["show","demonstrate","indicate","report","find","document"]}} ],
+      [ {"LOWER":{"IN":["previous","prior","earlier"]}}, {"LOWER":{"IN":["work","study","studies","research","reports","literature"]}},
+        {"LOWER":{"IN":["has","have","is","are","was","were"]}}, {"LEMMA":{"IN":["show","demonstrate","indicate","associate"]}} ],
+      [ {"LOWER":{"IN":["it","this"]}, "OP":"?"}, {"LEMMA":"be"}, {"LOWER":{"IN":["shown","demonstrated","reported","indicated","established"]}}, {"LOWER":{"IN":["that"]}, "OP":"?"}, {"LEMMA":{"IN":["associate"]}}, {"LOWER":"with"} ]
+    ],
+
+
     "INF_CIT_BRACK_NUM": [ [ {"TEXT":{"REGEX":"^\\[\\s*\\d+(\\s*[,–-]\\s*\\d+)*\\s*\\]$"}} ] ],
     "INF_CIT_PAREN_AUTHOR_YEAR": [ [
       {"ORTH":"("},
@@ -26,6 +35,45 @@
     "INF_CIT_ETAL_YEAR": [ [ {"IS_TITLE":true}, {"LOWER":"et"}, {"LOWER":"al"}, {"IS_PUNCT":true, "OP":"?"}, {"LIKE_NUM":true} ] ],
     "INF_CIT_DOI": [ [ {"LOWER":"doi"}, {"IS_PUNCT":true, "OP":"?"}, {"IS_ASCII":true} ] ],
 
+    "INF_CIT_PAREN_NUM_AFTER_NAME": [
+      [
+        {"IS_TITLE": true, "OP": "+"},
+        {"IS_PUNCT": true, "OP": "?"},
+        {"ORTH": "("}, {"LIKE_NUM": true}, {"ORTH": ")"}
+      ],
+      [
+        {"IS_TITLE": true, "OP": "+"},
+        {"LOWER": "and", "OP": "?"},
+        {"LOWER": {"IN": ["colleague", "colleagues", "coworkers", "associates"]}, "OP": "?"},
+        {"ORTH": "("}, {"LIKE_NUM": true}, {"ORTH": ")"}
+      ],
+      [
+        {"IS_TITLE": true, "OP": "+"},
+        {"LOWER": "et"}, {"LOWER": "al"}, {"IS_PUNCT": true, "OP": "?"},
+        {"ORTH": "("}, {"LIKE_NUM": true}, {"ORTH": ")"}
+      ]
+    ],
+
+    "INF_CIT_CONTEXT_PAREN_NUM": [
+      [
+        {"LOWER":"as"},
+        {"LEMMA":{"IN":["show","demonstrate","report","describe","note","observe","document"]}},
+        {"LOWER":"in"},
+        {"LOWER":{"IN":["previous","prior","earlier"]},"OP":"?"},
+        {"LOWER":{"IN":["work","study","studies","research","reports","literature","paper","trial"]}},
+        {"ORTH":"("}, {"LIKE_NUM":true}, {"ORTH":")"}
+      ],
+      [
+        {"LOWER":{"IN":["previous","prior","earlier"]}},
+        {"LOWER":{"IN":["work","study","studies","research","reports","literature","paper","trial"]}},
+        {"ORTH":"("}, {"LIKE_NUM":true}, {"ORTH":")"}
+      ],
+      [
+        {"LOWER":{"IN":["see","cf"]}},
+        {"ORTH":"("}, {"LIKE_NUM":true}, {"ORTH":")"}
+      ]
+    ],
+
     "HYP_SURFACE": [
       [ {"LOWER":{"IN":["we","our"]}}, {"LEMMA":{"IN":["hypothesize","hypothesise","postulate","posit","predict","propose"]}} ],
       [ {"LOWER":{"IN":["we","our"]}}, {"LOWER":{"IN":["hypothesis","hypotheses"]}} ],
@@ -40,6 +88,10 @@
       [ {"LOWER":{"IN":["the","this"]}}, {"LOWER":{"IN":["aim","aims","objective","objectives","goal","goals","purpose"]}}, {"LOWER":"of"}, {"LOWER":{"IN":["this","the"]}}, {"LOWER":{"IN":["analysis","study"]}} ],
       [ {"LOWER":{"IN":["this","the"]}}, {"LOWER":{"IN":["analysis","study"]}}, {"LEMMA":{"IN":["aim"]}}, {"LOWER":"to"} ],
       [ {"LOWER":"to"}, {"LEMMA":{"IN":["describe","delineate","investigate","assess","examine","analyze","analyse","determine","identify"]}} ]
+    ],
+
+    "HYP_OBJECTIVES_HEAD": [
+      [ {"LOWER":{"IN":["objective","objectives"]}}, {"TEXT":{"IN":[":","—","-","–"]}} ]
     ],
 
     "EXP_SURFACE": [
@@ -58,10 +110,13 @@
       [ {"LEMMA":{"IN":["measure","calculate","perform","amplify","sequence","normalize"]}}, {"LOWER":{"IN":["using","with","by"]}} ],
       [ {"LOWER":{"IN":["classified","categorized","graded"]}}, {"LOWER":"as"}, {"TEXT":{"REGEX":"c[0-4]([/,-]\\s*c[0-4])?"}} ],
       [ {"TEXT":{"REGEX":"^c[0-4]$"}}, {"IS_PUNCT":true,"OP":"?"}, {"IS_ALPHA":true,"OP":"*"} ],
-      [ {"LOWER": {"IN": ["cross-sectional","crosssectional","cross","sectional"]}} ],
-      [ {"LOWER": {"IN": ["survey","surveys","questionnaire","questionnaires"]}} ],
-      [ {"LOWER": {"IN": ["sampling","sample","design","multistage","cluster","stratified","probability","pps","p.p.s."]}} ],
-      [ {"LOWER": {"IN": ["random","randomly"]}}, {"LEMMA": {"IN": ["select","sample","assign"]}} ]
+
+
+      [ {"LOWER":"cross"}, {"LOWER":"sectional"} ],
+      [ {"LOWER":{"IN":["cross-sectional","crosssectional"]}} ],
+      [ {"LOWER":{"IN":["survey","surveys","questionnaire","questionnaires"]}} ],
+      [ {"LOWER":{"IN":["sampling","sample","design","multistage","cluster","stratified","probability","pps","p.p.s."]}} ],
+      [ {"LOWER":{"IN":["random","randomly"]}}, {"LEMMA":{"IN":["select","sample","assign"]}} ]
     ],
 
     "TEC_USING": [
@@ -69,10 +124,7 @@
     ],
 
     "TEC_ABS_HEAD_METHODS": [
-       [
-         {"IS_TITLE": true, "TEXT": {"IN": ["Methods","METHODS","Design","DESIGN"]}},
-         {"TEXT": {"IN": [":","—","-","–"]}}
-       ]
+      [ {"IS_TITLE": true, "TEXT": {"IN": ["Methods","METHODS","Design","DESIGN"]}}, {"TEXT": {"IN": [":","—","-","–"]}} ]
     ],
 
     "ANA_SURFACE": [
@@ -93,6 +145,13 @@
       [ {"LOWER":{"IN":["model","models","coefficient","coefficients","parameter","parameters"]}} ]
     ],
 
+    "RES_ASSOC_OUR": [
+      [ {"LOWER":{"IN":["we","our"]}}, {"LOWER":{"IN":["results","findings"]},"OP":"?"}, {"LEMMA":{"IN":["show","demonstrate","indicate","reveal","find","observe"]}}, {"LOWER":{"IN":["that"]}, "OP":"?"}, {"LEMMA":{"IN":["associate"]}}, {"LOWER":"with"} ],
+      [ {"LOWER":{"IN":["this","the"]}}, {"LOWER":{"IN":["study","analysis"]}}, {"LEMMA":{"IN":["show","demonstrate","indicate","reveal","find","observe"]}}, {"LOWER":{"IN":["that"]}, "OP":"?"}, {"LEMMA":{"IN":["associate"]}}, {"LOWER":"with"} ],
+      [ {"LOWER":{"IN":["we"]}}, {"LEMMA":{"IN":["find","observe","show"]}}, {"LOWER":{"IN":["that"]}, "OP":"?"}, {"LEMMA":{"IN":["associate"]}}, {"LOWER":"with"} ]
+    ],
+
+
     "RES_VERB_CUES": [
       [ {"LOWER":{"IN":["results","findings","statistical"]}}, {"LEMMA":{"IN":["show","indicate","reveal","demonstrate","suggest"]}} ],
       [ {"LOWER":{"IN":["these","our"]}}, {"LOWER":{"IN":["results","findings"]}}, {"LEMMA":{"IN":["show","indicate","reveal","demonstrate","suggest"]}} ]
@@ -108,6 +167,10 @@
       [ {"LOWER":{"IN":["these","our"]}}, {"LOWER":{"IN":["results","findings"]}}, {"LEMMA":{"IN":["show","indicate","reveal","demonstrate","suggest"]}} ]
     ],
 
+    "RES_ABS_CONT": [
+      [ {"LIKE_NUM": true}, {"TEXT": {"REGEX": "%|\\)$"}}, {"IS_PUNCT": true, "OP": "?"} ]
+    ],
+
     "DATA_SURFACE": [
       [ {"LOWER":{"IN":["dataset","data","registry","cohort","biobank","database"]}} ],
       [ {"LOWER":{"IN":["mimic","mimic-iii","mimic-iv","uk","biobank","eicu","clinicaltrials.gov","tcga","physionet"]}} ],
@@ -118,7 +181,7 @@
       [ {"TEXT":{"REGEX":"^n\\s*=\\s*\\d+$"}} ],
       [ {"LIKE_NUM":true}, {"LOWER":{"IN":["males","females","children","participants","subjects","patients"]}} ],
       [ {"LOWER":{"IN":["mean","median","sd","s.d.","std","iqr","dt","dmft"]}} ],
-      [ {"LOWER": "sample"}, {"LOWER": "of"}, {"LIKE_NUM": true} ],
+      [ {"LOWER":"sample"}, {"LOWER":"of"}, {"LIKE_NUM": true} ],
       [ {"LIKE_NUM": true}, {"LOWER": {"IN": ["adults","elderly","participants","subjects","patients"]}} ],
       [ {"LOWER": {"IN": ["older","community-dwelling","community"]}}, {"LOWER": {"IN": ["adults","participants","subjects"]}} ]
     ],
@@ -129,21 +192,100 @@
       [ {"LOWER":{"IN":["these","our"]}}, {"LOWER":{"IN":["results","findings"]}}, {"LEMMA":{"IN":["suggest","indicate"]}} ]
     ],
 
+    "CONC_IMP_SHOULD": [
+      [ {"LOWER":{"IN":["research","practice","investigators","further"]}}, {"LOWER":{"IN":["should","must","need","needs"]}} ]
+    ],
+
+    "CONC_SUMMARY_ABS": [
+      [ {"LEMMA":{"IN":["appear","seem","indicate","suggest"]}}, {"LOWER":"to","OP":"?"}, {"LEMMA":{"IN":["drive","lead","result"]}}, {"LOWER":"by","OP":"?"} ]
+    ],
+
     "RES_ABS_HEAD_RESULTS": [
-      [ {"IS_TITLE": true, "TEXT": {"IN": ["Results","RESULTS"]}},
-        {"TEXT": {"IN": [":","—","-","–"]}} ]
+      [ {"IS_TITLE": true, "TEXT": {"IN": ["Results","RESULTS"]}}, {"TEXT": {"IN": [":","—","-","–"]}} ]
     ],
     "CONC_ABS_HEAD": [
-      [ {"IS_TITLE": true, "TEXT": {"IN": ["Conclusion","Conclusions","CONCLUSION","CONCLUSIONS"]}},
-        {"TEXT": {"IN": [":","—","-","–"]}} ]
+      [ {"IS_TITLE": true, "TEXT": {"IN": ["Conclusion","Conclusions","CONCLUSION","CONCLUSIONS"]}}, {"TEXT": {"IN": [":","—","-","–"]}} ]
     ]
   },
 
   "depmatcher": {
+    "INF_ASSOC_SUBJ_LIT": [
+      [
+        {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":{"IN":["associate","correlate","relate","show","demonstrate","indicate","report"]}}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"subj",
+         "RIGHT_ATTRS":{"DEP":{"IN":["nsubj","nsubjpass"]},
+                        "LOWER":{"IN":["previous","prior","earlier","literature","studies","work","research","reports"]}}}
+      ]
+    ],
+
+    "HYP_XCOMP_TO": [
+      [
+        {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":{"IN":["aim","seek","plan","intend","attempt"]}}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"comp","RIGHT_ATTRS":{"DEP":{"IN":["xcomp","ccomp"]},"POS":"VERB"}}
+      ]
+    ],
+
+    "HYP_CCOMP_THAT": [
+      [
+        {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":{"IN":["hypothesize","propose","predict","expect","suggest"]}}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"that","RIGHT_ATTRS":{"DEP":{"IN":["mark","complm"]},"LOWER":"that"}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"comp","RIGHT_ATTRS":{"DEP":"ccomp"}}
+      ]
+    ],
+
     "EXP_DOBJ": [
       [
         {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":{"IN":["collect","isolate","purify","incubate","plate","swab","recruit","enroll","examine"]}}},
         {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"obj","RIGHT_ATTRS":{"DEP":{"IN":["dobj","obj"]},"LOWER":{"IN":["sample","samples","swab","swabs","colony","colonies","participants","subjects","patients","children"]}}}
+      ]
+    ],
+
+    "EXP_PASSIVE_PROC": [
+      [
+        {"RIGHT_ID":"v","RIGHT_ATTRS":{"TAG":"VBN","LEMMA":{"IN":["immerse","treat","recruit","enroll","randomize","interview"]}}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"auxp","RIGHT_ATTRS":{"DEP":{"IN":["auxpass","aux"]},"LOWER":{"IN":["was","were"]}}}
+      ]
+    ],
+
+    "EXP_BY_SUBJ": [
+      [
+        {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":{"IN":["use","recruit","interview","survey","contact","locate","screen","sample"]}}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"obl","RIGHT_ATTRS":{"DEP":{"IN":["agent","prep"]},"LOWER":"by"}},
+        {"LEFT_ID":"obl","REL_OP":">>","RIGHT_ID":"agent","RIGHT_ATTRS":{"DEP":"pobj","LOWER":{"IN":["participants","subjects","adults","patients","respondents","sample","samples","dwellings","households"]}}}
+      ]
+    ],
+
+    "TEC_USING": [
+      [
+        {"RIGHT_ID":"v","RIGHT_ATTRS":{"POS":"VERB"}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"obl","RIGHT_ATTRS":{"DEP":{"IN":["prep","agent"]},"LOWER":{"IN":["using","via"]}}}
+      ],
+      [
+        {"RIGHT_ID":"v","RIGHT_ATTRS":{"POS":"VERB"}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"obl","RIGHT_ATTRS":{"DEP":{"IN":["prep","agent"]},"LOWER":{"IN":["with","by","through"]}}},
+        {"LEFT_ID":"obl","REL_OP":">>","RIGHT_ID":"tool","RIGHT_ATTRS":{"DEP":{"IN":["pobj","pcomp"]},"LEMMA":{"IN":["method","technique","protocol","assay","algorithm","pipeline","architecture","classifier","model","regression","analyzer","spectrometer","spectrophotometer","software","sas","stata","spss","r","sampler","design","procedure","assay"]}}}
+      ]
+    ],
+
+    "DATA_SOURCE": [
+      [
+        {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":{"IN":["collect","use","utilize","obtain","source","recruit","enroll","include"]}}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"obj","RIGHT_ATTRS":{"DEP":{"IN":["obj","dobj"]},"LOWER":{"IN":["data","dataset","datasets","patients","participants","subjects","records","cohort"]}}}
+      ]
+    ],
+
+    "DATA_COUNT_NOUN": [
+      [
+        {"RIGHT_ID":"n","RIGHT_ATTRS":{"LEMMA":{"IN":["participant","subject","patient","adult","child","sample"]},"POS":"NOUN"}},
+        {"LEFT_ID":"n","REL_OP":">>","RIGHT_ID":"num","RIGHT_ATTRS":{"DEP":{"IN":["nummod","amod"]},"LIKE_NUM":true}}
+      ]
+    ],
+
+    "DATA_SAMPLE_OF": [
+      [
+        {"RIGHT_ID":"head","RIGHT_ATTRS":{"LOWER":"sample"}},
+        {"LEFT_ID":"head","REL_OP":">>","RIGHT_ID":"prep","RIGHT_ATTRS":{"DEP":"prep","LOWER":"of"}},
+        {"LEFT_ID":"prep","REL_OP":">>","RIGHT_ID":"num","RIGHT_ATTRS":{"DEP":"pobj","LIKE_NUM":true}}
       ]
     ],
 
@@ -158,10 +300,10 @@
       ]
     ],
 
-    "CONC_DEP": [
+    "ANA_MODEL_NOUN": [
       [
-        {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":{"IN":["conclude","suggest","support","confirm","highlight","underscore","indicate","demonstrate","reveal","show"]}}},
-        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"subj","RIGHT_ATTRS":{"DEP":{"IN":["nsubj","nsubjpass"]}}}
+        {"RIGHT_ID":"n","RIGHT_ATTRS":{"LEMMA":{"IN":["regression","model","analysis"]},"POS":"NOUN"}},
+        {"LEFT_ID":"n","REL_OP":">>","RIGHT_ID":"mod","RIGHT_ATTRS":{"DEP":{"IN":["amod","compound"]},"LOWER":{"IN":["logistic","linear","cox","multivariable","multivariate"]}}}
       ]
     ],
 
@@ -172,35 +314,74 @@
       ]
     ],
 
-    "TEC_USING": [
-        [
-          {"RIGHT_ID":"v","RIGHT_ATTRS":{"POS":"VERB"}},
-          {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"obl",
-           "RIGHT_ATTRS":{"DEP":{"IN":["prep","agent"]},"LOWER":{"IN":["using","via"]}}}
-        ],
-        [
-          {"RIGHT_ID":"v","RIGHT_ATTRS":{"POS":"VERB"}},
-          {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"obl",
-           "RIGHT_ATTRS":{"DEP":{"IN":["prep","agent"]},"LOWER":{"IN":["with","by","through"]}} },
-          {"LEFT_ID":"obl","REL_OP":">>","RIGHT_ID":"tool",
-           "RIGHT_ATTRS":{"DEP":{"IN":["pobj","pcomp"]},
-             "LEMMA":{"IN":["method","technique","protocol","assay","algorithm","pipeline","architecture",
-                            "classifier","model","regression","analyzer","spectrometer","spectrophotometer",
-                            "software","sas","stata","spss","r","sampler","design","procedure","assay"]}}}
-        ]
-    ],
-
-    "DATA_SOURCE": [
+    "RES_IDENTIFY_AS": [
       [
-        {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":{"IN":["collect","use","utilize","obtain","source","recruit","enroll","include"]}}},
-        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"obj","RIGHT_ATTRS":{"DEP":{"IN":["obj","dobj"]},"LOWER":{"IN":["data","dataset","datasets","patients","participants","subjects","records","cohort"]}}}
+        {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":{"IN":["identify","classify","label"]}}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"obj","RIGHT_ATTRS":{"DEP":{"IN":["dobj","obj"]}}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"prep","RIGHT_ATTRS":{"DEP":"prep","LOWER":"as"}},
+        {"LEFT_ID":"prep","REL_OP":">>","RIGHT_ID":"role","RIGHT_ATTRS":{"DEP":"pobj"}}
       ]
     ],
 
-    "ANA_USING": [
+    "RES_COMPARE_TO": [
       [
-        {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":{"IN":["test","analyze","analyse","evaluate","assess","model","fit","estimate","calculate"]}}},
-        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"obl","RIGHT_ATTRS":{"DEP":{"IN":["prep","agent"]},"LOWER":{"IN":["using","with","via","by","through"]}}}
+        {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":"compare"}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"to","RIGHT_ATTRS":{"DEP":"prep","LOWER":"to"}},
+        {"LEFT_ID":"to","REL_OP":">>","RIGHT_ID":"ref","RIGHT_ATTRS":{"DEP":"pobj"}}
+      ]
+    ],
+
+    "RES_STATS_RATIO_NUM": [
+      [
+        {"RIGHT_ID":"n","RIGHT_ATTRS":{"LEMMA":{"IN":["ratio","auc","rmse","accuracy","precision","recall","specificity","sensitivity"]},"POS":"NOUN"}},
+        {"LEFT_ID":"n","REL_OP":">>","RIGHT_ID":"num","RIGHT_ATTRS":{"DEP":{"IN":["nummod","appos"]},"LIKE_NUM":true}}
+      ]
+    ],
+
+    "RES_IDENTIFY_SPECIES_AS": [
+      [
+        {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":"identify"}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"as","RIGHT_ATTRS":{"DEP":"prep","LOWER":"as"}},
+        {"LEFT_ID":"as","REL_OP":">>","RIGHT_ID":"species","RIGHT_ATTRS":{"DEP":"pobj","LEMMA":{"IN":["species","taxon","genus","strain"]}}}
+      ]
+    ],
+
+    "CONC_DEP": [
+      [
+        {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":{"IN":["conclude","suggest","support","confirm","highlight","underscore","indicate","demonstrate","reveal","show"]}}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"subj",
+         "RIGHT_ATTRS":{"DEP":{"IN":["nsubj","nsubjpass"]},
+                        "LOWER":{"IN":["we","our","results","findings","data","study","analysis","these","this"]}}}
+      ]
+    ],
+
+    "CONC_VERB_THAT": [
+      [
+        {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":{"IN":["conclude","suggest","indicate","support","confirm"]}}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"comp","RIGHT_ATTRS":{"DEP":{"IN":["ccomp","xcomp","advcl"]}}}
+      ]
+    ],
+
+
+    "EXP_IMMERSE_SALIVA": [
+      [
+        {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":"immerse"}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"in","RIGHT_ATTRS":{"DEP":"prep","LOWER":"in"}},
+        {"LEFT_ID":"in","REL_OP":">>","RIGHT_ID":"mat","RIGHT_ATTRS":{"DEP":"pobj","LOWER":{"IN":["saliva","artificial"]}}}
+      ]
+    ],
+
+    "EXP_ETCH_ENAMEL": [
+      [
+        {"RIGHT_ID":"v","RIGHT_ATTRS":{"LEMMA":{"IN":["etch","demineralize","remineralize"]}}},
+        {"LEFT_ID":"v","REL_OP":">>","RIGHT_ID":"obj","RIGHT_ATTRS":{"DEP":{"IN":["dobj","obj"]},"LOWER":{"IN":["enamel","surface","tooth","teeth"]}}}
+      ]
+    ],
+
+    "TEC_VICKERS_MICROHARDNESS": [
+      [
+        {"RIGHT_ID":"n","RIGHT_ATTRS":{"LOWER":"microhardness"}},
+        {"LEFT_ID":"n","REL_OP":">>","RIGHT_ID":"mod","RIGHT_ATTRS":{"DEP":{"IN":["compound","amod"]},"LOWER":{"IN":["vickers"]}}}
       ]
     ]
   }

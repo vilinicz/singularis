@@ -7,7 +7,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		<fileDesc>
 			<titleStmt>
 				<title level="a" type="main">Oral Health Self-Care Behaviors of Rural Older Adults</title>
-				<funder ref="#_qCanmTG">
+				<funder ref="#_9fS6VT3">
 					<orgName type="full">National Institute for Dental and Craniofacial Research</orgName>
 				</funder>
 			</titleStmt>
@@ -130,7 +130,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-10-22T10:51+0000">
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2025-10-22T12:34+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<label type="revision">0.8.2-30-gbe6cebd7c</label>
 					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[s, p, head, figure, table, biblStruct], flavor=null</label>
@@ -196,7 +196,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 <div><head coords="7,90.00,609.54,106.02,11.10">Acknowledgments</head><p coords="7,150.00,629.98,356.59,7.20"><s coords="7,150.00,629.98,356.59,7.20">This research was funded by the <rs type="funder">National Institute for Dental and Craniofacial Research</rs>, grant <rs type="grantNumber">R01 DE017092</rs>.</s></p></div>
 			</div>
 			<listOrg type="funding">
-				<org type="funding" xml:id="_qCanmTG">
+				<org type="funding" xml:id="_9fS6VT3">
 					<idno type="grant-number">R01 DE017092</idno>
 				</org>
 			</listOrg>
