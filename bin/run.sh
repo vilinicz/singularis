@@ -10,7 +10,7 @@ PKG_DIR="${SRC_DIR}/${PKG_NAME}"
 OUT_DIR_DEFAULT="${ROOT_DIR}/outputs"
 
 # --- defaults aligned to your tree ---
-PDF_DEFAULT="${PKG_DIR}/article.pdf"
+PDF_DEFAULT="${PKG_DIR}/article10.pdf"
 SERVER_DEFAULT="http://localhost:8070"
 PATTERNS_DEFAULT="${PKG_DIR}/rules.json"   # you named it rules.json
 MODEL_DEFAULT="en_core_web_sm"

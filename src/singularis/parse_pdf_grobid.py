@@ -131,7 +131,7 @@ def tei_iter_sentences(tei_xml: str) -> Iterable[Dict]:
             if not text: continue
             boxes = parse_coords_attr(el.get("coords") or "")
             page0, bbox = _page0_from_boxes(boxes)
-            section_hint = "INTRO" if is_in_abstract(el) else current_imrad_section
+            section_hint = "ABSTRACT" if is_in_abstract(el) else current_imrad_section
 
             yield {"text": text, "page": page0, "bbox": bbox, "section_hint": section_hint,
                    "is_caption": False, "caption_type": "", "has_citation": has_struct_citation(el)}
